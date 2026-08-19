@@ -9,7 +9,7 @@ Objetivo: aumentar alcance e número de seguidores para depois lançar o curso o
 | Pasta | O que tem |
 |---|---|
 | `estrategia/` | Diagnóstico, séries, horários e calendário |
-| `posts/` | Peças escritas e prontas pra produção |
+| `posts/` | As `16` peças do mês, roteirizadas |
 
 ## Estratégia
 
@@ -17,6 +17,12 @@ Objetivo: aumentar alcance e número de seguidores para depois lançar o curso o
 - [`series-e-retencao.md`](estrategia/series-e-retencao.md) as quatro séries de conteúdo e a mecânica de retenção em três camadas
 - [`horarios.md`](estrategia/horarios.md) janelas de publicação e a grade semanal
 - [`calendario-30dias.md`](estrategia/calendario-30dias.md) pauta fechada das quatro primeiras semanas
+
+## Posts
+
+As `16` peças do primeiro mês estão roteirizadas em [`posts/`](posts/), com telas, roteiro de gravação com tempo e fala, legenda e hashtags. O [índice](posts/README.md) lista todas.
+
+Quatro delas dependem de material que só o Matheus tem, que são a criação autoral, o cronograma real de produção, o erro pessoal e os dados do curso. Essas vêm com molde e exemplo trabalhado. As outras `12` estão fechadas.
 
 ## Ponto de partida
 

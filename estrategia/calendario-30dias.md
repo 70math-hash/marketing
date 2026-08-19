@@ -1,5 +1,7 @@
 # Calendário editorial, primeiros 30 dias
 
+As `16` peças estão roteirizadas em [`posts/`](../posts/), com telas, roteiro de gravação, legenda e hashtags. Cada pauta abaixo leva pro arquivo dela.
+
 Grade fixa de quatro posts por semana. A pauta já está definida pra você não precisar decidir nada na hora, só produzir.
 
 Antes da semana 1, faça os três ajustes de perfil da Camada 2, que são bio nova, fixados liberados e destaques reorganizados. Sem isso o conteúdo novo traz visita pra uma porta que ainda não converte.
@@ -8,37 +10,37 @@ Antes da semana 1, faça os três ajustes de perfil da Camada 2, que são bio no
 
 | Dia | Hora | Série | Pauta |
 |---|---|---|---|
-| Ter | `14h30` | O Porquê do Número | `65%` de hidratação. O que a água controla de verdade na massa |
-| Qui | `23h30` | Opinião Impopular | Farinha importada não vai fazer a tua pizza melhor. O que faz é ler a ficha técnica |
-| Sáb | `9h` | Autoral | Uma criação sua e o raciocínio por trás da combinação |
-| Dom | `10h30` | Reels | O ponto de véu, como reconhecer e por que ele importa |
+| Ter | `14h30` | O Porquê do Número | [`65%` de hidratação](../posts/s01-ter-hidratacao-65.md) |
+| Qui | `23h30` | Opinião Impopular | [Farinha importada não faz pizza melhor](../posts/s01-qui-opiniao-farinha.md) |
+| Sáb | `9h` | Autoral | [Criação autoral](../posts/s01-sab-autoral.md) |
+| Dom | `10h30` | Reels | [Ponto de véu](../posts/s01-dom-reels-ponto-de-veu.md) |
 
 ## Semana 2, prova
 
 | Dia | Hora | Série | Pauta |
 |---|---|---|---|
-| Ter | `14h30` | O Porquê do Número | `48h` de maturação. O que acontece dentro da massa nesse tempo |
-| Qui | `23h30` | Uma Variável | `24h` contra `48h`, mesma massa, lado a lado |
-| Sáb | `9h` | Bastidor | Cronograma real de produção de um dia, com horário e temperatura |
-| Dom | `10h30` | Reels | Erro que quase todo mundo comete na temperatura da água |
+| Ter | `14h30` | O Porquê do Número | [`48h` de maturação](../posts/s02-ter-maturacao-48h.md) |
+| Qui | `23h30` | Uma Variável | [`24h` contra `48h`](../posts/s02-qui-variavel-24h-48h.md) |
+| Sáb | `9h` | Bastidor | [Cronograma de produção](../posts/s02-sab-bastidor-cronograma.md) |
+| Dom | `10h30` | Reels | [Temperatura da água](../posts/s02-dom-reels-temperatura-agua.md) |
 
 ## Semana 3, autoridade
 
 | Dia | Hora | Série | Pauta |
 |---|---|---|---|
-| Ter | `14h30` | O Porquê do Número | `W300`. Como ler força de farinha e escolher pelo teu processo |
-| Qui | `23h30` | Opinião Impopular | Forno caro não conserta massa mal fermentada |
-| Sáb | `9h` | O Erro Que Me Custou Caro | Um erro real seu e o parâmetro que resolveu |
-| Dom | `10h30` | Reels | Biga contra poolish, quando usar cada um |
+| Ter | `14h30` | O Porquê do Número | [`W300`, força da farinha](../posts/s03-ter-forca-w300.md) |
+| Qui | `23h30` | Opinião Impopular | [Forno caro não conserta massa](../posts/s03-qui-opiniao-forno.md) |
+| Sáb | `9h` | O Erro Que Me Custou Caro | [O erro que me custou caro](../posts/s03-sab-erro-custou-caro.md) |
+| Dom | `10h30` | Reels | [Biga contra poolish](../posts/s03-dom-reels-biga-poolish.md) |
 
 ## Semana 4, conversão
 
 | Dia | Hora | Série | Pauta |
 |---|---|---|---|
-| Ter | `14h30` | O Porquê do Número | `450°C`. O que a temperatura de forno faz com o cornicione |
-| Qui | `23h30` | Uma Variável | `60%` contra `70%` de hidratação, mesma fermentação |
-| Sáb | `9h` | Formação | Bastidor de curso, com aluno e o que se aprende na turma |
-| Dom | `10h30` | Reels | Os `3` números que definem qualquer massa |
+| Ter | `14h30` | O Porquê do Número | [`450°C` no forno](../posts/s04-ter-temperatura-450.md) |
+| Qui | `23h30` | Uma Variável | [`60%` contra `70%`](../posts/s04-qui-variavel-60-70.md) |
+| Sáb | `9h` | Formação | [Bastidor de curso](../posts/s04-sab-formacao-curso.md) |
+| Dom | `10h30` | Reels | [Os `3` números](../posts/s04-dom-reels-tres-numeros.md) |
 
 O Reels de domingo da semana `4` funciona como recapitulação do mês inteiro e amarra as quatro terças, então é o candidato natural a virar post fixado.
 
