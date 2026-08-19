@@ -32,7 +32,7 @@ Quatro peças dependem de coisa que só você tem, então elas vêm com molde, e
 - **S1 Sáb, autoral**: precisa de uma criação real tua e do raciocínio por trás dela
 - **S2 Sáb, cronograma**: precisa dos horários e temperaturas da tua produção
 - **S3 Sáb, o erro**: precisa de um erro real teu
-- **S4 Sáb, curso**: precisa de data, cidade, formato e vagas
+- **S4 Sáb, curso**: roda sem data marcada, medindo demanda. A versão de anúncio está no fim do arquivo, pra quando a turma existir
 
 As outras `12` estão fechadas e dá pra produzir direto.
 

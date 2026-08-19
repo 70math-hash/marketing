@@ -39,7 +39,7 @@ Antes da semana 1, faça os três ajustes de perfil da Camada 2, que são bio no
 |---|---|---|---|
 | Ter | `14h30` | O Porquê do Número | [`450°C` no forno](../posts/s04-ter-temperatura-450.md) |
 | Qui | `23h30` | Uma Variável | [`60%` contra `70%`](../posts/s04-qui-variavel-60-70.md) |
-| Sáb | `9h` | Formação | [Bastidor de curso](../posts/s04-sab-formacao-curso.md) |
+| Sáb | `9h` | Formação | [Aula e medição de demanda](../posts/s04-sab-formacao-curso.md) |
 | Dom | `10h30` | Reels | [Os `3` números](../posts/s04-dom-reels-tres-numeros.md) |
 
 O Reels de domingo da semana `4` funciona como recapitulação do mês inteiro e amarra as quatro terças, então é o candidato natural a virar post fixado.
