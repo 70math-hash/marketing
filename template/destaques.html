@@ -1,0 +1,56 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Capas de destaque · Matheus Ramos</title>
+<style>
+  :root{--tinta:#1B1A17;--papel:#F3EFE6;--verde:#33503F}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#4a4a48}
+  /* 1080x1920: o Instagram recorta um circulo no centro, entao o simbolo
+     mora dentro dos 660px centrais, com folga de sobra pro corte. */
+  .capa{width:1080px;height:1920px;background:var(--papel);
+        display:flex;align-items:center;justify-content:center;margin:0 auto 24px}
+  .capa svg{width:660px;height:660px;display:block}
+</style>
+<body>
+<script>
+const V='#33503F', P='#F3EFE6';
+// mesma geometria do selo oficial: cornicione de tinta em r=140,
+// campo verde em r=118 (0.84R). O conteudo entra escalado pro campo.
+const disco = inner => `<svg viewBox="0 0 300 300">
+  <circle cx="150" cy="150" r="140" fill="none" stroke="#1B1A17" stroke-width="4"/>
+  <circle cx="150" cy="150" r="118" fill="${V}"/>
+  <g transform="translate(150 150) scale(.843) translate(-150 -150)">${inner}</g></svg>`;
+
+const capas = {
+  // massa: alveolatura, o corte do miolo
+  massa: disco(`
+    <circle cx="118" cy="112" r="30" fill="${P}"/>
+    <circle cx="192" cy="132" r="20" fill="${P}"/>
+    <circle cx="150" cy="188" r="26" fill="${P}"/>
+    <circle cx="97"  cy="182" r="14" fill="${P}"/>
+    <circle cx="205" cy="196" r="12" fill="${P}"/>
+    <circle cx="163" cy="88"  r="11" fill="${P}"/>`),
+
+  // forno: a boca, em arco
+  forno: disco(`
+    <path d="M78 208V152a72 72 0 0 1 144 0v56" fill="none" stroke="${P}" stroke-width="17"/>
+    <path d="M62 208h176" stroke="${P}" stroke-width="17" stroke-linecap="round"/>`),
+
+  // erros: a mira, centro funcional do manual
+  erros: disco(`
+    <circle cx="150" cy="150" r="62" fill="none" stroke="${P}" stroke-width="15"/>
+    <circle cx="150" cy="150" r="17" fill="${P}"/>
+    <path d="M150 46v40M150 214v40M46 150h40M214 150h40"
+          stroke="${P}" stroke-width="15" stroke-linecap="round"/>`),
+
+  // premios: hexagono, glifo de processo do manual, que le como selo
+  premios: disco(`
+    <path d="M150 62l76 44v88l-76 44-76-44v-88z" fill="none" stroke="${P}" stroke-width="16"
+          stroke-linejoin="round"/>`),
+};
+
+document.body.innerHTML =
+  Object.entries(capas).map(([k,svg]) => `<section class="capa" data-nome="${k}">${svg}</section>`).join('')
+  // cursos usa o selo oficial, com o MR ja rasterizado
+  + `<section class="capa" data-nome="cursos"><img src="assets/logo/selo.png" width="660" height="660" alt=""></section>`;
+</script>

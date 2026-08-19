@@ -60,3 +60,11 @@ As fontes vêm em `woff2` por caminho relativo, então mover a pasta `assets` qu
 A Gardiant não está aqui, porque é fonte licenciada e não vem embutida na skill da marca. Por isso o wordmark e o selo entram como PNG já rasterizado, que é o que o manual recomenda pra HTML e PDF.
 
 O `deviceScaleFactor` está em `2`, então os PNG saem em `2160x2700`. O Instagram comprime na subida de qualquer jeito, e sair grande demais não ajuda, mas essa folga evita textura ruim em tela de celular bom.
+
+## Capas de destaque
+
+`destaques.html` gera as capas dos Destaques do Instagram em `1080x1920`, e o comando é `node template/render-destaques.mjs`. Saem em `saida/destaques/`.
+
+As cinco usam a mesma geometria do selo oficial, com cornicione de tinta em `r=140` e campo verde em `r=118`, que é o `0.84R` do manual. Cada uma tem um símbolo diferente no centro: alveolatura em Massa, arco de boca de forno em Forno, a mira em Erros, o hexágono dos glifos de processo em Prêmios, e o selo MR em Cursos.
+
+Foram testadas no tamanho real de exibição, que é um círculo de `62px` no celular. Símbolo mais detalhado que isso vira borrão nesse tamanho, então mantenha a mesma simplicidade ao criar uma nova.
