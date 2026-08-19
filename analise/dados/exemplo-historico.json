@@ -1,0 +1,193 @@
+{
+ "leituras": [
+  {
+   "lido_em": "2026-08-31T06:00:00+00:00",
+   "posts": {
+    "m1": {
+     "publicado_em": "2026-08-25T17:30:00+0000",
+     "tipo": "CAROUSEL",
+     "permalink": "https://instagram.com/p/m1",
+     "legenda": "65% de hidratação: o que a água controla",
+     "metricas": {
+      "reach": 1900,
+      "saved": 41,
+      "shares": 10,
+      "comments": 8,
+      "follows": 13
+     }
+    },
+    "m2": {
+     "publicado_em": "2026-08-27T02:30:00+0000",
+     "tipo": "FEED",
+     "permalink": "https://instagram.com/p/m2",
+     "legenda": "Opinião impopular: farinha importada",
+     "metricas": {
+      "reach": 2600,
+      "saved": 63,
+      "shares": 15,
+      "comments": 8,
+      "follows": 21
+     }
+    },
+    "m3": {
+     "publicado_em": "2026-08-29T12:00:00+0000",
+     "tipo": "FEED",
+     "permalink": "https://instagram.com/p/m3",
+     "legenda": "Criação autoral",
+     "metricas": {
+      "reach": 1100,
+      "saved": 12,
+      "shares": 3,
+      "comments": 8,
+      "follows": 4
+     }
+    },
+    "m4": {
+     "publicado_em": "2026-08-30T13:30:00+0000",
+     "tipo": "REELS",
+     "permalink": "https://instagram.com/p/m4",
+     "legenda": "Ponto de véu",
+     "metricas": {
+      "reach": 4200,
+      "saved": 95,
+      "shares": 23,
+      "comments": 8,
+      "follows": 31
+     }
+    }
+   },
+   "conta": {
+    "follower_count": 4169
+   },
+   "metricas_indisponiveis": [
+    "profile_visits"
+   ]
+  },
+  {
+   "lido_em": "2026-09-01T06:00:00+00:00",
+   "posts": {
+    "m1": {
+     "publicado_em": "2026-08-25T17:30:00+0000",
+     "tipo": "CAROUSEL",
+     "permalink": "https://instagram.com/p/m1",
+     "legenda": "65% de hidratação: o que a água controla",
+     "metricas": {
+      "reach": 3400,
+      "saved": 88,
+      "shares": 22,
+      "comments": 11,
+      "follows": 29
+     }
+    },
+    "m2": {
+     "publicado_em": "2026-08-27T02:30:00+0000",
+     "tipo": "FEED",
+     "permalink": "https://instagram.com/p/m2",
+     "legenda": "Opinião impopular: farinha importada",
+     "metricas": {
+      "reach": 3000,
+      "saved": 71,
+      "shares": 17,
+      "comments": 11,
+      "follows": 23
+     }
+    },
+    "m3": {
+     "publicado_em": "2026-08-29T12:00:00+0000",
+     "tipo": "FEED",
+     "permalink": "https://instagram.com/p/m3",
+     "legenda": "Criação autoral",
+     "metricas": {
+      "reach": 1500,
+      "saved": 17,
+      "shares": 4,
+      "comments": 11,
+      "follows": 5
+     }
+    },
+    "m4": {
+     "publicado_em": "2026-08-30T13:30:00+0000",
+     "tipo": "REELS",
+     "permalink": "https://instagram.com/p/m4",
+     "legenda": "Ponto de véu",
+     "metricas": {
+      "reach": 7800,
+      "saved": 180,
+      "shares": 45,
+      "comments": 11,
+      "follows": 60
+     }
+    }
+   },
+   "conta": {
+    "follower_count": 4207
+   },
+   "metricas_indisponiveis": [
+    "profile_visits"
+   ]
+  },
+  {
+   "lido_em": "2026-09-02T06:00:00+00:00",
+   "posts": {
+    "m1": {
+     "publicado_em": "2026-08-25T17:30:00+0000",
+     "tipo": "CAROUSEL",
+     "permalink": "https://instagram.com/p/m1",
+     "legenda": "65% de hidratação: o que a água controla",
+     "metricas": {
+      "reach": 4100,
+      "saved": 131,
+      "shares": 32,
+      "comments": 14,
+      "follows": 43
+     }
+    },
+    "m2": {
+     "publicado_em": "2026-08-27T02:30:00+0000",
+     "tipo": "FEED",
+     "permalink": "https://instagram.com/p/m2",
+     "legenda": "Opinião impopular: farinha importada",
+     "metricas": {
+      "reach": 3100,
+      "saved": 73,
+      "shares": 18,
+      "comments": 14,
+      "follows": 24
+     }
+    },
+    "m3": {
+     "publicado_em": "2026-08-29T12:00:00+0000",
+     "tipo": "FEED",
+     "permalink": "https://instagram.com/p/m3",
+     "legenda": "Criação autoral",
+     "metricas": {
+      "reach": 1600,
+      "saved": 19,
+      "shares": 4,
+      "comments": 14,
+      "follows": 6
+     }
+    },
+    "m4": {
+     "publicado_em": "2026-08-30T13:30:00+0000",
+     "tipo": "REELS",
+     "permalink": "https://instagram.com/p/m4",
+     "legenda": "Ponto de véu",
+     "metricas": {
+      "reach": 9900,
+      "saved": 264,
+      "shares": 66,
+      "comments": 14,
+      "follows": 88
+     }
+    }
+   },
+   "conta": {
+    "follower_count": 4245
+   },
+   "metricas_indisponiveis": [
+    "profile_visits"
+   ]
+  }
+ ]
+}
