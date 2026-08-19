@@ -10,6 +10,8 @@ Objetivo: aumentar alcance e número de seguidores para depois lançar o curso o
 |---|---|
 | `estrategia/` | Diagnóstico, séries, horários e calendário |
 | `posts/` | As `16` peças do mês, roteirizadas |
+| `template/` | Template de carrossel que gera os PNG |
+| `saida/` | Os PNG prontos pra postar |
 
 ## Estratégia
 
@@ -23,6 +25,17 @@ Objetivo: aumentar alcance e número de seguidores para depois lançar o curso o
 As `16` peças do primeiro mês estão roteirizadas em [`posts/`](posts/), com telas, roteiro de gravação com tempo e fala, legenda e hashtags. O [índice](posts/README.md) lista todas.
 
 Quatro delas dependem de material que só o Matheus tem, que são a criação autoral, o cronograma real de produção, o erro pessoal e os dados do curso. Essas vêm com molde e exemplo trabalhado. As outras `12` estão fechadas.
+
+## Template de carrossel
+
+O layout da série O Porquê do Número é fixo e o conteúdo vem de um JSON, então cada carrossel novo é um arquivo de texto e um comando:
+
+```bash
+npm install
+npm run render
+```
+
+Os `24` PNG das quatro terças do mês já estão em [`saida/`](saida/), em `1080x1350`. Como usar e como criar um novo está em [`template/README.md`](template/README.md).
 
 ## Ponto de partida
 
