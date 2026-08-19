@@ -1,0 +1,12 @@
+{
+  "name": "marketing-matheus-ramos",
+  "private": true,
+  "type": "module",
+  "description": "Conteudo do Instagram @matheus__ramos",
+  "scripts": {
+    "render": "node template/render.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

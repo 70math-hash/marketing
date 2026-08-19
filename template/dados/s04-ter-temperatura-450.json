@@ -1,0 +1,25 @@
+{
+  "serie": "O porquê do número",
+  "numero": "450°C",
+  "pergunta": "o que a temperatura faz com o cornicione",
+  "telas": [
+    {
+      "titulo": "O forno não cria, ele expande",
+      "texto": "O gás que levanta o cornicione foi produzido na fermentação e já estava preso na rede de glúten muito antes de entrar no forno.\n\nO calor faz duas coisas com ele. Aquece o gás, que expande, e transforma a água da massa em vapor, que empurra a estrutura de dentro pra fora. Sem gás preso lá atrás, não existe temperatura que resolva."
+    },
+    {
+      "titulo": "Piso e abóbada são dois números",
+      "texto": "Esse é o erro que mais vejo. Medir só um ponto do forno e achar que ele tem uma temperatura.\n\nO piso cozinha a base e define se ela vai ficar crocante ou úmida, e trabalha bem em torno de `430°C`. A abóbada irradia sobre o topo, é ela que sobe o cornicione e faz a leopardatura, e pede algo perto de `485°C`."
+    },
+    {
+      "titulo": "Abaixo de `400°C`",
+      "texto": "A massa seca antes de terminar de subir. Como o forno demora mais pra entregar calor, a água evapora devagar e sai pela superfície em vez de virar vapor de expansão.\n\nE aqui vale a regra prática: forno mais frio pede massa mais seca, então hidratação alta em forno lento é a combinação que mais dá errado."
+    },
+    {
+      "titulo": "A janela de `60` a `90` segundos",
+      "texto": "A `450°C` a pizza fica de `60` a `90` segundos lá dentro, e é isso que produz a leopardatura, aquelas manchas escuras no cornicione.\n\nElas aparecem porque o calor é intenso o suficiente pra dourar pontos específicos antes que a massa inteira seque. Em forno lento a crosta dourada é uniforme, e uniforme aqui significa que faltou intensidade."
+    }
+  ],
+  "sintese": "Mede os dois pontos do teu forno antes de mexer em qualquer coisa da massa.",
+  "proximo": ""
+}

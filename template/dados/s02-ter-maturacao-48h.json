@@ -1,0 +1,25 @@
+{
+  "serie": "O porquê do número",
+  "numero": "48h",
+  "pergunta": "o que acontece dentro da massa nesse tempo",
+  "telas": [
+    {
+      "titulo": "Maturação não é fermentação",
+      "texto": "São dois processos rodando ao mesmo tempo e quase todo mundo trata como um só. Fermentação é o fermento comendo açúcar e soltando gás, e é ela que faz a massa crescer. Maturação é a enzima quebrando amido e proteína em pedaço menor, e é ela que faz a massa ganhar sabor.\n\nO frio separa as duas, porque a `4°C` a fermentação quase para enquanto a enzima continua trabalhando."
+    },
+    {
+      "titulo": "O que a enzima faz nessas `48h`",
+      "texto": "A amilase vai quebrando amido em açúcar simples, e é esse açúcar que depois vira cor e aroma no forno. A protease vai quebrando a proteína em aminoácido, o que deixa a massa mais extensível e mais fácil de digerir.\n\nNenhuma das duas acontece rápido, e é por isso que tempo não tem substituto aqui."
+    },
+    {
+      "titulo": "Por que `24h` entrega menos",
+      "texto": "Em `24h` você já tem uma massa boa, só que ainda com pouco açúcar simples formado. Isso aparece direto no forno, porque menos açúcar significa menos reação de Maillard, e menos Maillard significa crosta mais pálida e aroma mais curto.\n\nA diferença não está na aparência da bola, está no que sai assado."
+    },
+    {
+      "titulo": "Onde `48h` vira demais",
+      "texto": "A protease não sabe a hora de parar. Passando muito do ponto ela continua quebrando a rede de glúten que você construiu na batida, e aí a massa perde estrutura, fica pegajosa e colapsa na hora de abrir.\n\nFarinha fraca chega nesse limite bem antes, e é por isso que `48h` exige `W300` pra cima. Com `W220` a mesma janela destrói a massa."
+    }
+  ],
+  "sintese": "`48h` só funciona se a farinha aguentar `48h`. O tempo é uma consequência da força, e nunca o contrário.",
+  "proximo": "W300"
+}

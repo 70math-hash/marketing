@@ -1,0 +1,25 @@
+{
+  "serie": "O porquê do número",
+  "numero": "W300",
+  "pergunta": "o número que decide até onde tua massa pode ir",
+  "telas": [
+    {
+      "titulo": "O que o `W` mede",
+      "texto": "O `W` vem de um teste de laboratório chamado alveógrafo, que sopra ar dentro de um disco de massa até a bolha estourar e mede o trabalho que foi preciso pra isso.\n\nTraduzindo pra bancada, ele diz quanta água aquela farinha aguenta e por quanto tempo ela sustenta a fermentação antes de entregar os pontos."
+    },
+    {
+      "titulo": "A escala na prática",
+      "texto": "Até `W220` você tem farinha fraca, boa pra fermentação curta de até `8h`. Entre `W250` e `W280` já dá pra trabalhar `24h` com segurança.\n\nDe `W300` pra cima você abre a janela de `48h` ou mais, e é aí que a maturação longa fica possível sem a massa colapsar."
+    },
+    {
+      "titulo": "O erro mais caro",
+      "texto": "Pegar uma receita de `48h` feita com `W300` e reproduzir com a farinha de `W220` do mercado. A massa vai parecer certa nas primeiras horas e vai desmontar no fim, porque a protease quebra a rede de glúten mais rápido do que aquela farinha consegue sustentar.\n\nNão é erro de receita, é farinha errada pro tempo escolhido."
+    },
+    {
+      "titulo": "O segundo número, o `P/L`",
+      "texto": "Força sozinha não resolve. O `P/L` é o equilíbrio entre tenacidade e extensibilidade, ou seja, entre a massa querer voltar e a massa querer esticar.\n\nAcima de `0,70` ela briga com a tua mão na abertura e encolhe. Abaixo de `0,40` ela abre fácil demais e rasga. Pra pizza, a faixa que funciona fica entre `0,50` e `0,60`."
+    }
+  ],
+  "sintese": "Você não escolhe a farinha pela marca, escolhe pelo tempo de fermentação que pretende fazer.",
+  "proximo": "450°C"
+}
