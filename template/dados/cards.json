@@ -1,0 +1,10 @@
+{
+  "cards": [
+    { "arquivo": "s01-qui-farinha-importada",
+      "eyebrow": "Opinião impopular",
+      "frase": "Farinha importada não vai fazer a sua pizza melhor." },
+    { "arquivo": "s03-qui-forno-caro",
+      "eyebrow": "Opinião impopular",
+      "frase": "Forno caro não conserta massa mal fermentada." }
+  ]
+}

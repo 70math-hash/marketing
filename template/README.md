@@ -68,3 +68,11 @@ O `deviceScaleFactor` está em `2`, então os PNG saem em `2160x2700`. O Instagr
 As cinco usam a mesma geometria do selo oficial, com cornicione de tinta em `r=140` e campo verde em `r=118`, que é o `0.84R` do manual. Cada uma tem um símbolo diferente no centro: alveolatura em Massa, arco de boca de forno em Forno, a mira em Erros, o hexágono dos glifos de processo em Prêmios, e o selo MR em Cursos.
 
 Foram testadas no tamanho real de exibição, que é um círculo de `62px` no celular. Símbolo mais detalhado que isso vira borrão nesse tamanho, então mantenha a mesma simplicidade ao criar uma nova.
+
+## Cards de Opinião Impopular
+
+`card.html` gera os cards de frase única em `1080x1350`, e o comando é `node template/render-cards.mjs`. O conteúdo fica em `dados/cards.json` e a saída em `saida/cards/`.
+
+A frase encolhe conforme cresce, de `104px` até `58px`, então frase curta ocupa a tela e frase longa continua cabendo sem ajuste manual.
+
+Uma nota de implementação que vale para os três templates: o script de render faz `goto` e depois `setContent`, o que executa o script da página duas vezes no mesmo escopo global. Sem envolver o código em uma IIFE, o segundo passe estoura com `Identifier already declared` e a página sai vazia. Os três já estão envolvidos.

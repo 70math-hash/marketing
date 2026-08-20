@@ -1,0 +1,42 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Card · Matheus Ramos</title>
+<script id="dados" type="application/json">{"cards":[]}</script>
+<style>
+  @font-face{font-family:Literata;src:url(assets/fonts/literata-latin-700-normal.woff2)format("woff2");font-weight:700;font-display:block}
+  @font-face{font-family:"Source Sans 3";src:url(assets/fonts/source-sans-3-latin-600-normal.woff2)format("woff2");font-weight:600;font-display:block}
+  :root{--tinta:#1B1A17;--papel:#F3EFE6;--verde:#33503F;--neutro:#8A8578}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#4a4a48}
+  .tela{width:1080px;height:1350px;background:var(--papel);color:var(--tinta);
+        padding:96px;display:flex;flex-direction:column;justify-content:space-between;
+        margin:0 auto 28px;position:relative}
+  .eyebrow{font-family:"Source Sans 3",system-ui,sans-serif;font-weight:600;font-size:26px;
+           letter-spacing:.22em;text-transform:uppercase;color:var(--neutro);flex:none}
+  .frase{font-family:Literata,Georgia,serif;font-weight:700;line-height:1.16;
+         letter-spacing:-.022em;flex:1;display:flex;align-items:center}
+  .rodape{display:flex;align-items:center;justify-content:space-between;flex:none}
+  .rodape img{height:60px}
+  .filete{width:132px;height:8px;background:var(--verde)}
+</style>
+<body>
+<script>
+// IIFE de proposito: o render faz goto e depois setContent, e sem escopo
+// proprio o segundo passe colide com os const do primeiro.
+(function(){
+const d=JSON.parse(document.getElementById('dados').textContent);
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+// a frase encolhe conforme cresce, pra nunca vazar da tela
+const corpo=(t)=>{const n=t.length;
+  return n<=46?104:n<=64?90:n<=84?78:n<=110?66:58;};
+document.body.innerHTML=d.cards.map(c=>`
+  <section class="tela" data-nome="${esc(c.arquivo)}">
+    <span class="eyebrow">${esc(c.eyebrow||'Opinião impopular')}</span>
+    <p class="frase" style="font-size:${corpo(c.frase)}px">${esc(c.frase)}</p>
+    <div class="rodape">
+      <img src="assets/logo/monograma-tinta.png" alt="MR">
+      <span class="filete"></span>
+    </div>
+  </section>`).join('');
+})();
+</script>
