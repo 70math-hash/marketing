@@ -16,9 +16,9 @@ Rodapé: monograma MR
 
 Só farinha importada não vai fazer sua pizza melhor. O que faz é você saber ler a ficha técnica dela.
 
-Eu já vi muita gente trocar de farinha procurando resolver um problema que não estava na farinha, e gastar três vezes mais por saco pra continuar com o mesmo cornicione baixo. O que resolve não é a origem do trigo, é olhar dois números antes de comprar qualquer coisa. O primeiro é a força, o `W`, que diz quanta água aquela farinha aguenta e por quanto tempo ela sustenta a fermentação. Uma `W300` te dá `48h` de maturação com estrutura, uma `W220` colapsa antes disso e não tem marca que mude isso. O segundo é o `P/L`, o equilíbrio entre tenacidade e extensibilidade, e é ele que decide se a massa vai abrir macia ou brigar com a sua mão na hora de esticar. Faixa entre `0,50` e `0,60` é o que costuma funcionar pra pizza.
+Eu já vi muita gente trocar de farinha procurando resolver um problema que não estava na farinha, e gastar três vezes mais por saco pra continuar com o mesmo cornicione baixo. O que resolve não é a origem do trigo, é olhar três números antes de comprar qualquer coisa. O primeiro é a força, o W, que diz quanta água aquela farinha aguenta e por quanto tempo ela sustenta a fermentação. Tentar a exata mesma receita para uma farinha de W300 e outra de W390 é pedir para errar. O segundo é o FN, que diz a atividade enzimática da farinha. Com ele você descobre se a sua massa vai precisar de mais ou menos tempo para transformar o amido em açúcares simples. O terceiro é o P/L, o equilíbrio entre tenacidade e extensibilidade, e é ele que decide se a massa vai abrir macia ou brigar com a sua mão na hora de esticar. A faixa entre 0,50 e 0,60 é o que funciona bem pra pizza.
 
-Tem farinha nacional excelente entregando esses números, e tem farinha italiana cara que não serve pro seu processo. A pergunta certa nunca foi de onde ela vem, é o que ela aguenta.
+Tem farinha nacional entregando números excelentes e farinhas italianas que não vão servir pro seu processo. A pergunta certa nunca foi de onde ela vem, é o que ela pede.
 
 Antes de trocar de marca, pede a ficha técnica da que você já usa. Provavelmente o problema está em outro lugar.
 
@@ -30,4 +30,4 @@ Você fala direto pra câmera, `30s`, com o saco de farinha na mão. Os primeiro
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #farinha #pizzacontemporanea #pizzanapoletana #pizzaiolo #pizzaartesanal #fichatecnica #pizza #gastronomia #chef
+#cadagramatemumporque #matheusramos #farinha #pizzacontemporanea #pizzanapoletana #pizzaiolo #pizzaartesanal #fichatecnica #fallingnumber #pizza #gastronomia #chef
