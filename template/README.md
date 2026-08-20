@@ -76,3 +76,19 @@ Foram testadas no tamanho real de exibição, que é um círculo de `62px` no ce
 A frase encolhe conforme cresce, de `104px` até `58px`, então frase curta ocupa a tela e frase longa continua cabendo sem ajuste manual.
 
 Uma nota de implementação que vale para os três templates: o script de render faz `goto` e depois `setContent`, o que executa o script da página duas vezes no mesmo escopo global. Sem envolver o código em uma IIFE, o segundo passe estoura com `Identifier already declared` e a página sai vazia. Os três já estão envolvidos.
+
+### Cards com foto
+
+`dados/cards.json` aceita `layout` e `foto`:
+
+| layout | Como fica | Quando usar |
+|---|---|---|
+| `so-texto` | Só a frase, com filete Verde-EVO | Quando não existe foto que prove o argumento |
+| `recorte` | Foto sangrando pelo canto de baixo à esquerda, MR à direita | Corte transversal, que mostra estrutura |
+| `disco-var` | Foto dentro do disco, canto de baixo à direita | Foto cenital, que mostra o topo |
+
+Para `recorte` a foto precisa ser **PNG com fundo transparente**, senão o retângulo branco aparece sobre o papel. Para `disco-var` pode ser foto comum, porque o círculo recorta.
+
+Duas decisões que valem saber. O MR muda de lado no `recorte`, indo para a direita, porque a foto entra pela esquerda e os dois colidiam. E o filete Verde-EVO some quando existe foto, porque a foto já é o ponto de cor e o manual não admite dois acentos competindo.
+
+A escolha entre `recorte` e `disco-var` não é estética, é argumentativa. Corte transversal mostra alveolatura e miolo, então prova afirmação sobre estrutura, força de farinha e fermentação. Cenital mostra o disco e a leopardatura, então prova afirmação sobre forno e assamento.

@@ -9,15 +9,36 @@
   *{margin:0;padding:0;box-sizing:border-box}
   body{background:#4a4a48}
   .tela{width:1080px;height:1350px;background:var(--papel);color:var(--tinta);
-        padding:96px;display:flex;flex-direction:column;justify-content:space-between;
-        margin:0 auto 28px;position:relative}
+        padding:96px;display:flex;flex-direction:column;margin:0 auto 28px;
+        position:relative;overflow:hidden}
   .eyebrow{font-family:"Source Sans 3",system-ui,sans-serif;font-weight:600;font-size:26px;
-           letter-spacing:.22em;text-transform:uppercase;color:var(--neutro);flex:none}
+           letter-spacing:.22em;text-transform:uppercase;color:var(--neutro);flex:none;
+           position:relative;z-index:2}
   .frase{font-family:Literata,Georgia,serif;font-weight:700;line-height:1.16;
-         letter-spacing:-.022em;flex:1;display:flex;align-items:center}
-  .rodape{display:flex;align-items:center;justify-content:space-between;flex:none}
-  .rodape img{height:60px}
+         letter-spacing:-.022em;position:relative;z-index:2}
+  .rodape{display:flex;align-items:center;justify-content:space-between;flex:none;
+          position:relative;z-index:2}
+  .rodape img.mr{height:60px}
   .filete{width:132px;height:8px;background:var(--verde)}
+
+  /* sem foto: frase centrada no espaco livre */
+  .so-texto .frase{flex:1;display:flex;align-items:center}
+
+  /* recorte: a foto sangra pelo canto de baixo a esquerda; o MR vai pra
+     direita justamente para nao colidir com ela */
+  .recorte .frase{margin-top:96px}
+  .recorte .foto{position:absolute;left:-96px;bottom:-40px;width:940px;z-index:1;
+                 filter:drop-shadow(0 24px 44px rgba(27,26,23,.20))}
+  .recorte .rodape{margin-top:auto;flex-direction:row-reverse}
+
+  /* disco: a foto entra no sistema do disco, no canto de baixo a direita */
+  .disco-var .frase{margin-top:106px}
+  .disco-var .aro{position:absolute;right:-104px;bottom:-104px;width:640px;height:640px;z-index:1}
+  .disco-var .aro .rec{width:100%;height:100%;border-radius:50%;overflow:hidden;
+        border:5px solid var(--tinta);background:var(--papel);
+        display:flex;align-items:center;justify-content:center}
+  .disco-var .aro .rec img{width:100%;height:100%;object-fit:cover}
+  .disco-var .rodape{margin-top:auto}
 </style>
 <body>
 <script>
@@ -26,17 +47,28 @@
 (function(){
 const d=JSON.parse(document.getElementById('dados').textContent);
 const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
-// a frase encolhe conforme cresce, pra nunca vazar da tela
-const corpo=(t)=>{const n=t.length;
-  return n<=46?104:n<=64?90:n<=84?78:n<=110?66:58;};
-document.body.innerHTML=d.cards.map(c=>`
-  <section class="tela" data-nome="${esc(c.arquivo)}">
-    <span class="eyebrow">${esc(c.eyebrow||'Opinião impopular')}</span>
-    <p class="frase" style="font-size:${corpo(c.frase)}px">${esc(c.frase)}</p>
+// a frase encolhe conforme cresce; com foto ela cede largura, entao encolhe antes
+const corpo=(t,comFoto)=>{const n=t.length;const b=n<=46?104:n<=64?90:n<=84?78:n<=110?66:58;
+  return comFoto?Math.round(b*.88):b;};
+
+document.body.innerHTML=d.cards.map(c=>{
+  const layout=c.layout||"so-texto";
+  const comFoto=layout!=="so-texto";
+  const largura=layout==="recorte"?"max-width:790px":layout==="disco-var"?"max-width:660px":"";
+  let arte="";
+  if(layout==="recorte") arte=`<img class="foto" src="${esc(c.foto)}" alt="">`;
+  if(layout==="disco-var") arte=`<div class="aro"><div class="rec"><img src="${esc(c.foto)}" alt=""></div></div>`;
+  // com foto o filete verde sai: a foto ja e o ponto de cor, e o manual
+  // nao admite dois acentos competindo
+  const filete = comFoto ? "<span></span>" : '<span class="filete"></span>';
+  return `<section class="tela ${layout}" data-nome="${esc(c.arquivo)}">
+    <span class="eyebrow">${esc(c.eyebrow||"Opinião impopular")}</span>
+    ${arte}
+    <p class="frase" style="font-size:${corpo(c.frase,comFoto)}px;${largura}">${esc(c.frase)}</p>
     <div class="rodape">
-      <img src="assets/logo/monograma-tinta.png" alt="MR">
-      <span class="filete"></span>
+      <img class="mr" src="assets/logo/monograma-tinta.png" alt="MR">
+      ${filete}
     </div>
-  </section>`).join('');
+  </section>`;}).join("");
 })();
 </script>
