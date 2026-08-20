@@ -1,10 +1,13 @@
 {
+  "_como_usar": "layout: so-texto | recorte | disco-var. Com recorte ou disco-var, aponte foto para o arquivo em template/assets/fotos/.",
   "cards": [
-    { "arquivo": "s01-qui-A-recorte", "layout": "recorte",
-      "foto": "assets/marcador-fatia.svg",
+    { "arquivo": "s01-qui-farinha-importada",
+      "eyebrow": "Opinião impopular",
+      "layout": "so-texto",
       "frase": "Farinha importada não vai fazer a sua pizza melhor." },
-    { "arquivo": "s01-qui-B-disco", "layout": "disco-var",
-      "foto": "assets/marcador-fatia.svg",
-      "frase": "Farinha importada não vai fazer a sua pizza melhor." }
+    { "arquivo": "s03-qui-forno-caro",
+      "eyebrow": "Opinião impopular",
+      "layout": "so-texto",
+      "frase": "Forno caro não conserta massa mal fermentada." }
   ]
 }
