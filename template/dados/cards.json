@@ -4,9 +4,8 @@
     {
       "arquivo": "s01-qui-farinha-importada",
       "eyebrow": "Opinião impopular",
-      "layout": "recorte",
-      "frase": "Farinha importada não vai fazer a sua pizza melhor.",
-      "foto": "assets/fotos/corte-cornicione.png"
+      "layout": "so-texto",
+      "frase": "Só farinha importada não vai fazer sua pizza melhor."
     },
     {
       "arquivo": "s03-qui-forno-caro",

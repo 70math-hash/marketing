@@ -8,13 +8,13 @@ Fundo papel, texto em tinta, Verde-EVO só no disco da assinatura.
 Linha de cima, pequena, em Source Sans 3: OPINIÃO IMPOPULAR
 Frase central, grande, em Literata:
 
-"Farinha importada não vai fazer a sua pizza melhor."
+"Só farinha importada não vai fazer sua pizza melhor."
 
 Rodapé: monograma MR
 
 ## Legenda
 
-Farinha importada não vai fazer a sua pizza melhor. O que faz é você saber ler a ficha técnica dela.
+Só farinha importada não vai fazer sua pizza melhor. O que faz é você saber ler a ficha técnica dela.
 
 Eu já vi muita gente trocar de farinha procurando resolver um problema que não estava na farinha, e gastar três vezes mais por saco pra continuar com o mesmo cornicione baixo. O que resolve não é a origem do trigo, é olhar dois números antes de comprar qualquer coisa. O primeiro é a força, o `W`, que diz quanta água aquela farinha aguenta e por quanto tempo ela sustenta a fermentação. Uma `W300` te dá `48h` de maturação com estrutura, uma `W220` colapsa antes disso e não tem marca que mude isso. O segundo é o `P/L`, o equilíbrio entre tenacidade e extensibilidade, e é ele que decide se a massa vai abrir macia ou brigar com a sua mão na hora de esticar. Faixa entre `0,50` e `0,60` é o que costuma funcionar pra pizza.
 
