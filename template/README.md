@@ -92,3 +92,9 @@ Para `recorte` a foto precisa ser **PNG com fundo transparente**, senão o retâ
 Duas decisões que valem saber. O MR muda de lado no `recorte`, indo para a direita, porque a foto entra pela esquerda e os dois colidiam. E o filete Verde-EVO some quando existe foto, porque a foto já é o ponto de cor e o manual não admite dois acentos competindo.
 
 A escolha entre `recorte` e `disco-var` não é estética, é argumentativa. Corte transversal mostra alveolatura e miolo, então prova afirmação sobre estrutura, força de farinha e fermentação. Cenital mostra o disco e a leopardatura, então prova afirmação sobre forno e assamento.
+
+### Resolução da foto
+
+Cards com foto renderizam em `1x`, ou seja `1080x1350`, e não em `2x` como os demais. O motivo é que `1080` já é a largura nativa do Instagram, então renderizar em `2x` só acrescenta uma reamostragem extra em cima de uma foto que costuma ser o elo mais fraco da peça. O `render-cards.mjs` detecta sozinho e ajusta a escala.
+
+Para o layout `recorte` a foto aparece com `1300px` de largura, sangrando pelos dois lados. Então a foto ideal tem pelo menos `1300px` de largura. Abaixo disso ela é ampliada, e em foto de corte transversal isso custa caro, porque a alveolatura é justamente o detalhe que prova o argumento.

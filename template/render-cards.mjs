@@ -14,7 +14,11 @@ const html=modelo.replace(/(<script id="dados" type="application\/json">)[\s\S]*
   (_,a,b)=>a+JSON.stringify(dados).replace(/<\//g,'<\\/')+b);
 
 const nav=await chromium.launch();
-const pag=await nav.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:2});
+// escala 1 para cards com foto: 1080 ja e o tamanho nativo do Instagram, e
+// renderizar em 2x so acrescenta uma reamostragem extra sobre a foto.
+const escala = dados.cards.some(c=>c.foto) ? 1 : 2;
+const pag=await nav.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:escala});
+console.log(`escala ${escala}x`);
 await pag.goto(pathToFileURL(join(AQUI,'card.html')).href);
 await pag.setContent(html,{waitUntil:'load'});
 await pag.evaluate(()=>document.fonts.ready);

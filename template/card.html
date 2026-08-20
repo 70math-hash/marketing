@@ -24,12 +24,15 @@
   /* sem foto: frase centrada no espaco livre */
   .so-texto .frase{flex:1;display:flex;align-items:center}
 
-  /* recorte: a foto sangra pelo canto de baixo a esquerda; o MR vai pra
-     direita justamente para nao colidir com ela */
-  .recorte .frase{margin-top:96px}
-  .recorte .foto{position:absolute;left:-96px;bottom:-40px;width:940px;z-index:1;
-                 filter:drop-shadow(0 24px 44px rgba(27,26,23,.20))}
-  .recorte .rodape{margin-top:auto;flex-direction:row-reverse}
+  /* recorte: a foto ocupa a faixa de baixo e o texto se centra no que sobra.
+     O padding-bottom reserva a altura da foto, para nao abrir buraco no meio. */
+  .recorte{padding-bottom:496px}
+  .recorte .frase{flex:1;display:flex;align-items:center}
+  .recorte .foto{position:absolute;left:50%;transform:translateX(-50%);
+                 bottom:-18px;width:1300px;max-width:none;z-index:1;
+                 filter:drop-shadow(0 -14px 34px rgba(27,26,23,.16))}
+  .recorte .rodape{position:absolute;right:96px;bottom:96px;z-index:3;
+                   width:auto;justify-content:flex-end}
 
   /* disco: a foto entra no sistema do disco, no canto de baixo a direita */
   .disco-var .frase{margin-top:106px}
