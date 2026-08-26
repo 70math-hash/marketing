@@ -1,0 +1,26 @@
+{
+  "_nota": "Lançamento manual, enquanto a API não está ligada. A chave 'peca' precisa bater com o nome na coluna Peça da aba Acompanhamento.",
+  "posts": [
+    {
+      "peca": "Farinha importada",
+      "publicado": "2026-08-20",
+      "lido_em": "2026-08-26",
+      "alcance": 2769,
+      "visualizacoes": 4831,
+      "salvamentos": 20,
+      "compartilhamentos": 27,
+      "comentarios": 3,
+      "curtidas": 96,
+      "reposts": 2,
+      "visitas": 41,
+      "seguidores": 9,
+      "nao_seguidores": 0.592,
+      "fontes": { "feed": 0.836, "stories": 0.148, "perfil": 0.011 }
+    },
+    {
+      "peca": "Pala e Pinsa, teglia e contemporânea",
+      "publicado": "2026-08-26",
+      "lido_em": null
+    }
+  ]
+}

@@ -36,6 +36,12 @@ ws["C4"].fill=PREENCHER; ws["C4"].number_format="dd/mm/yyyy"; ws["C4"].border=BO
 ws["D4"]="← troque por quando você começar. As 16 datas se ajustam."
 ws["D4"].font=Font(F,size=9,italic=True,color=NEUTRO)
 
+MANUAL = {}
+_mp = Path(__file__).resolve().parent / "dados" / "manual.json"
+if _mp.exists():
+    for _r in json.loads(_mp.read_text()).get("posts", []):
+        MANUAL[_r["peca"]] = _r
+
 cabs=["#","Data","Dia","Peça","Série","Formato",
       "Alcance","Salvam.","Compart.","Coment.","Visitas perfil","Seguidores",
       "Salv./alcance","Segui./alcance","Visitas/alcance"]
@@ -79,15 +85,33 @@ for i,f in enumerate([f"=IFERROR(H{r}/G{r},\"\")",f"=IFERROR(L{r}/G{r},\"\")",f"
     c.number_format="0.0%"; c.fill=CALC; c.border=BORDA
 
 inicio=L+2
-for n,(off,dia,peca,serie,fmt) in enumerate(sorted(plano, key=lambda x: x[0])):
+# ordena pela data real quando ela existe, senao pela posicao planejada
+_ANCORA = datetime.date(2026,8,25)
+def _quando(item):
+    reg = MANUAL.get(item[2])
+    if reg and reg.get("publicado"):
+        return datetime.date.fromisoformat(reg["publicado"])
+    return _ANCORA + datetime.timedelta(days=item[0])
+
+for n,(off,dia,peca,serie,fmt) in enumerate(sorted(plano, key=_quando)):
     r=inicio+n
     ws.cell(r,1,n+1).font=Font(F,size=10)
-    d=ws.cell(r,2,f"=$C$4+{off}"); d.number_format="dd/mm"; d.font=Font(F,size=10)
+    reg = MANUAL.get(peca)
+    if reg and reg.get("publicado"):
+        d=ws.cell(r,2, datetime.date.fromisoformat(reg["publicado"]))
+        d.font=Font(F,size=10,bold=True)
+    else:
+        d=ws.cell(r,2,f"=$C$4+{off}"); d.font=Font(F,size=10,color=NEUTRO)
+    d.number_format="dd/mm"
     for i,v in enumerate([dia,peca,serie,fmt],3):
         ws.cell(r,i,v).font=Font(F,size=10)
-    for i in range(7,13):                      # G..L amarelo, você preenche
-        c=ws.cell(r,i); c.fill=PREENCHER; c.font=Font(F,size=10); c.border=BORDA
-        c.number_format="#,##0"
+    chaves=["alcance","salvamentos","compartilhamentos","comentarios","visitas","seguidores"]
+    for i,k in zip(range(7,13), chaves):
+        c=ws.cell(r,i); c.font=Font(F,size=10); c.border=BORDA; c.number_format="#,##0"
+        if reg and reg.get(k) is not None:
+            c.value=reg[k]; c.fill=CALC          # ja lancado
+        else:
+            c.fill=PREENCHER                      # ainda por preencher
     for i,f in enumerate([f"=IFERROR(H{r}/G{r},\"\")",f"=IFERROR(L{r}/G{r},\"\")",f"=IFERROR(K{r}/G{r},\"\")"],13):
         c=ws.cell(r,i,f); c.number_format="0.0%"; c.fill=CALC
         c.font=Font(F,size=10); c.border=BORDA
