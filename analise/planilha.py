@@ -50,6 +50,7 @@ ws.row_dimensions[L].height=30
 posts=[]
 series={"ter":"O Porquê do Número","qui":None,"sab":None,"dom":"O Porquê"}
 plano=[
+ (1,"Qua","Pala e Pinsa, teglia e contemporânea","Extra","Reels"),
  (0,"Ter","65% de hidratação","O Porquê do Número","Carrossel"),
  (2,"Qui","Farinha importada","Opinião Impopular","Card/Reels"),
  (4,"Sáb","Criação autoral","Autoral","Foto"),
@@ -78,7 +79,7 @@ for i,f in enumerate([f"=IFERROR(H{r}/G{r},\"\")",f"=IFERROR(L{r}/G{r},\"\")",f"
     c.number_format="0.0%"; c.fill=CALC; c.border=BORDA
 
 inicio=L+2
-for n,(off,dia,peca,serie,fmt) in enumerate(plano):
+for n,(off,dia,peca,serie,fmt) in enumerate(sorted(plano, key=lambda x: x[0])):
     r=inicio+n
     ws.cell(r,1,n+1).font=Font(F,size=10)
     d=ws.cell(r,2,f"=$C$4+{off}"); d.number_format="dd/mm"; d.font=Font(F,size=10)
@@ -124,7 +125,7 @@ for i,c in enumerate(cab2,1):
     cel.fill=CAB; cel.alignment=Alignment(horizontal="center",wrap_text=True); cel.border=BORDA
 s2.row_dimensions[4].height=28
 A=f"Acompanhamento!$E${inicio}:$E${fim}"
-for n,serie in enumerate(["O Porquê do Número","Opinião Impopular","Uma Variável","O Porquê","Autoral","Bastidores","O Erro","Formação"]):
+for n,serie in enumerate(["O Porquê do Número","Opinião Impopular","Uma Variável","O Porquê","Autoral","Bastidores","O Erro","Formação","Extra"]):
     r=5+n
     s2.cell(r,1,serie).font=Font(F,size=10)
     s2.cell(r,2,f'=COUNTIF({A},A{r})').font=Font(F,size=10)

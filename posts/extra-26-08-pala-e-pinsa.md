@@ -1,4 +1,4 @@
-# Extra, quarta `26/08`
+# Extra, quarta `26/08` · PUBLICADO
 **Pilar:** O Porquê · **Formato:** Reels
 **Fora da grade.** Post de oportunidade, aproveitando a produção do dia.
 
@@ -65,9 +65,7 @@ A teglia foi a 300 graus por 15 minutos, porque ela é mais espessa e assa dentr
 
 A regra que fica é simples de guardar e vale para qualquer massa: mais grossa pede forno mais baixo e mais tempo, mais fina pede forno mais alto e menos tempo. Quem tenta assar teglia na temperatura da contemporânea entrega borda queimada com centro cru, e o problema parece ser da massa quando é do forno.
 
-Me deixa saber aqui nos comentários se você usa o mesmo impasto para tipologias diferentes de produtos?
-
-> Única correção feita ao texto do Matheus: "Pala e Pinga" virou "Pala e Pinsa", conforme a scheda tecnica.
+Comenta aqui se você usa o mesmo impasto para tipologias diferentes de produtos?
 
 ## Primeiro comentário, hashtags
 
