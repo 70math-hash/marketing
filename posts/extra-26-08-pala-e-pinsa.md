@@ -45,19 +45,29 @@ Nota: o saco prescreve outro caminho para a teglia, com pré-cozimento de `3` a 
 
 ## Legenda
 
-A mesma massa virou pizza in teglia e contemporânea no mesmo dia, no mesmo forno, e o que decidiu a temperatura de cada uma não foi preferência, foi a espessura.
+A mesma massa virou pizza in teglia e contemporânea no mesmo dia e no mesmo forno!
 
-O impasto é o Pala e Pinsa da Molino Pasini, seguindo a receita do próprio saco. São 10kg de mix para 9 litros de água no total, o que dá 90% de hidratação, com 2,5% de sal e 0,6% de fermento seco, 24h a 4°C, e depois staglio, pirlatura e mais 4 a 5 horas a 26°C antes de abrir.
+O impasto é com a farinha Pala e Pinsa da Molino Pasini, seguindo a receita de 90% (!!!) de hidratação que vem no próprio saco:
 
-Noventa por cento não é número que qualquer farinha aceite, e a ficha técnica do mix explica por quê. Junto com a farinha de trigo tipo 0 entram farinha de arroz, que segura água sem construir glúten, e levedura desativada, que funciona como relaxante de massa reduzindo a tenacidade. Uma coisa deixa a hidratação subir, a outra deixa a massa continuar abrindo depois que subiu, e sem as duas juntas você não chega nesse número. Ainda entram pasta ácida de trigo, que trabalha aroma, e dextrinas, que ajudam na cor e na crocância. São 16g de proteína por 100g. Toda essa água vira vapor no forno, e o vapor é o que abre o alvéolo.
+* 1kg de Farinha Pala e Pinsa
+* 800g de água inicial
+* 25g de sal
+* 10g de fermento fresco
+* 100g de água final
 
-Daí em diante a massa segue dois caminhos e o forno acompanha a geometria. A teglia foi a 300 graus por 15 minutos, porque ela é mais espessa e assa dentro da forma, encostada no metal, então precisa de tempo para a água atravessar toda aquela seção sem que a superfície queime antes do centro secar. A contemporânea foi a 380, porque o disco é fino e vai direto no piso, e ali o calor mais alto produz vapor rápido o bastante para levantar o cornicione antes que a massa perca umidade.
+Misturei os 4 primeiros e depois de formar o véu adicionei os últimos 100g de água aos poucos.
+Logo depois, guardei em bloco por 24h
+Fiz o corte, pesei, boleei e assei depois de 4h a 24 graus.
+
+Noventa por cento não é número que qualquer farinha aceite, mas a ficha técnica do mix explica por quê. Junto com a farinha de trigo tipo 0 entram farinha de arroz, que segura água sem construir glúten, e levedura desativada, que funciona como relaxante de massa reduzindo a tenacidade. Uma coisa deixa a hidratação subir, a outra deixa a massa continuar abrindo depois que subiu, e sem as duas juntas seria muito difícil chegar nesse número.
+
+A teglia foi a 300 graus por 15 minutos, porque ela é mais espessa e assa dentro da forma, encostada no metal, então precisa de tempo para a água atravessar toda aquela seção sem que a superfície queime antes do centro secar. A contemporânea foi a 380, porque o disco é fino e vai direto no piso, e ali o calor mais alto produz vapor rápido o bastante para levantar o cornicione antes que a massa perca umidade.
 
 A regra que fica é simples de guardar e vale para qualquer massa: mais grossa pede forno mais baixo e mais tempo, mais fina pede forno mais alto e menos tempo. Quem tenta assar teglia na temperatura da contemporânea entrega borda queimada com centro cru, e o problema parece ser da massa quando é do forno.
 
-Se você trabalha com esse mix e ainda não fez os dois formatos com o mesmo impasto, faz. É o teste que ensina mais rápido a separar o que é massa do que é forno.
+Me deixa saber aqui nos comentários se você usa o mesmo impasto para tipologias diferentes de produtos?
 
-MR · #cadagramatemumporque
+> Única correção feita ao texto do Matheus: "Pala e Pinga" virou "Pala e Pinsa", conforme a scheda tecnica.
 
 ## Primeiro comentário, hashtags
 
