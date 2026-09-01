@@ -27,7 +27,7 @@ Pizza in teglia de:
 * limão siciliano
 
 
-Sbagliato quer dizer errado em italiano, e o "errado" aqui foi trocar o camarão por cordeiro. O aroma de queijo foi trazido por alguns elementos como o próprio cordeiro, o tucupi, o melado e wakame, mesmo sem ter um grama de queijo.
+Sbagliato quer dizer errado em italiano, e o "errado" aqui foi trocar o camarão por cordeiro. O aroma de queijo eu só fui perceber depois de pronta, e ele vem do cordeiro, do tucupi, do melado e do wakame, sem um grama de queijo na pizza.
 
 Foi criada pro @spgastronomia, revisitando um clássico brasileiro. Só que ela ganhou meu coração e eu já estou com saudade.
 
