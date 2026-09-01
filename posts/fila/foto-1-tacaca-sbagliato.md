@@ -17,17 +17,37 @@ As duas são paisagem em `3:2`. Passa dentro do limite do Instagram sem corte, m
 
 Tacacá Sbagliato
 
-Pizza in teglia de tucupi, cordeiro, jambu, melado de cana, wakame e limão siciliano.
+Pizza in teglia de:
+- tucupi
+- cordeiro
+- jambu
+- melado de cana
+- wakame
+- limão siciliano
 
-Sbagliato quer dizer errado em italiano. Se a versão original amazônica leva camarão, a minha prefere o cordeiro. Ele entrou porque tem afinidade real com o tucupi, por mais difícil de imaginar que seja.
+Uma pizza que veio de revisitar um clássico brasileiro e foi criada pro @spgastronomia mas que ganhou meu coração e que já estou com saudade.
 
-O tucupi é reduzido até virar creme e vai frio na pizza, já fora do forno. A pétala da flor de jambu vem por último, por cima de tudo, porque o formigamento dela morre no calor. A wakame tostada em pó faz o umami. Embaixo de tudo, uma teglia de 80% de hidratação com biga.
+E quando eu fico com saudade, pode ser que venha pro menu da QT.
 
-O melhor detalhe eu só enxerguei depois de pronta. Tucupi, cordeiro, melado e wakame têm todos uma nota lática, de queijo curado. Numa pizza sem queijo nenhum, o aroma de queijo é justamente o fio que amarra tudo.
+Me conta aí o que você achou e se você também quer provar.
 
-Você já tirou tanto o molho de tomate quanto o queijo de uma mesma pizza? Comenta aí o que entrou no lugar.
+## Versão técnica, guardada
 
-MR · #cadagramatemumporque
+Escrita antes e trocada por escolha do Matheus. Fica aqui porque serve inteira no dia que essa pizza entrar no menu da QT, ou como legenda de um segundo post sobre a mesma peça.
+
+> Tacacá Sbagliato
+>
+> Pizza in teglia de tucupi, cordeiro, jambu, melado de cana, wakame e limão siciliano.
+>
+> Sbagliato quer dizer errado em italiano. Se a versão original amazônica leva camarão, a minha prefere o cordeiro. Ele entrou porque tem afinidade real com o tucupi, por mais difícil de imaginar que seja.
+>
+> O tucupi é reduzido até virar creme e vai frio na pizza, já fora do forno. A pétala da flor de jambu vem por último, por cima de tudo, porque o formigamento dela morre no calor. A wakame tostada em pó faz o umami. Embaixo de tudo, uma teglia de 80% de hidratação com biga.
+>
+> O melhor detalhe eu só enxerguei depois de pronta. Tucupi, cordeiro, melado e wakame têm todos uma nota lática, de queijo curado. Numa pizza sem queijo nenhum, o aroma de queijo é justamente o fio que amarra tudo.
+>
+> Você já tirou tanto o molho de tomate quanto o queijo de uma mesma pizza? Comenta aí o que entrou no lugar.
+>
+> MR · #cadagramatemumporque
 
 ## Material que ficou de fora, guardado
 
