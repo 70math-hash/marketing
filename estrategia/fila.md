@@ -66,6 +66,23 @@ Uma Variável em particular não volta como slot. Ela é uma lente para a faixa 
 
 Uma vez por mês, olhando a aba Por série da planilha. A fila muda com base no que reteve, não com base em palpite.
 
+## O lote em curso, até `14/09`
+
+| Dia | Hora | Peça | Arte |
+|---|---|---|---|
+| Ter `01/09` | `14h30` | Carrossel `65%` de hidratação | `saida/s01-ter-hidratacao-65/` |
+| Qui `03/09` | `23h30` | Card forno caro | `saida/cards/s03-qui-forno-caro.png` |
+| Sáb `05/09` | `9h` | Foto de arquivo | escolher a foto |
+| Dom `06/09` | `10h30` | Reels se houver, senão card temperatura da água | oportunista |
+| Ter `08/09` | `14h30` | Carrossel `48h` de maturação | `saida/s02-ter-maturacao-48h/` |
+| Qui `10/09` | `23h30` | Card temperatura da água | `saida/cards/s06-qui-temperatura-agua.png` |
+| Sáb `12/09` | `9h` | Foto de arquivo | escolher a foto |
+| Dom `13/09` | `10h30` | Reels se houver, senão card fermentação longa | oportunista |
+
+São `8` slots consumindo `6` das `9` peças prontas, com folga. Sobram o carrossel `W300`, o `450°C` e o card da napoletana.
+
+Segunda `14/09` é o marco: repensar tudo com os dados das duas semanas na mão e programar o lote seguinte.
+
 ## Onde estamos
 
 | | |
@@ -74,4 +91,5 @@ Uma vez por mês, olhando a aba Por série da planilha. A fila muda com base no 
 | Próximo carrossel | `65%` de hidratação |
 | Próximo card | Forno caro |
 | Estoque | `9` peças, ou `2` semanas a `4` posts por semana |
-| Teste em curso | `4` por semana durante `2` semanas, com programação em bloco toda segunda |
+| Teste em curso | `4` por semana até `14/09`, programando em bloco toda segunda |
+| Exceção | a semana de `01/09` foi programada na terça, porque a segunda não teve tempo |
