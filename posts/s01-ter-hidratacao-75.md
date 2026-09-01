@@ -25,15 +25,29 @@ Rodapé: MR no disco. "Próximo número: `48h`"
 
 Por que a hidratação é o número que mais gente copia errado?
 
-Copiar `70%` de uma receita da internet sem olhar a farinha e o forno é a forma mais rápida de estragar uma massa boa, e acontece toda semana. A água define a velocidade da fermentação antes de definir a textura, porque enzima só trabalha em meio úmido, então quando você mexe nesse número você mexeu no relógio da massa inteira sem perceber.
+Copiar 75% de uma receita da internet sem olhar a ficha técnica é a forma mais rápida de estragar uma boa farinha. A água também define a velocidade da fermentação, porque enzima só trabalha em meio úmido, então quando você mexe nesse número você mexeu no relógio da massa inteira sem perceber.
 
-O caminho certo é o contrário do que todo mundo faz. Primeiro você olha a ficha técnica da farinha, porque uma `W300` segura água que uma `W220` não segura. Depois olha a temperatura real do seu forno, porque a `450°C` a água vira vapor e levanta o cornicione, enquanto a `350°C` ela fica no miolo e deixa o centro molhado. A hidratação é o resultado dessas duas contas, nunca o ponto de partida.
+O caminho certo é o contrário do que todo mundo faz. Primeiro você olha a ficha técnica da farinha, onde o W te diz quanta água ela aguenta, depois você olha o tempo e a temperatura que vai trabalhar. A hidratação é o resultado dessas contas, nunca o ponto de partida.
 
-Se você quer subir a sua, sobe `2%` por semana e observa o cornicione antes de subir de novo.
+Se você quer subir a sua, sobe de pouco em pouco e observa o resultado antes de subir de novo.
 
-Salva aí pra consultar na próxima produção.
+Salva aí pra consultar na próxima receita.
 
 MR · #cadagramatemumporque
+
+## Ordem de publicação
+
+| Posição | Imagem | Contador |
+|---|---|---|
+| `1` | `saida/s01-ter-hidratacao-75/01.png` | capa |
+| `2` | `02.png` | `2/7` |
+| `3` | `03.png` | `3/7` |
+| `4` | `04.png` | `4/7` |
+| `5` | **foto do corte, `75%`** | sem contador |
+| `6` | `05.png` | `6/7` |
+| `7` | `06.png` | `7/7` |
+
+A foto entra recortada em `4:5`, com o corte do cornicione e o alvéolo grande à direita do quadro.
 
 ## Primeiro comentário, hashtags
 
