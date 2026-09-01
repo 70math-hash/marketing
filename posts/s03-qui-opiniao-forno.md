@@ -37,4 +37,4 @@ Grava na frente do forno, com ele aceso e a boca visível. Os primeiros `3s` já
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #forno #fornoalenha #pizzacontemporanea #pizzanapoletana #pizzaiolo #fermentacao #pizzaartesanal #pizza #gastronomia #chef
+#cadagramatemumporque

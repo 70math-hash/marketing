@@ -48,4 +48,4 @@ O movimento `2` é o que quase todo mundo pula, e é justamente o que transforma
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #pizzaautoral #pizzacontemporanea #cozinhaautoral #pizzanapoletana #pizzaiolo #altagastronomia #pizza #gastronomia #chef
+#cadagramatemumporque

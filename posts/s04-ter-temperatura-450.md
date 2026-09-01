@@ -37,4 +37,4 @@ MR · #cadagramatemumporque
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #forno #temperatura #leopardatura #pizzacontemporanea #pizzanapoletana #pizzaiolo #cornicione #pizzaartesanal #pizza #gastronomia
+#cadagramatemumporque

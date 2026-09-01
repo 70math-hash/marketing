@@ -62,4 +62,4 @@ Aluno trabalhando, mão na massa, não turma posando. Vale muito uma foto do res
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #cursodepizza #formacao #pizzasp #pizzacontemporanea #pizzanapoletana #pizzaiolo #aulapratica #pizza #saopaulo #gastronomia
+#cadagramatemumporque

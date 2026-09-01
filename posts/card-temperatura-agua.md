@@ -18,4 +18,4 @@ Você mede a temperatura final da tua massa? Comenta aí, tenho curiosidade de s
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #temperaturadamassa #panificacao #pizzacontemporanea #pizzanapoletana #pizzaiolo #longafermentacao #pizzaartesanal #pizza #masamadre #gastronomia
+#cadagramatemumporque

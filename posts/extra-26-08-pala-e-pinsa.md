@@ -69,4 +69,4 @@ Comenta aqui se você usa o mesmo impasto para tipologias diferentes de produtos
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #pizzainteglia #pinsa #pizzacontemporanea #altaidratacao #molinopasini #pizzaiolo #pizza #pizzalovers #gastronomia
+#cadagramatemumporque

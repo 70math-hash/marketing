@@ -16,4 +16,4 @@ Quantas horas você fermenta hoje e com que W? Comenta aí que eu quero ver se a
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #longafermentacao #maturacao #forcadafarinha #pizzacontemporanea #pizzanapoletana #pizzaiolo #pizzaartesanal #pizza #masamadre #gastronomia
+#cadagramatemumporque

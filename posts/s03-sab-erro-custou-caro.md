@@ -49,4 +49,4 @@ E ensina no mesmo movimento, porque todo erro tem um parâmetro por trás dele.
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #erroscomuns #pizzacontemporanea #pizzanapoletana #pizzaiolo #aprendizado #pizzaartesanal #pizza #gastronomia #chef
+#cadagramatemumporque

@@ -50,4 +50,4 @@ MR · #cadagramatemumporque
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #longafermentacao #maturacao #pizzacontemporanea #pizzanapoletana #pizzaiolo #testecomparativo #pizzaartesanal #pizza #masamadre #gastronomia
+#cadagramatemumporque

@@ -48,4 +48,4 @@ A folha ou o quadro real, com a letra à mão, marcado e sujo de uso. Não refaz
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #bastidores #producao #pizzacontemporanea #padronizacao #pizzaiolo #gestao #pizzaartesanal #pizza #gastronomia #chef
+#cadagramatemumporque

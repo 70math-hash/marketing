@@ -37,4 +37,4 @@ MR · #cadagramatemumporque
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #farinha #forcadafarinha #pizzacontemporanea #pizzanapoletana #fichatecnica #pizzaiolo #longafermentacao #pizza #masamadre #gastronomia
+#cadagramatemumporque

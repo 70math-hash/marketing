@@ -52,4 +52,4 @@ MR · #cadagramatemumporque
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #pontodeveu #gluten #pizzacontemporanea #pizzanapoletana #longafermentacao #pizzaiolo #pizzaartesanal #pizza #masamadre #gastronomia
+#cadagramatemumporque

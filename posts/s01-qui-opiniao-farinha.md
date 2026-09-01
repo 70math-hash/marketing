@@ -30,4 +30,4 @@ Você fala direto pra câmera, `30s`, com o saco de farinha na mão. Os primeiro
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #farinha #pizzacontemporanea #pizzanapoletana #pizzaiolo #pizzaartesanal #fichatecnica #fallingnumber #pizza #gastronomia #chef
+#cadagramatemumporque

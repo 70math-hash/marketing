@@ -19,4 +19,4 @@ Qual parâmetro você acha que mais gente ignora? Comenta aí, quero ver se bate
 
 ## Primeiro comentário, hashtags
 
-#cadagramatemumporque #matheusramos #pizzanapoletana #pizzacontemporanea #tecnica #pizzaiolo #fornoalenha #pizzaartesanal #pizza #pizzalovers #gastronomia
+#cadagramatemumporque
