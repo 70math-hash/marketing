@@ -10,7 +10,7 @@ Substitui o calendário de 30 dias, que era ancorado em data e quebrava na prime
 |---|---|---|
 | Terça `14h30` | Carrossel O Porquê do Número | nenhuma |
 | Quinta `23h30` | Card Opinião Impopular | nenhuma |
-| Sábado `9h` | Foto de arquivo com legenda técnica | escolher a foto |
+| Sábado `9h` | Foto Autoral com legenda curta | escolher a foto |
 | Domingo `10h30` | Reels se houver, senão segundo card | oportunista |
 
 O sábado existe por dois motivos. Ele resolve o terceiro slot sem exigir produção, porque você já tem arquivo de foto e só falta a legenda, e quebra a monotonia visual de um feed que senão seria só tipografia bege quatro vezes por semana.
@@ -41,6 +41,16 @@ Cada peça anuncia a próxima na última tela, então a ordem está travada na a
 
 Critério para os próximos: não basta estar tecnicamente correto, alguém precisa discordar em voz alta.
 
+## Fila de foto · sábado `9h`
+
+| # | Peça | Estado |
+|---|---|---|
+| `1` | [Tacacá Sbagliato, pizza in teglia](../posts/fila/foto-1-tacaca-sbagliato.md) | fotos e legenda prontas |
+
+O slot era "escolher a foto" e agora tem fila de verdade. A regra aqui é diferente das outras duas: a peça só entra quando existe foto de arquivo boa. No momento que exigir produção, ela sai do sábado, porque o sábado existe justamente para resolver o terceiro slot sem custo.
+
+Legenda curta neste slot. As outras duas faixas carregam texto longo e a foto já faz sozinha o trabalho que a tipografia de um card precisa fazer com palavra.
+
 ## Faixa oportunista
 
 Não entra na fila porque não se agenda. A regra é: **quando houver produção acontecendo, filma.** O Reels do Pala e Pinsa nasceu assim e foi o post de maior esforço que efetivamente saiu.
@@ -58,7 +68,7 @@ Todo post do feed é repostado no story no mesmo dia. Fora isso, story quando ho
 
 ## Fora da fila, esperando tempo de produção
 
-Continuam roteirizadas em `posts/`, sem data e sem cobrança: criação autoral, cronograma de produção, o erro que me custou caro, os dois testes de Uma Variável e o post de formação.
+Continuam roteirizadas em `posts/`, sem data e sem cobrança: cronograma de produção, o erro que me custou caro, os dois testes de Uma Variável e o post de formação.
 
 Uma Variável em particular não volta como slot. Ela é uma lente para a faixa oportunista.
 
@@ -72,14 +82,14 @@ Uma vez por mês, olhando a aba Por série da planilha. A fila muda com base no 
 |---|---|---|---|
 | Ter `01/09` | `14h30` | Carrossel `75%` de hidratação | `saida/s01-ter-hidratacao-75/` |
 | Qui `03/09` | `23h30` | Card forno caro | `saida/cards/s03-qui-forno-caro.png` |
-| Sáb `05/09` | `9h` | Foto de arquivo | escolher a foto |
+| Sáb `05/09` | `9h` | Foto Tacacá Sbagliato | arquivo do Matheus, `2` fotos |
 | Dom `06/09` | `10h30` | Reels se houver, senão card temperatura da água | oportunista |
 | Ter `08/09` | `14h30` | Carrossel `48h` de maturação | `saida/s02-ter-maturacao-48h/` |
 | Qui `10/09` | `23h30` | Card temperatura da água | `saida/cards/s06-qui-temperatura-agua.png` |
 | Sáb `12/09` | `9h` | Foto de arquivo | escolher a foto |
 | Dom `13/09` | `10h30` | Reels se houver, senão card fermentação longa | oportunista |
 
-São `8` slots consumindo `6` das `9` peças prontas, com folga. Sobram o carrossel `W300`, o `450°C` e o card da napoletana.
+São `8` slots consumindo `7` das `10` peças prontas, com folga. Sobram o carrossel `W300`, o `450°C` e o card da napoletana.
 
 Segunda `14/09` é o marco: repensar tudo com os dados das duas semanas na mão e programar o lote seguinte.
 
@@ -90,6 +100,6 @@ Segunda `14/09` é o marco: repensar tudo com os dados das duas semanas na mão 
 | Publicados | `2` · card de farinha em `20/08`, Reels Pala e Pinsa em `26/08` |
 | Próximo carrossel | `75%` de hidratação |
 | Próximo card | Forno caro |
-| Estoque | `9` peças, ou `2` semanas a `4` posts por semana |
+| Estoque | `10` peças, ou `2` semanas a `4` posts por semana |
 | Teste em curso | `4` por semana até `14/09`, programando em bloco toda segunda |
 | Exceção | a semana de `01/09` foi programada na terça, porque a segunda não teve tempo |
