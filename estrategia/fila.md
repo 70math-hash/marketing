@@ -11,7 +11,7 @@ Substitui o calendário de 30 dias, que era ancorado em data e quebrava na prime
 | Terça `14h30` | Carrossel O Porquê do Número | nenhuma |
 | Quinta `23h30` | Card Opinião Impopular | nenhuma |
 | Sábado `9h` | Foto Autoral com legenda curta | escolher a foto |
-| Domingo `10h30` | Reels se houver, senão segundo card | oportunista |
+| Domingo `10h30` | Card Forno de Casa, ou Reels se houver | quase nenhuma |
 
 O sábado existe por dois motivos. Ele resolve o terceiro slot sem exigir produção, porque você já tem arquivo de foto e só falta a legenda, e quebra a monotonia visual de um feed que senão seria só tipografia bege quatro vezes por semana.
 
@@ -51,6 +51,22 @@ O slot era "escolher a foto" e agora tem fila de verdade. A regra aqui é difere
 
 Legenda curta neste slot. As outras duas faixas carregam texto longo e a foto já faz sozinha o trabalho que a tipografia de um card precisa fazer com palavra.
 
+## Fila de domingo · `10h30` · Forno de Casa
+
+| # | Peça | Estado |
+|---|---|---|
+| `1` | [Açúcar na massa é acerto no forno de casa](../posts/fila/domingo-1-forno-de-casa-palida.md) | legenda pronta, arte pendente |
+| `2` | Hidratação alta no forno de casa é armadilha | pauta |
+| `3` | Pedra ou aço muda mais que trocar de farinha | pauta |
+| `4` | Muçarela de supermercado solta água | pauta |
+| `5` | Quanto tempo a sua farinha aguenta | pauta |
+
+Domingo deixa de ser definido por formato e passa a ser definido por público. Era "Reels educativo", e o Reels de `26/08` converteu `4,9x` pior que o card sobre gente fria, além de ser o formato mais caro de produzir, o que fazia o slot falhar toda semana apertada. Agora é card por padrão e Reels quando houver produção rolando.
+
+O público aqui é o B, o caseiro, que é quem compra curso online. Os outros três slots todos falam com o profissional. Sem domingo, a audiência inteira vira profissional e o curso online do ano que vem nasce sem comprador.
+
+A constante da série é o forno doméstico a `250°C`. Cada peça traduz um parâmetro profissional pra esse forno.
+
 ## Faixa oportunista
 
 Não entra na fila porque não se agenda. A regra é: **quando houver produção acontecendo, filma.** O Reels do Pala e Pinsa nasceu assim e foi o post de maior esforço que efetivamente saiu.
@@ -83,11 +99,11 @@ Uma vez por mês, olhando a aba Por série da planilha. A fila muda com base no 
 | Ter `01/09` | `14h30` | Carrossel `75%` de hidratação | `saida/s01-ter-hidratacao-75/` |
 | Qui `03/09` | `23h30` | Card forno caro | `saida/cards/s03-qui-forno-caro.png` |
 | Sáb `05/09` | `9h` | Foto Tacacá Sbagliato | arquivo do Matheus, `2` fotos |
-| Dom `06/09` | `10h30` | Reels se houver, senão card temperatura da água | oportunista |
+| Dom `06/09` | `10h30` | Card forno de casa, pizza pálida | arte pendente |
 | Ter `08/09` | `14h30` | Carrossel `48h` de maturação | `saida/s02-ter-maturacao-48h/` |
 | Qui `10/09` | `23h30` | Card temperatura da água | `saida/cards/s06-qui-temperatura-agua.png` |
 | Sáb `12/09` | `9h` | Foto de arquivo | escolher a foto |
-| Dom `13/09` | `10h30` | Reels se houver, senão card fermentação longa | oportunista |
+| Dom `13/09` | `10h30` | Card forno de casa, hidratação em casa | a escrever |
 
 São `8` slots consumindo `7` das `10` peças prontas, com folga. Sobram o carrossel `W300`, o `450°C` e o card da napoletana.
 
