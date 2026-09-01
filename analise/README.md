@@ -28,7 +28,11 @@ O LibreOffice não sobe neste ambiente, então o `recalc.py` do fluxo padrão n�
 
 Conferiram as três taxas por linha, as médias do mês, a contagem e as taxas por série, e a aritmética das datas. Vale repetir essa verificação se alguém mexer nas fórmulas.
 
-## Coleta automática
+## Coleta
+
+O fluxo em uso é **manual, por print**, descrito em [`CAPTURA.md`](CAPTURA.md). A coleta automática abaixo está pronta mas dormente.
+
+## Coleta automática, dormente
 
 Em vez de digitar os números do Insights, um script puxa da Graph API do Instagram e a planilha se regenera a partir disso.
 
@@ -66,3 +70,12 @@ Se essas duas não vierem, o plano B é a contagem diária de seguidores no nív
 ### O token expira
 
 Token de longa duração da Meta dura cerca de `60` dias. Vencendo, a coleta para em silêncio, que é o pior jeito de parar. Vale a rotina avisar quando faltar uma semana.
+
+
+## Por que a automática ficou dormente
+
+Decisão de `01/09`. Ao comparar o que a Graph API entrega com o que os prints do app mostram, ficou claro que a API não devolve a quebra por fonte, o corte de seguidor contra não seguidor, a idade por post nem a curva de retenção do Reels.
+
+A quebra por fonte foi exatamente o dado que explicou por que o card de `20/08` converteu `5x` melhor que o Reels de `26/08`, apesar do alcance quase igual. Automatizar cobriria os números e a curva diária, mas deixaria de fora a camada que mais gerou conclusão, e ainda exigiria renovar token a cada `60` dias sob risco de parar em silêncio.
+
+O código fica no lugar. Basta definir `IG_TOKEN` e `IG_USER_ID` para reativar.
