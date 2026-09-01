@@ -21,12 +21,12 @@ Todo mês aparece alguém convencido de que o cornicione não sobe por causa do 
 
 Se o gás não foi produzido, não tem o que expandir. Se a rede de glúten não fechou o ponto de véu, o gás que existia escapou muito antes de chegar no forno. Nos dois casos você pode colocar 500°C que a massa vai queimar por fora e continuar baixa por dentro.
 
-E a ironia nisso é que forno potente é muito menos tolerante aos nossos erros. A pizza fica menosde 2 minutos no forno e nesse tempo não a gente não corrige praticamente nada. 
+E a ironia nisso é que forno potente é muito menos tolerante aos nossos erros. A pizza fica menos de 2 minutos no forno e nesse tempo a gente não corrige praticamente nada. 
 
 Antes de olhar pro forno, olha três coisas na tua massa: 
 1- Ela fecha o ponto de véu?
-2- Qual a temperatura final dela na saída da batida 
-4- Ela teve o tempo e temperatura corretos de fermentação?
+2- Qual a temperatura dela no final da batida?
+3- Ela teve o tempo e temperatura corretos de fermentação?
 Resolvendo esses três, o forno que você já tem provavelmente entrega mais do que você imagina.
 
 Você já trocou de forno achando que ia resolver a massa? Comenta aí, quero saber quantos passaram por isso.
