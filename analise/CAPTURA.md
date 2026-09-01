@@ -4,9 +4,33 @@ Fluxo manual, por print. Substitui a coleta automática, que foi descartada porq
 
 ## Quando
 
-**Toda segunda**, junto com a programação da semana. Uma sessão só, capturando os posts da semana anterior. Nesse ponto eles já têm `5` a `8` dias e os números estão estáveis.
+**Toda segunda às `9h10`**, por lembrete automático. Existe uma Routine que dispara sozinha, olha quais posts publicados ainda estão sem números e manda notificação no celular pedindo só os que faltam.
 
-Não vale capturar antes de `72h`, porque o post continua rodando e o número muda muito.
+Ela pede posts com `7` dias ou mais. Pedindo na segunda os posts da semana retrasada, cada peça chega com a idade certa:
+
+| Post de | Idade no disparo |
+|---|---|
+| Terça | `13` dias |
+| Quinta | `11` dias |
+| Sábado | `9` dias |
+| Domingo | `8` dias |
+
+Não vale capturar antes de `72h`, porque o post continua rodando e o número muda muito. O card de `20/08` ainda subia no sexto dia.
+
+### A Routine
+
+| | |
+|---|---|
+| Nome | Números dos posts do Instagram @matheus__ramos |
+| ID | `trig_0176SZY81vTTTFa221qu5ho8` |
+| Disparo | segundas `12h10` UTC, ou `9h10` no horário de Brasília |
+| Primeiro disparo | `07/09/2026` |
+| Notificação | push no celular |
+| Modo | sessão nova a cada disparo |
+
+Cada disparo abre uma conversa nova, então o histórico daquela semana fica isolado. A sessão lê o repositório, descobre o que falta, pede os prints, lança em `manual.json`, regenera a planilha e faz o commit.
+
+Ela não pergunta nada quando não há post com `7` dias ou mais. Semana sem publicação não gera cobrança.
 
 ## O que capturar, por post
 
