@@ -1,4 +1,4 @@
-# Semana 1, terça, `14h30`
+# Terça · Carrossel · `75%` de hidratação
 **Série:** O Porquê do Número · **Formato:** carrossel `6` telas
 
 ## Telas

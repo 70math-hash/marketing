@@ -8,7 +8,7 @@ Nomenclatura: `sNN-dia-tema.md`, onde `NN` é a semana do calendário.
 
 | # | Peça | Série | Formato |
 |---|---|---|---|
-| S1 Ter | [`65%` de hidratação](s01-ter-hidratacao-65.md) | O Porquê do Número | Carrossel `6` |
+| S1 Ter | [`75%` de hidratação](s01-ter-hidratacao-75.md) | O Porquê do Número | Carrossel `6` |
 | S1 Qui | [Farinha importada](s01-qui-opiniao-farinha.md) | Opinião Impopular | Card ou Reels |
 | S1 Sáb | [Criação autoral](s01-sab-autoral.md) | Autoral | Foto |
 | S1 Dom | [Ponto de véu](s01-dom-reels-ponto-de-veu.md) | O Porquê | Reels `35s` |

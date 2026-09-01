@@ -19,7 +19,7 @@ O sábado existe por dois motivos. Ele resolve o terceiro slot sem exigir produ�
 
 | # | Peça | Estado |
 |---|---|---|
-| `1` | `65%` de hidratação | pronto |
+| `1` | `75%` de hidratação | pronto |
 | `2` | `48h` de maturação | pronto |
 | `3` | `W300`, força da farinha | pronto |
 | `4` | `450°C` no forno | pronto |
@@ -70,7 +70,7 @@ Uma vez por mês, olhando a aba Por série da planilha. A fila muda com base no 
 
 | Dia | Hora | Peça | Arte |
 |---|---|---|---|
-| Ter `01/09` | `14h30` | Carrossel `65%` de hidratação | `saida/s01-ter-hidratacao-65/` |
+| Ter `01/09` | `14h30` | Carrossel `75%` de hidratação | `saida/s01-ter-hidratacao-75/` |
 | Qui `03/09` | `23h30` | Card forno caro | `saida/cards/s03-qui-forno-caro.png` |
 | Sáb `05/09` | `9h` | Foto de arquivo | escolher a foto |
 | Dom `06/09` | `10h30` | Reels se houver, senão card temperatura da água | oportunista |
@@ -88,7 +88,7 @@ Segunda `14/09` é o marco: repensar tudo com os dados das duas semanas na mão 
 | | |
 |---|---|
 | Publicados | `2` · card de farinha em `20/08`, Reels Pala e Pinsa em `26/08` |
-| Próximo carrossel | `65%` de hidratação |
+| Próximo carrossel | `75%` de hidratação |
 | Próximo card | Forno caro |
 | Estoque | `9` peças, ou `2` semanas a `4` posts por semana |
 | Teste em curso | `4` por semana até `14/09`, programando em bloco toda segunda |

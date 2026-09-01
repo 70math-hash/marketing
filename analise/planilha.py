@@ -57,7 +57,7 @@ posts=[]
 series={"ter":"O Porquê do Número","qui":None,"sab":None,"dom":"O Porquê"}
 plano=[
  (1,"Qua","Pala e Pinsa, teglia e contemporânea","Extra","Reels"),
- (0,"Ter","65% de hidratação","O Porquê do Número","Carrossel"),
+ (0,"Ter","75% de hidratação","O Porquê do Número","Carrossel"),
  (2,"Qui","Farinha importada","Opinião Impopular","Card/Reels"),
  (4,"Sáb","Criação autoral","Autoral","Foto"),
  (5,"Dom","Ponto de véu","O Porquê","Reels"),

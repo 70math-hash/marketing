@@ -117,7 +117,7 @@
     `<section class="tela fecho">
        ${topo(total)}
        <div class="corpo">
-         <h2 class="titulo">Em uma linha</h2>
+         <h2 class="titulo">${esc(d.fecho_titulo || "Pra finalizar")}</h2>
          <div class="texto">${mono(d.sintese)}</div>
        </div>
        <div class="rodape">

@@ -1,0 +1,26 @@
+{
+  "serie": "O porquê do número",
+  "numero": "75%",
+  "pergunta": "o que esse número controla na sua massa",
+  "telas": [
+    {
+      "titulo": "A água também define a velocidade da fermentação",
+      "texto": "Quase todo mundo aprende que hidratação alta deixa a pizza mais leve, e isso é verdade só no fim da história. Antes disso a água também define a velocidade da fermentação, porque enzima só trabalha em meio úmido.\n\nMudar de `65%` pra `75%` não muda só o miolo, muda o relógio inteiro da sua massa."
+    },
+    {
+      "titulo": "Abaixo de `60%`",
+      "texto": "A massa fica firme e fácil de abrir, e é por isso que tanta gente se sente segura ali. Só que a fermentação desacelera, o glúten demora mais pra relaxar e a alveolatura sai mais fechada.\n\nO cornicione cresce menos porque não tem tanto vapor."
+    },
+    {
+      "titulo": "Acima de `70%`",
+      "texto": "O vapor aumenta, o cornicione ganha altura e a alveolatura abre irregular, do jeito que todo mundo quer ver na foto.\n\nO custo é que se a massa não for bem assada, ela pode ficar com o centro úmido (o famoso gomoso)."
+    },
+    {
+      "titulo": "Como eu chego no número",
+      "texto": "O ponto de partida não pode ser a hidratação, mas a farinha. Farinha com `W340` segura a água que uma de `W220` não vai segurar.\n\nEu escolho a hidratação pela farinha que vou usar e só depois vou subindo de pouco em pouco."
+    }
+  ],
+  "fecho_titulo": "Pra finalizar",
+  "sintese": "Hidratação é uma consequência da farinha, do tempo e da temperatura que você tem.",
+  "proximo": "48h"
+}
