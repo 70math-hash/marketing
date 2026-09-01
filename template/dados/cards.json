@@ -12,6 +12,24 @@
       "eyebrow": "Opinião impopular",
       "layout": "so-texto",
       "frase": "Forno caro não conserta massa mal fermentada."
+    },
+    {
+      "arquivo": "s05-qui-fermentacao-longa",
+      "eyebrow": "Opinião impopular",
+      "layout": "so-texto",
+      "frase": "Fermentação longa não é sinônimo de qualidade."
+    },
+    {
+      "arquivo": "s06-qui-temperatura-agua",
+      "eyebrow": "Opinião impopular",
+      "layout": "so-texto",
+      "frase": "A maioria erra a temperatura da água e culpa a farinha."
+    },
+    {
+      "arquivo": "s07-qui-napoletana",
+      "eyebrow": "Opinião impopular",
+      "layout": "so-texto",
+      "frase": "Muita napoletana no Brasil copia o gesto e ignora o parâmetro."
     }
   ]
 }

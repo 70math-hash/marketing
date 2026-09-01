@@ -36,13 +36,24 @@ Reels sai da grade e vira oportunista, entrando só quando já houver produção
 
 ## O estoque pronto
 
-Cobre duas semanas e meia sem nenhuma produção:
+| Slot | Peças | Cobertura |
+|---|---|---|
+| Terça, carrossel | `65%`, `48h`, `W300`, `450°C` | `4` semanas |
+| Quinta, card | forno caro, fermentação longa, temperatura da água, napoletana | `4` semanas |
 
-- Carrossel `65%` de hidratação
-- Carrossel `48h` de maturação
-- Carrossel `W300`
-- Carrossel `450°C`
-- Card do forno caro
+A primeira versão desta revisão dizia "duas semanas e meia", o que era média e escondia um furo: terça tinha `4` peças e quinta tinha `1`. Os três cards a mais foram renderizados em `01/09` para igualar a cobertura.
+
+## O story volta
+
+A revisão inicial cortou o story junto com a redução de cadência, e isso foi descuido. Story é a camada de retenção mais barata que existe aqui, porque é telefone na hora, sem montagem. E os dados do card de `20/08` mostram que ele puxa audiência de verdade, com `14,8%` das visualizações vindo de stories.
+
+Não vira obrigação diária. A regra passa a ser: sempre que houver produção acontecendo, sai story. E todo post do feed é repostado no story no mesmo dia.
+
+## Uma Variável não é um slot, é uma lente
+
+Essa série ficou na pilha de adiados por exigir teste controlado assado só para virar post. Só que o Reels do Pala e Pinsa já era, na prática, um Uma Variável: mesma massa, dois formatos, duas temperaturas, mesmo forno.
+
+A conclusão é que ela não deve ser agendada. Ela deve ser aplicada quando a produção já estiver acontecendo e por acaso comparar duas coisas. O custo cai a zero e a peça sai melhor, porque é produção real e não encenação.
 
 ## O que fica adiado
 
