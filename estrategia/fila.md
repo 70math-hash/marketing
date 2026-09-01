@@ -2,7 +2,18 @@
 
 Substitui o calendário de 30 dias, que era ancorado em data e quebrava na primeira falha. Aqui não existe atraso, existe posição na fila.
 
-**A regra:** terça pega a próxima peça da fila de carrossel, quinta pega a próxima da fila de card. Pulou? A fila não anda. Nada fica para trás, nada vira dívida.
+**A regra:** cada slot puxa a próxima peça da fila dele. Pulou? A fila não anda. Nada fica para trás, nada vira dívida.
+
+**Programação em bloco.** Toda segunda, a semana inteira é agendada de uma vez. Foi a correção que destravou a cadência de `4` por semana: o custo não estava em postar, estava em decidir quatro vezes por semana.
+
+| Slot | Fila | Produção |
+|---|---|---|
+| Terça `14h30` | Carrossel O Porquê do Número | nenhuma |
+| Quinta `23h30` | Card Opinião Impopular | nenhuma |
+| Sábado `9h` | Foto de arquivo com legenda técnica | escolher a foto |
+| Domingo `10h30` | Reels se houver, senão segundo card | oportunista |
+
+O sábado existe por dois motivos. Ele resolve o terceiro slot sem exigir produção, porque você já tem arquivo de foto e só falta a legenda, e quebra a monotonia visual de um feed que senão seria só tipografia bege quatro vezes por semana.
 
 ## Fila de carrossel · terça `14h30`
 
@@ -21,12 +32,14 @@ Cada peça anuncia a próxima na última tela, então a ordem está travada na a
 
 | # | Peça | Estado |
 |---|---|---|
-| `1` | Forno caro não conserta massa mal fermentada | pronto |
-| `2` | A maioria erra a temperatura da água e culpa a farinha | pronto |
-| `3` | Fermentação longa não é sinônimo de qualidade | pronto |
+| `1` | Forno caro não conserta massa mal fermentada | arte e legenda prontas |
+| `2` | A maioria erra a temperatura da água e culpa a farinha | arte e legenda prontas |
+| `3` | Fermentação longa não é sinônimo de qualidade | arte e legenda prontas |
 | `4` | Muita napoletana no Brasil copia o gesto e ignora o parâmetro | pronto, decidir se entra |
 
-Critério para os próximos: não basta estar tecnicamente correto, alguém precisa discordar em voz alta. O card de `20/08` fez `3` comentários porque a frase, depois do "Só", ficou defensável e indiscutível ao mesmo tempo.
+**Todo card termina com CTA de comentário.** Essa é a regra que saiu do post de `20/08`, que fez `3` comentários e fechava com "pede a ficha técnica da que você já usa", uma ação para executar fora do Instagram. O Pala e Pinsa fechava com "Comenta aqui se você usa o mesmo impasto" e é a comparação que vai dizer o tamanho do efeito.
+
+Critério para os próximos: não basta estar tecnicamente correto, alguém precisa discordar em voz alta.
 
 ## Faixa oportunista
 
@@ -60,4 +73,5 @@ Uma vez por mês, olhando a aba Por série da planilha. A fila muda com base no 
 | Publicados | `2` · card de farinha em `20/08`, Reels Pala e Pinsa em `26/08` |
 | Próximo carrossel | `65%` de hidratação |
 | Próximo card | Forno caro |
-| Estoque | `4` semanas em cada fila |
+| Estoque | `9` peças, ou `2` semanas a `4` posts por semana |
+| Teste em curso | `4` por semana durante `2` semanas, com programação em bloco toda segunda |
