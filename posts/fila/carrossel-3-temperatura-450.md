@@ -1,5 +1,5 @@
-# Semana 4, terça, `14h30`
-**Série:** O Porquê do Número · **Formato:** carrossel `6` telas
+# Carrossel · O Porquê do Número
+**Número:** `450°C` · **Telas:** `6` mais capa e fecho
 
 ## Telas
 

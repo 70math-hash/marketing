@@ -1,5 +1,5 @@
-# Semana 2, sábado, `9h`
-**Série:** Bastidores da Precisão · **Formato:** carrossel `5` telas ou foto única com legenda longa
+# Carrossel · Bastidores da Precisão
+**Formato:** carrossel `5` telas ou foto única com legenda longa
 
 > **Precisa da tua entrada.** Os horários e temperaturas abaixo são um molde. Substitua pelos números reais da tua produção, porque a força desse post está justamente em ser o teu cronograma de verdade e não um exemplo genérico.
 

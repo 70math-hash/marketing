@@ -1,5 +1,5 @@
-# Semana 2, terça, `14h30`
-**Série:** O Porquê do Número · **Formato:** carrossel `6` telas
+# Carrossel · O Porquê do Número
+**Número:** `48h` · **Telas:** `6` mais capa e fecho
 
 ## Telas
 

@@ -1,5 +1,5 @@
-# Semana 3, domingo, `10h30`
-**Série:** O Porquê · **Formato:** Reels `45s`
+# Reels · O Porquê
+**Formato:** Reels `45s`
 
 ## Roteiro
 

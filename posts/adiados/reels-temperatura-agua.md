@@ -1,5 +1,5 @@
-# Semana 2, domingo, `10h30`
-**Série:** O Porquê · **Formato:** Reels `40s`
+# Reels · O Porquê
+**Formato:** Reels `40s`
 
 ## Roteiro
 

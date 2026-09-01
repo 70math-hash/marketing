@@ -1,5 +1,5 @@
-# Semana 4, quinta, `23h30`
-**Série:** Uma Variável · **Formato:** carrossel `4` telas ou Reels comparativo `30s`
+# Carrossel · Uma Variável
+**Formato:** carrossel `4` telas ou Reels comparativo `30s`
 
 ## O protocolo do teste
 

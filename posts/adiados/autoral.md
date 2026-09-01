@@ -1,5 +1,5 @@
-# Semana 1, sábado, `9h`
-**Série:** Autoral · **Formato:** foto com legenda
+# Foto · Autoral
+**Formato:** foto com legenda
 
 > **Precisa da tua entrada.** Esse post depende de uma criação real sua, então marquei os campos entre colchetes. A estrutura abaixo é o que faz a legenda funcionar, e o exemplo trabalhado no fim mostra o padrão.
 

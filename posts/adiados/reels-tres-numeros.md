@@ -1,5 +1,5 @@
-# Semana 4, domingo, `10h30`
-**Série:** O Porquê · **Formato:** Reels `45s`
+# Reels · O Porquê
+**Formato:** Reels `45s`
 **Candidato a post fixado.** Amarra as quatro terças do mês e funciona como porta de entrada do perfil.
 
 ## Roteiro

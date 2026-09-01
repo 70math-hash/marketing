@@ -1,5 +1,5 @@
-# Semana 4, sábado, `9h`
-**Série:** Formação · **Formato:** carrossel `5` telas
+# Carrossel · Formação
+**Formato:** carrossel `5` telas
 
 > **Versão sem data marcada.** As turmas presenciais são em São Paulo, então cidade não é pergunta. O que falta é data. Esse post ensina de graça, deixa claro onde a turma acontece, e abre a porta pra quem quer ser avisado. A versão de anúncio está no fim do arquivo.
 

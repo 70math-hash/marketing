@@ -1,5 +1,5 @@
-# Semana 3, sábado, `9h`
-**Série:** O Erro Que Me Custou Caro · **Formato:** Reels `40s` ou carrossel `4` telas
+# Reels · O Erro Que Me Custou Caro
+**Formato:** Reels `40s` ou carrossel `4` telas
 
 > **Precisa da tua entrada.** Esse post só funciona com um erro real teu. O molde e o exemplo abaixo mostram a estrutura, mas a história precisa ser tua, senão perde exatamente o que faz esse formato funcionar.
 

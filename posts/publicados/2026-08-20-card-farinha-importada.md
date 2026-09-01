@@ -1,5 +1,5 @@
-# Semana 1, quinta, `23h30`
-**Série:** Opinião Impopular · **Formato:** card único ou Reels `30s`
+# Card · Opinião Impopular · PUBLICADO `20/08` `23h30`
+**Formato:** card único
 
 ## Card
 
