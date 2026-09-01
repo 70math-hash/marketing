@@ -1,6 +1,7 @@
 # Card · Forno de Casa
-**Frase:** Açúcar na massa é erro na pizzaria e é acerto no forno de casa.
-**Arte:** a fazer, esperando a direção visual nova
+**Frase:** A mesma massa nos dois, e o que muda é o tempo lá dentro.
+**Arte:** `saida/cards/s08-dom-forno-de-casa-palida.png`, layout `comparativo` em fundo tinta
+**Imagens:** as duas pizzas são geradas, feitas no Firefly a partir de uma só, com a de casa saindo por Generative Fill da metade da primeira
 **Slot:** domingo `10h30`, Público B
 
 > **Números pra você conferir.** As faixas abaixo eu escrevi a partir de prática corrente de massa assada em forno baixo. Você é quem sabe. Confere antes de publicar, principalmente as porcentagens e o tempo de preaquecimento.
@@ -17,7 +18,7 @@ Porque pizza pálida é a queixa número um de quem assa em casa, e a explicaç�
 
 ## Legenda
 
-Açúcar na massa é erro na pizzaria e é acerto no forno de casa.
+A mesma massa nos dois, e o que muda é o tempo lá dentro.
 
 Sua pizza sai pálida e a da pizzaria sai pintada, e a explicação não está na farinha nem no fermento. Está no relógio.
 

@@ -55,7 +55,7 @@ Legenda curta neste slot. As outras duas faixas carregam texto longo e a foto j�
 
 | # | Peça | Estado |
 |---|---|---|
-| `1` | [Açúcar na massa é acerto no forno de casa](../posts/fila/domingo-1-forno-de-casa-palida.md) | legenda pronta, arte pendente |
+| `1` | [A mesma massa nos dois, e o que muda é o tempo lá dentro](../posts/fila/domingo-1-forno-de-casa-palida.md) | arte e legenda prontas |
 | `2` | Hidratação alta no forno de casa é armadilha | pauta |
 | `3` | Pedra ou aço muda mais que trocar de farinha | pauta |
 | `4` | Muçarela de supermercado solta água | pauta |
@@ -99,7 +99,7 @@ Uma vez por mês, olhando a aba Por série da planilha. A fila muda com base no 
 | Ter `01/09` | `14h30` | Carrossel `75%` de hidratação | `saida/s01-ter-hidratacao-75/` |
 | Qui `03/09` | `23h30` | Card forno caro | `saida/cards/s03-qui-forno-caro.png` |
 | Sáb `05/09` | `9h` | Foto Tacacá Sbagliato | arquivo do Matheus, `2` fotos |
-| Dom `06/09` | `10h30` | Card forno de casa, pizza pálida | arte pendente |
+| Dom `06/09` | `10h30` | Card forno de casa, pizza pálida | `saida/cards/s08-dom-forno-de-casa-palida.png` |
 | Ter `08/09` | `14h30` | Carrossel `48h` de maturação | `saida/s02-ter-maturacao-48h/` |
 | Qui `10/09` | `23h30` | Card temperatura da água | `saida/cards/s06-qui-temperatura-agua.png` |
 | Sáb `12/09` | `9h` | Foto de arquivo | escolher a foto |

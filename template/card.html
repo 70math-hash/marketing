@@ -5,6 +5,7 @@
 <style>
   @font-face{font-family:Literata;src:url(assets/fonts/literata-latin-700-normal.woff2)format("woff2");font-weight:700;font-display:block}
   @font-face{font-family:"Source Sans 3";src:url(assets/fonts/source-sans-3-latin-600-normal.woff2)format("woff2");font-weight:600;font-display:block}
+  @font-face{font-family:"IBM Plex Mono";src:url(assets/fonts/ibm-plex-mono-latin-500-normal.woff2)format("woff2");font-weight:500;font-display:block}
   :root{--tinta:#1B1A17;--papel:#F3EFE6;--verde:#33503F;--neutro:#8A8578}
   *{margin:0;padding:0;box-sizing:border-box}
   body{background:#4a4a48}
@@ -34,6 +35,25 @@
   .recorte .rodape{position:absolute;right:96px;bottom:96px;z-index:3;
                    width:auto;justify-content:flex-end}
 
+  /* comparativo: duas fotos lado a lado com o numero de cada uma embaixo.
+     Vai em fundo tinta porque o assunto e contraste, e a peca pálida
+     desaparece contra o papel. */
+  .comparativo{background:var(--tinta);color:var(--papel)}
+  .comparativo .eyebrow{color:#9a958a}
+  .comparativo .par{flex:none;display:flex;align-items:flex-end;justify-content:center;
+                    gap:48px;margin-top:72px}
+  .comparativo .lado{display:flex;flex-direction:column;align-items:center;gap:34px;width:420px}
+  .comparativo .lado img{width:100%;height:auto;
+                         filter:drop-shadow(0 22px 44px rgba(0,0,0,.55))}
+  .comparativo .num{font-family:"IBM Plex Mono",ui-monospace,monospace;font-weight:500;
+                    font-size:56px;letter-spacing:-.02em;line-height:1}
+  .comparativo .onde{font-family:"Source Sans 3",system-ui,sans-serif;font-weight:600;
+                     font-size:23px;letter-spacing:.19em;text-transform:uppercase;
+                     color:#9a958a;margin-top:-16px}
+  .comparativo .frase{flex:none;margin-top:84px}
+  .comparativo .rodape{margin-top:auto}
+  .comparativo .rodape img.mr{height:58px}
+
   /* disco: a foto entra no sistema do disco, no canto de baixo a direita */
   .disco-var .frase{margin-top:106px}
   .disco-var .aro{position:absolute;right:-104px;bottom:-104px;width:640px;height:640px;z-index:1}
@@ -53,23 +73,28 @@ const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[
 // a frase encolhe conforme cresce; com foto ela cede largura, entao encolhe antes
 const corpo=(t,comFoto)=>{const n=t.length;const b=n<=46?104:n<=64?90:n<=84?78:n<=110?66:58;
   return comFoto?Math.round(b*.88):b;};
+const tam=(c,comFoto)=>c.layout==="comparativo"?Math.round(corpo(c.frase,true)*.72):corpo(c.frase,comFoto);
 
 document.body.innerHTML=d.cards.map(c=>{
   const layout=c.layout||"so-texto";
   const comFoto=layout!=="so-texto";
-  const largura=layout==="recorte"?"max-width:790px":layout==="disco-var"?"max-width:660px":"";
+  const largura=layout==="recorte"?"max-width:790px":layout==="disco-var"?"max-width:660px":layout==="comparativo"?"max-width:830px":"";
   let arte="";
   if(layout==="recorte") arte=`<img class="foto" src="${esc(c.foto)}" alt="">`;
   if(layout==="disco-var") arte=`<div class="aro"><div class="rec"><img src="${esc(c.foto)}" alt=""></div></div>`;
+  if(layout==="comparativo") arte=`<div class="par">`+(c.lados||[]).map(l=>
+    `<div class="lado"><img src="${esc(l.foto)}" alt="">`+
+    `<span class="num">${esc(l.numero)}</span>`+
+    `<span class="onde">${esc(l.onde)}</span></div>`).join("")+`</div>`;
   // com foto o filete verde sai: a foto ja e o ponto de cor, e o manual
   // nao admite dois acentos competindo
   const filete = comFoto ? "<span></span>" : '<span class="filete"></span>';
   return `<section class="tela ${layout}" data-nome="${esc(c.arquivo)}">
     <span class="eyebrow">${esc(c.eyebrow||"Opinião impopular")}</span>
     ${arte}
-    <p class="frase" style="font-size:${corpo(c.frase,comFoto)}px;${largura}">${esc(c.frase)}</p>
+    <p class="frase" style="font-size:${tam(c,comFoto)}px;${largura}">${esc(c.frase)}</p>
     <div class="rodape">
-      <img class="mr" src="assets/logo/monograma-tinta.png" alt="MR">
+      <img class="mr" src="assets/logo/monograma-${layout==="comparativo"?"papel":"tinta"}.png" alt="MR">
       ${filete}
     </div>
   </section>`;}).join("");

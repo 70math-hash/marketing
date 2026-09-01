@@ -30,6 +30,24 @@
       "eyebrow": "Opinião impopular",
       "layout": "so-texto",
       "frase": "Muita napoletana no Brasil copia o gesto e ignora o parâmetro."
+    },
+    {
+      "arquivo": "s08-dom-forno-de-casa-palida",
+      "eyebrow": "Forno de casa",
+      "layout": "comparativo",
+      "lados": [
+        {
+          "foto": "assets/fotos/forno-450-pizzaria.png",
+          "numero": "450°C",
+          "onde": "90 segundos"
+        },
+        {
+          "foto": "assets/fotos/forno-250-casa.png",
+          "numero": "250°C",
+          "onde": "10 minutos"
+        }
+      ],
+      "frase": "A mesma massa nos dois, e o que muda é o tempo lá dentro."
     }
   ]
 }
