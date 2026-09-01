@@ -24,6 +24,8 @@ E tem uma ironia nisso. Forno potente é menos tolerante, não mais. A `450°C` 
 
 Antes de olhar preço de forno, olha três coisas na tua massa: se ela fecha o ponto de véu, qual a temperatura final dela na saída da batida e quanto tempo real ela fermentou. Resolvendo esses três, o forno que você já tem provavelmente entrega mais do que você imagina.
 
+Você já trocou de forno achando que ia resolver a massa? Comenta aí, quero saber quantos passaram por isso.
+
 MR · #cadagramatemumporque
 
 ## Se for Reels
