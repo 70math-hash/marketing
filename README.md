@@ -18,7 +18,7 @@ Objetivo: aumentar alcance e número de seguidores para depois lançar o curso o
 - [`diagnostico.md`](estrategia/diagnostico.md) leitura dos números do perfil e onde a retenção vaza
 - [`series-e-retencao.md`](estrategia/series-e-retencao.md) as quatro séries de conteúdo e a mecânica de retenção em três camadas
 - [`horarios.md`](estrategia/horarios.md) janelas de publicação e a grade semanal
-- [`calendario-30dias.md`](estrategia/calendario-30dias.md) pauta fechada das quatro primeiras semanas
+- [`fila.md`](estrategia/fila.md) o que é o próximo em cada slot, sem data e sem atraso
 - [`revisao-01-09.md`](estrategia/revisao-01-09.md) revisão depois de 12 dias, com a grade reduzida para `2` posts por semana
 
 ## Posts
