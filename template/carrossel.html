@@ -77,7 +77,11 @@
 <script>
 (function(){
   const d = JSON.parse(document.getElementById('dados').textContent);
-  const total = d.telas.length + 2;               // capa + telas + fecho
+  // foto_na_posicao reserva um lugar para uma imagem que entra na mao,
+  // direto no Instagram. Os contadores pulam essa posicao.
+  const foto = d.foto_na_posicao || 0;
+  const total = d.telas.length + 2 + (foto ? 1 : 0);
+  const desloca = i => (foto && i >= foto) ? i + 1 : i;
   const esc = s => String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
   // `65%` vira <span class=n>65%</span>, respeitando a regra de numero em mono
   const mono = s => esc(s).replace(/`([^`]+)`/g, '<span class="n">$1</span>');
@@ -96,8 +100,8 @@
   const dim = {1:300,2:250,3:196,4:160,5:134,6:116}[String(d.numero).length] || 104;
 
   const topo = i => `<div class="topo">
-      <span class="contador">${i}/${total}</span>
-      <span class="barra"><i style="width:${(i/total*100).toFixed(1)}%"></i></span></div>`;
+      <span class="contador">${desloca(i)}/${total}</span>
+      <span class="barra"><i style="width:${(desloca(i)/total*100).toFixed(1)}%"></i></span></div>`;
 
   const html = [
     `<section class="tela capa">
