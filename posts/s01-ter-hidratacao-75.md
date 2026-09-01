@@ -49,6 +49,12 @@ MR · #cadagramatemumporque
 
 A foto entra recortada em `4:5`, com o corte do cornicione e o alvéolo grande à direita do quadro.
 
-## Primeiro comentário, hashtags
+## Primeiro comentário
 
-#cadagramatemumporque #matheusramos #pizzacontemporanea #pizzanapoletana #longafermentacao #pizzaartesanal #pizzaiolo #hidratacao #pizza #pizzalovers #masamadre #gastronomia
+```
+#cadagramatemumporque
+```
+
+Só a de marca. As fontes de visualização do card de `20/08`, publicado com `11` hashtags, mostraram `83,6%` de feed, `14,8%` de stories e `1,1%` de perfil, somando `99,5%`. Sobrou no máximo `0,5%` para busca, explorar e hashtag somados, o que dá cerca de `14` contas em `2.769`.
+
+A hashtag de marca fica por arquivo, não por alcance: ela agrega a série num lugar só.
