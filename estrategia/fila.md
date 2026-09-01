@@ -19,10 +19,10 @@ O sábado existe por dois motivos. Ele resolve o terceiro slot sem exigir produ�
 
 | # | Peça | Estado |
 |---|---|---|
-| `1` | `75%` de hidratação | pronto |
-| `2` | `48h` de maturação | pronto |
-| `3` | `W300`, força da farinha | pronto |
-| `4` | `450°C` no forno | pronto |
+| ~~`1`~~ | ~~`75%` de hidratação~~ | **publicado `01/09`** |
+| `2` | [`48h` de maturação](../posts/fila/carrossel-1-maturacao-48h.md) | pronto |
+| `3` | [`W300`, força da farinha](../posts/fila/carrossel-2-forca-w300.md) | pronto |
+| `4` | [`450°C` no forno](../posts/fila/carrossel-3-temperatura-450.md) | pronto |
 
 A ordem não é arbitrária. `65%` abre porque hidratação é o número que a audiência já persegue, e o carrossel revela que ele depende de duas coisas que ela ignora. Abrir por `W300`, que seria a ordem pedagogicamente correta, começaria por um número que ninguém procura. Encontrar a pessoa onde ela está vale mais que a sequência lógica.
 
@@ -32,10 +32,10 @@ Cada peça anuncia a próxima na última tela, então a ordem está travada na a
 
 | # | Peça | Estado |
 |---|---|---|
-| `1` | Forno caro não conserta massa mal fermentada | arte e legenda prontas |
-| `2` | A maioria erra a temperatura da água e culpa a farinha | arte e legenda prontas |
-| `3` | Fermentação longa não é sinônimo de qualidade | arte e legenda prontas |
-| `4` | Muita napoletana no Brasil copia o gesto e ignora o parâmetro | pronto, decidir se entra |
+| `1` | [Forno caro não conserta massa mal fermentada](../posts/fila/card-1-forno-caro.md) | arte e legenda prontas |
+| `2` | [A maioria erra a temperatura da água e culpa a farinha](../posts/fila/card-2-temperatura-agua.md) | arte e legenda prontas |
+| `3` | [Fermentação longa não é sinônimo de qualidade](../posts/fila/card-3-fermentacao-longa.md) | arte e legenda prontas |
+| `4` | [Muita napoletana no Brasil copia o gesto e ignora o parâmetro](../posts/fila/card-4-napoletana.md) | pronto, decidir se entra |
 
 **Todo card termina com CTA de comentário.** Essa é a regra que saiu do post de `20/08`, que fez `3` comentários e fechava com "pede a ficha técnica da que você já usa", uma ação para executar fora do Instagram. O Pala e Pinsa fechava com "Comenta aqui se você usa o mesmo impasto" e é a comparação que vai dizer o tamanho do efeito.
 
