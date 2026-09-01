@@ -15,12 +15,40 @@
       "visitas": 41,
       "seguidores": 9,
       "nao_seguidores": 0.592,
-      "fontes": { "feed": 0.836, "stories": 0.148, "perfil": 0.011 }
+      "fontes": {
+        "feed": 0.836,
+        "stories": 0.148,
+        "perfil": 0.011
+      },
+      "hashtags": 11,
+      "cta_comentario": false
     },
     {
       "peca": "Pala e Pinsa, teglia e contemporânea",
       "publicado": "2026-08-26",
-      "lido_em": null
+      "lido_em": "2026-09-01",
+      "alcance": 2705,
+      "visualizacoes": 3633,
+      "salvamentos": 7,
+      "compartilhamentos": 5,
+      "comentarios": 9,
+      "curtidas": 86,
+      "reposts": 1,
+      "visitas": 8,
+      "seguidores": 2,
+      "nao_seguidores": 0.662,
+      "hashtags": 5,
+      "cta_comentario": true,
+      "duracao_s": 53,
+      "tempo_medio_s": 13,
+      "taxa_pulados": 0.416,
+      "fontes": {
+        "aba_reels": 0.437,
+        "feed": 0.281,
+        "stories": 0.2,
+        "explorar": 0.064,
+        "perfil": 0.009
+      }
     }
   ]
 }
