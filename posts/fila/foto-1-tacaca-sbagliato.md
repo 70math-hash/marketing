@@ -18,18 +18,26 @@ As duas são paisagem em `3:2`. Passa dentro do limite do Instagram sem corte, m
 Tacacá Sbagliato
 
 Pizza in teglia de:
-- tucupi
-- cordeiro
-- jambu
-- melado de cana
-- wakame
-- limão siciliano
 
-Uma pizza que veio de revisitar um clássico brasileiro e foi criada pro @spgastronomia mas que ganhou meu coração e que já estou com saudade.
+* tucupi
+* cordeiro
+* jambu
+* melado de cana
+* wakame
+* limão siciliano
+
+
+Sbagliato quer dizer errado em italiano, e o "errado" aqui foi trocar o camarão por cordeiro.
+
+Foi criada pro @spgastronomia, revisitando um clássico brasileiro. Só que ela ganhou meu coração e eu já estou com saudade.
+
+E o melhor detalhe eu só enxerguei depois de pronta. Tucupi, cordeiro, melado e wakame têm todos uma nota lática, de queijo curado. Se quando se fala de pizza, quase sempre se fala de queijo, achar este aroma fora dele é sempre um desafio. 
 
 E quando eu fico com saudade, pode ser que venha pro menu da QT.
 
 Me conta aí o que você achou e se você também quer provar.
+
+MR · #cadagramatemumporque
 
 ## Versão técnica, guardada
 
