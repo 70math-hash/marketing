@@ -1,0 +1,65 @@
+# Anúncios da QT · Meta Ads
+
+Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, com preto `#1A1E1E`, cinza `#A0A5A5`, branco `#EFECEC` e Helvetica, e o tom da casa. Nada daqui vai para o @matheus__ramos, e nada da identidade MR entra nos anúncios da QT.
+
+## O que tem aqui
+
+| Arquivo | O que é |
+|---|---|
+| [`apostila-meta-ads.md`](apostila-meta-ads.md) | a apostila: leilão, estrutura, objetivos, conta, público, criativo, verba, passo a passo no Gerenciador, medição, rotina, erros e exercícios com resposta |
+| [`plano-de-largada.md`](plano-de-largada.md) | as duas primeiras campanhas prontas para montar: fichas técnicas, roteiros, textos, atendimento no WhatsApp, as quatro semanas, o teste do mês `2` e a campanha de confraternização |
+| [`meta-ads-qt.xlsx`](meta-ads-qt.xlsx) | a planilha: Calculadora, Campanhas, Semanal, Criativos, Checklist e Como ler |
+| [`planilha.py`](planilha.py) | gera a planilha |
+
+## Ordem de uso
+
+1. Ler os módulos `0` a `3` da apostila.
+2. Trocar os exemplos da aba Calculadora pelos números da QT: ticket sem os `13%`, CMV, impostos e taxas.
+3. Fazer a semana `0` do plano de largada.
+4. Publicar numa terça de manhã e não mexer por três dias.
+5. Toda segunda, `30` minutos na aba Semanal.
+
+## Os números de partida
+
+Todos saem dos exemplos da Calculadora e mudam quando os da QT entrarem.
+
+| | |
+|---|---|
+| Margem de contribuição | `59%` |
+| Empate por pessoa atendida, com tributo | `R$ 88,50` |
+| Meta por pessoa atendida, com tributo | `R$ 44,25` |
+| Meta de custo por conversa, no Gerenciador | `R$ 20,65` |
+| Verba recomendada | `R$ 65` por dia, `R$ 2.219,69` por mês na fatura |
+| Projeção com conversa a `R$ 12` | `66` pessoas no mês, resultado de `R$ 3.657,26` |
+
+## A planilha
+
+| Aba | O que faz |
+|---|---|
+| Calculadora | quanto a QT pode pagar por conversa, reserva e pessoa, a projeção do mês e o teste de estresse |
+| Campanhas | a ficha técnica de cada campanha, com a verba diária e a conferência contra a Calculadora |
+| Semanal | toda segunda: números do Gerenciador, do WhatsApp e do livro de reservas, com custo real por pessoa, ROAS e a leitura contra a meta |
+| Criativos | um anúncio por linha, com taxa de gancho, retenção, CTR, custo por conversa e uma sugestão do que fazer |
+| Checklist | semana `0`, antes de publicar e primeira semana, com contador |
+| Como ler | glossário, faixas de referência e as regras de decisão |
+
+Amarelo é o que se preenche, branco QT é o que se calcula, número azul é entrada. A Semanal e a Criativos têm uma linha `EXEMPLO` em cinza, só para mostrar o formato.
+
+**Cuidado ao rodar o script de novo.** `python3 anuncios-qt/planilha.py` reconstrói o arquivo do zero e apaga o que foi preenchido. Ele existe para mudar a estrutura, não para atualizar números. Precisa da biblioteca `openpyxl`.
+
+## Verificação das fórmulas
+
+O LibreOffice não abre arquivos neste ambiente, então as fórmulas foram conferidas como na pasta [`analise/`](../analise/README.md): a planilha foi preenchida com dados de teste e calculada com a biblioteca `formulas`, comparando `65` resultados com as contas da apostila, inclusive todos os caminhos da coluna Sugestão e as três leituras da Semanal. Nenhuma das `1.067` células calculadas deu erro, nem com a planilha vazia. O arquivo vem marcado para o Excel recalcular tudo ao abrir.
+
+Vale repetir essa verificação se alguém mexer nas fórmulas.
+
+## O que só a QT pode preencher
+
+- Como a reserva é feita hoje. Se for por plataforma com link, a campanha principal troca para Tráfego.
+- Ticket médio sem os `13%`, CMV, impostos, taxas, comparecimento, pessoas por reserva e lugares que sobram de terça a quinta.
+- Nos textos do WhatsApp: horário, endereço, links, tolerância da reserva e a proposta para grupo.
+- Nos anúncios: os textos citam "entre as `100` melhores do mundo pelo 50 Top Pizza desde `2022`" e "Pizza Maker of the Year `2024`". Se quiser citar a posição de `2025` ou `2026`, troque no plano antes de subir.
+
+## Validade
+
+As regras da plataforma foram conferidas em `05/10/2026`. O Meta muda interface e política com frequência, então vale reler a apostila a cada seis meses, começando pelas fontes listadas no fim dela.
