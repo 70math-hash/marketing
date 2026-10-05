@@ -5,7 +5,8 @@
   "description": "Conteudo do Instagram @matheus__ramos",
   "scripts": {
     "render": "node template/render.mjs",
-    "apostila": "node anuncios-qt/apostila-pdf.mjs"
+    "apostila": "node anuncios-qt/apostila-pdf.mjs",
+    "roteiros": "node anuncios-qt/roteiros-pdf.mjs"
   },
   "devDependencies": {
     "marked": "^18.1.0",

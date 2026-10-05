@@ -12,7 +12,7 @@ Objetivo: aumentar alcance e número de seguidores para depois lançar o curso o
 | `posts/` | As `16` peças do mês, roteirizadas |
 | `template/` | Template de carrossel que gera os PNG |
 | `saida/` | Os PNG prontos pra postar |
-| `anuncios-qt/` | Meta Ads da QT Pizza Bar: apostila em markdown e PDF, plano de largada e planilha. É marca da QT e fica isolada nesta pasta |
+| `anuncios-qt/` | Meta Ads da QT Pizza Bar: apostila em markdown e PDF, plano de largada, planilha e os roteiros dos vídeos. É marca da QT e fica isolada nesta pasta |
 
 ## Estratégia
 

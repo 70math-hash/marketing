@@ -26,7 +26,7 @@ O que depende de informação que só a QT tem vem marcado entre colchetes, como
 | `7` | Acrescentar a coluna "origem" no livro de reservas e treinar a pergunta "como conheceu a QT?" | gerente | `9.2` |
 | `8` | Levantar o ticket médio sem os `13%` e preencher a aba Calculadora | Matheus | `7.2` |
 | `9` | Anotar os couverts de terça a quinta das `4` últimas semanas, para a comparação de antes e depois | gerente | `9.4` |
-| `10` | Separar ou gravar os `6` criativos abaixo | Matheus e equipe | `6` |
+| `10` | Gravar os criativos pelo [plano de filmagem](roteiros/00-plano-de-filmagem.md) e montar os vídeos pelos roteiros | Matheus e equipe | `6` |
 | `11` | Montar as campanhas A e B no Gerenciador, ainda sem publicar | Matheus | `8` |
 | `12` | Publicar numa terça de manhã, com a equipe avisada | Matheus | `8.1` |
 
@@ -74,18 +74,11 @@ A mesma lista está na aba Checklist da planilha, com a coluna de feito.
 
 Todo texto na tela respeita a zona segura do `9:16`: nada nos `14%` de cima, nos `35%` de baixo e nos `6%` de cada lado. Som do forno e da crosta, sem música genérica.
 
-Quatro dos seis criativos saem de **um único dia de produção**: uma câmera em tripé na boca do forno durante o serviço de uma terça, mais dez minutos filmando o salão às `20h`. Se o @qtpizzabar já tem Reels com essas cenas e boa retenção, use a publicação existente.
+Os criativos saem de **uma diária só**, detalhada no [plano de filmagem](roteiros/00-plano-de-filmagem.md). Cada vídeo tem roteiro próprio em [`roteiros/`](roteiros/README.md), com storyboard, decupagem, como filmar, como montar e checklist, e é ele que vale para a gravação. Se o @qtpizzabar já tem Reels com essas cenas e boa retenção, use a publicação existente.
 
 ### A1 · `DEST_REELS_FORNO_v1`
 
-Reels `9:16`, de `20` a `25` segundos. Ângulo destino.
-
-| Tempo | Imagem | Texto na tela |
-|---|---|---|
-| `0` a `3` s | a pizza entra no forno e a borda começa a estufar | `400°C` |
-| `3` a `10` s | close no cornicione crescendo, a pá girando a pizza | `48h de fermentação` |
-| `10` a `18` s | o corte mostrando a alveolatura, a primeira fatia saindo | `Entre as 100 melhores pizzarias do mundo · 50 Top Pizza` |
-| `18` a `25` s | a mesa no salão, o símbolo da QT | `Jardins · reserve pelo WhatsApp` |
+Reels `9:16`, `22` segundos. Ângulo destino. O forno, a borda, o corte e as três provas na tela. Roteiro: [`01-a1-o-forno`](roteiros/01-a1-o-forno.md).
 
 **Texto principal.** Desde 2022 a QT está entre as 100 melhores pizzarias do mundo no ranking 50 Top Pizza. A massa fermenta no mínimo 48 horas a 4°C e o forno trabalha a 400°C. A mesa fica nos Jardins, e a reserva é por aqui.
 
@@ -95,14 +88,7 @@ Reels `9:16`, de `20` a `25` segundos. Ângulo destino.
 
 ### A2 · `OCAS_REELS_SALAO_v1`
 
-Reels `9:16`, de `15` a `20` segundos. Ângulo ocasião.
-
-| Tempo | Imagem | Texto na tela |
-|---|---|---|
-| `0` a `3` s | o salão às `20h`, a câmera atravessando até uma mesa | `Terça à noite, nos Jardins` |
-| `3` a `10` s | mãos dividindo a pizza, o drink chegando à mesa | |
-| `10` a `15` s | a mesa vista de cima, a conversa acontecendo | `Aquele lugar para ficar mais um pouquinho` |
-| `15` a `20` s | o símbolo da QT | `Reserve pelo WhatsApp` e, pequeno, `Evite o consumo excessivo de álcool` |
+Reels `9:16`, `18` segundos. Ângulo ocasião. A Margherita chegando à mesa numa terça, o salão e a conversa. Roteiro: [`02-a2-terca-a-noite`](roteiros/02-a2-terca-a-noite.md).
 
 **Texto principal.** Terça também é dia de sair para jantar. Pizza napolitana, um drink bem feito e aquela mesa onde a conversa estica mais um pouquinho. Fica nos Jardins, de terça a domingo, no jantar. Chama no WhatsApp que a gente separa a sua mesa. Evite o consumo excessivo de álcool.
 
@@ -110,7 +96,7 @@ Reels `9:16`, de `15` a `20` segundos. Ângulo ocasião.
 
 **Botão.** Enviar mensagem
 
-O drink aparece, então a advertência vai no texto e na tela. A idade mínima de `18` já está no conjunto.
+O drink aparece, então a advertência vai no texto e na tela, todo mundo em cena tem `25` anos ou mais e ninguém bebe na frente da câmera. A idade mínima de `18` já está no conjunto.
 
 ### A3 · `PROC_CARROSSEL_48H_v1`
 
@@ -143,13 +129,7 @@ Foto `4:5`. Ângulo destino.
 
 ### B1 · `VIT_REELS_BORDA_v1`
 
-Reels `9:16`, de `10` a `15` segundos. Vitrine.
-
-| Tempo | Imagem | Texto na tela |
-|---|---|---|
-| `0` a `3` s | a borda estufando, em tempo real | `400°C` |
-| `3` a `10` s | a pizza saindo na pá, o corte | |
-| `10` a `15` s | o símbolo da QT | `QT Pizza Bar · Jardins` |
+Reels `9:16`, `12` segundos. Vitrine. A borda crescendo em tempo real, sem corte, e o nome da casa. Roteiro: [`03-b1-a-borda`](roteiros/03-b1-a-borda.md).
 
 **Texto principal.** O que acontece com a borda a 400°C. QT Pizza Bar, nos Jardins, de terça a domingo no jantar.
 
@@ -157,11 +137,7 @@ Reels `9:16`, de `10` a `15` segundos. Vitrine.
 
 ### B2 · `VIT_REELS_SALAO_v1`
 
-Reels `9:16`, de `10` a `15` segundos. Vitrine.
-
-**Imagem.** O salão se enchendo, a luz baixando, as mesas, o bar.
-
-**Texto na tela.** `Aquele lugar onde você quer ficar mais um pouquinho`, depois `QT Pizza Bar · Jardins` e, pequeno, `Evite o consumo excessivo de álcool`.
+Reels `9:16`, `13` segundos. Vitrine. O salão enchendo em time-lapse e uma mesa de perto. Roteiro: [`04-b2-o-salao`](roteiros/04-b2-o-salao.md).
 
 **Texto principal.** Pizza napolitana, drinks e uma mesa para ficar mais um pouco. QT Pizza Bar, nos Jardins. Evite o consumo excessivo de álcool.
 
@@ -239,7 +215,7 @@ Outubro é quando as empresas começam a fechar a confraternização de dezembro
 | Nome | `QT_GRP_WPP` |
 | Objetivo | Engajamento com WhatsApp, ou Cadastros com formulário se a QT quiser nome da empresa, data e número de pessoas já na entrada |
 | Público | raio de `3` a `6` km, idade mínima de `18` |
-| Criativo | a mesa comprida, o grupo dividindo as pizzas, o salão reservado |
+| Criativo | a mesa comprida, o grupo dividindo as pizzas, o salão reservado. Roteiro e texto do anúncio: [`05-g1-a-mesa-comprida`](roteiros/05-g1-a-mesa-comprida.md) |
 | Mensagem pré-preenchida | Oi! Quero orçar uma confraternização na QT. |
 | Etiqueta | `Grupo` |
 | Pré-requisito | a QT definir a proposta para grupo: `[formato, valor por pessoa, mínimo de pessoas]` |
