@@ -7,9 +7,11 @@ Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, 
 | Arquivo | O que é |
 |---|---|
 | [`apostila-meta-ads.md`](apostila-meta-ads.md) | a apostila: leilão, estrutura, objetivos, conta, público, criativo, verba, passo a passo no Gerenciador, medição, rotina, erros e exercícios com resposta |
+| [`apostila-meta-ads.pdf`](apostila-meta-ads.pdf) | a mesma apostila em PDF, `28` páginas A4 na identidade da QT, com capa, sumário, gabarito separado e marcadores de navegação |
 | [`plano-de-largada.md`](plano-de-largada.md) | as duas primeiras campanhas prontas para montar: fichas técnicas, roteiros, textos, atendimento no WhatsApp, as quatro semanas, o teste do mês `2` e a campanha de confraternização |
 | [`meta-ads-qt.xlsx`](meta-ads-qt.xlsx) | a planilha: Calculadora, Campanhas, Semanal, Criativos, Checklist e Como ler |
 | [`planilha.py`](planilha.py) | gera a planilha |
+| [`apostila-pdf.mjs`](apostila-pdf.mjs) | gera o PDF a partir do markdown |
 
 ## Ordem de uso
 
@@ -46,6 +48,21 @@ Todos saem dos exemplos da Calculadora e mudam quando os da QT entrarem.
 Amarelo é o que se preenche, branco QT é o que se calcula, número azul é entrada. A Semanal e a Criativos têm uma linha `EXEMPLO` em cinza, só para mostrar o formato.
 
 **Cuidado ao rodar o script de novo.** `python3 anuncios-qt/planilha.py` reconstrói o arquivo do zero e apaga o que foi preenchido. Ele existe para mudar a estrutura, não para atualizar números. Precisa da biblioteca `openpyxl`.
+
+## O PDF
+
+O texto mora no `.md`. Mexeu na apostila, gere o PDF de novo:
+
+```bash
+npm install
+npm run apostila
+```
+
+O sumário se numera sozinho: cada seção é impressa à parte numa passada prévia e as páginas são somadas. Na mesma passada, a seção que deixaria uma sobra pequena na última página é testada numa versão um pouco mais compacta, e fica com ela se a sobra sumir. Tabela curta não quebra entre páginas, tabela longa quebra repetindo o cabeçalho.
+
+A fonte é a Helvetica. No Linux o nome Helvetica cai na Liberation Sans, que é clone da Arial, então o CSS pede antes a FreeSans, que é clone da Helvetica. No Mac entra a Helvetica de verdade.
+
+O símbolo oficial da QT, o `QT_simbolopreto.png`, não está no repositório, e o manual pede o arquivo em vez de reconstrução. Por isso a capa leva só o nome da casa em texto. Com o arquivo na pasta, ele entra na capa.
 
 ## Verificação das fórmulas
 
