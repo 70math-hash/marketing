@@ -73,6 +73,9 @@ function qpsDe(arquivo) {
   return b ? a / b : a;
 }
 
+const duracaoDe = arquivo =>
+  Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', arquivo]).toString().trim());
+
 const segundos = v => v.toFixed(1).replace('.', ',');
 
 // ---------- camadas em png, no tamanho do vídeo ----------
@@ -136,12 +139,15 @@ try {
           ...H264, '-t', duracao, base);
         origem = FONTES[fonte];
       } else if (mat?.tipo === 'video') {
-        // acelerado e câmera lenta como manda a linha camera do roteiro
+        // acelerado, câmera lenta e time-lapse como manda a linha camera do roteiro
         const ritmo = [];
         const acelerado = (q.camera || '').match(/acelerad[oa] (\d+(?:,\d+)?)×/);
         if (acelerado) ritmo.push(`setpts=PTS/${acelerado[1].replace(',', '.')}`);
         const qps = qpsDe(mat.arquivo);
         if (/câmera lenta/.test(q.camera || '') && qps >= 90) ritmo.push(`setpts=PTS*${(qps / QPS).toFixed(4)}`);
+        // o time-lapse cabe inteiro no plano, do salão vazio ao cheio, como na edição
+        const total = duracaoDe(mat.arquivo);
+        if (/time-lapse/.test(q.camera || '') && total > duracao) ritmo.push(`setpts=PTS*${(duracao / total).toFixed(4)}`);
         ff('-i', mat.arquivo, '-an', '-vf',
           [...ritmo, `fps=${QPS}`, CHEIO, `tpad=stop_mode=clone:stop_duration=${duracao}`, 'setpts=PTS-STARTPTS'].join(','),
           ...H264, '-t', duracao, base);
