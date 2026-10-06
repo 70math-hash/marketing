@@ -118,10 +118,10 @@ O vocabulário que mais aparece:
 | de cima | top-down overhead shot |
 | aproximação lenta | slow push-in |
 | luz rasante | raking light, grazing light |
-| estabilizador | gimbal |
+| estabilizador | smooth, steady camera move |
 | quadro inicial e quadro final | start frame, end frame |
 
-No prompt de imagem, nunca escreva tripé nem celular: a IA desenha o tripé dentro do quadro. Diga a altura e o ângulo, como "70 cm acima da mesa, olhando para baixo", e feche com no camera equipment in frame.
+Em nenhum prompt escreva tripé, celular ou gimbal: a IA desenha o equipamento dentro do quadro, como aconteceu com o tripé no `M1` e com o estabilizador no `M6` do primeiro rascunho. Diga a altura e o ângulo, como "70 cm acima da mesa, olhando para baixo", e feche com no camera equipment in frame.
 
 Ajuste uma coisa por vez. Se a borda saiu derretendo, mude só a frase da ação e gere de novo: mudar tudo junto não ensina o que funcionou.
 
@@ -138,7 +138,7 @@ foto: tripé a 1,2 m da boca, com a câmera na altura do piso do forno, lente 3�
 quadro-chave: Use the reference photo for the exact camera position, lens and the real oven, and keep the oven exactly as it is. Vertical 9:16 frame seen from 1.2 m in front of the oven mouth, 3x telephoto lens, level with the oven floor. A Neapolitan Margherita has just been launched onto the oven floor: its rim fills the lower half of the frame, seen edge-on, still pale and only slightly puffed, with tomato and fior di latte just behind it. The live flame and the glowing dome fill the upper half, darker and out of focus. The fire is the only light. Photorealistic smartphone photo, natural color. No text, no logos, no people, no hands, no peel, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 6
-movimento: Locked-off static camera: no movement, no zoom. In real time, the pizza rim rises and puffs up, air bubbles inflate along it and dark leopard spotting appears; the cheese starts to bubble. Flames flicker in the background with heat shimmer. Nothing enters the frame: no peel, no hands. One continuous take, no cuts. Realistic physics, smartphone footage, natural color, no text.
+movimento: Locked-off static camera: no movement, no zoom. In real time, the pizza rim rises and puffs up, air bubbles inflate along it and dark leopard spotting appears; the cheese starts to bubble. Flames flicker in the background with heat shimmer. Nothing enters the frame: no peel, no hands. One continuous take, no cuts. Realistic physics, smartphone footage, natural color, no camera equipment in frame, no text.
 observar: A borda ocupa a metade de baixo e o alto fica escuro, que é onde o 400°C entra, em branco e sem tarja. / A lente 3× aproxima a borda sem aproximar o celular do calor; por isso o tripé fica a 1,2 m. / No A1 o plano dura 2,5 s acelerado 2×, ou seja, 5 s de borda; no B1 são 6 s em tempo real, e o clipe de 6 s serve aos dois.
 erra: A borda cresce rápido e regular demais, e as manchas saem todas iguais. No forno, o tempo é o do fogo: a previz mostra o enquadramento, e a tomada longa da diária garante o trecho bom.
 ```
@@ -150,7 +150,7 @@ foto: mesmo ponto do F1, lente 1×. No quadro: a boca do forno inteira, o piso e
 quadro-chave: Use the reference photo for the exact camera position, lens and the real oven, and keep the oven exactly as it is. Vertical 9:16 frame seen from 1.2 m in front of the oven, 1x lens, the whole oven mouth in frame. A Neapolitan Margherita bakes on the oven floor near the live flame; the round blade of a turning peel slides under it from the right, its long metal handle leaving the frame at the lower right. Firelight only. Photorealistic smartphone photo, natural color. No text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 4
-movimento: Static camera, no movement. The turning peel lifts the pizza slightly, rotates it a quarter turn toward the flame, then draws it out to the oven mouth and stops: the whole pizza rests on the peel facing the camera for the last second. Only the peel and the pizza move; the pizzaiolo stays out of frame except for the handle. Real speed, one take, no cuts. Realistic physics, smartphone footage, no text.
+movimento: Static camera, no movement. The turning peel lifts the pizza slightly, rotates it a quarter turn toward the flame, then draws it out to the oven mouth and stops: the whole pizza rests on the peel facing the camera for the last second. Only the peel and the pizza move; the pizzaiolo stays out of frame except for the handle. Real speed, one take, no cuts. Realistic physics, smartphone footage, no camera equipment in frame, no text.
 observar: A pá entra sempre pelo mesmo lado, o da direita no storyboard. / O último segundo, com a pizza parada na pá e de frente, é o quadro que congela e escurece na cartela do B1. / No A1, o texto 48 horas de fermentação ocupa o alto do quadro, então a pizza trabalha do meio para baixo.
 erra: A pá atravessa a pizza ou a pizza gira sozinha. Se acontecer duas vezes, simplifique a ação para só tirar a pizza, sem girar.
 ```
@@ -162,7 +162,7 @@ foto: tripé ao lado da boca, a 1 m, na altura da pá, lente 1×, apontado para 
 quadro-chave: Use the reference photo for the exact camera position, lens and the real oven. Vertical 9:16 frame seen from beside the oven mouth, 1x lens, at peel height. A just-baked Neapolitan Margherita on the peel is coming out of the oven toward the camera: puffed rim with leopard spotting, bubbling fior di latte, tomato, a few basil leaves, a little steam. The dark oven mouth with the glowing fire behind it. Warm firelight. Photorealistic smartphone photo, natural color. No text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 4
-movimento: Slow motion, as if shot at 120 fps and played at 30 fps. The peel carries the pizza steadily out of the oven toward the camera and stops before it reaches the lens; steam and heat rise from the pizza. Static camera. Only the peel and the pizza move. One take, no cuts. Realistic physics, smartphone footage, no text.
+movimento: Slow motion, as if shot at 120 fps and played at 30 fps. The peel carries the pizza steadily out of the oven toward the camera and stops before it reaches the lens; steam and heat rise from the pizza. Static camera. Only the peel and the pizza move. One take, no cuts. Realistic physics, smartphone footage, no camera equipment in frame, no text.
 observar: A pizza cresce no quadro e para antes de cobrir a faixa de baixo, que é do botão do anúncio. / O texto do plano anterior continua no alto, e a pizza não sobe até ele. / A câmera lenta é o que mostra o vapor: sem 120 qps na diária, o plano perde o motivo.
 erra: A velocidade muda no meio do movimento e a pizza deforma na pá. O ensaio serve para o caminho da pá e o ponto de parada.
 ```
@@ -188,7 +188,7 @@ foto: tripé na altura da bancada, de lado e paralelo ao tampo, a uns 20 cm da b
 quadro-chave: Use the reference photo for the exact camera position, lens and the real counter. Vertical 9:16 macro close-up at counter height, from the side, about 20 cm from the rim: a baked Neapolitan Margherita on a wooden board; a straight blade rests on the rim, about to cut straight down through it. A small LED panel from the left at a grazing angle rakes across the crust, and the background falls to dark. Photorealistic smartphone photo, natural color. No text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 4
-movimento: Locked-off macro close-up. The blade presses straight down slowly, in one continuous motion, and cuts through the rim; the crust cracks and the cross-section opens to show an open, airy crumb with large irregular alveoli. A few crumbs fall. The grazing light from the left reveals the texture. One take, no cuts. Realistic physics, smartphone footage, no text.
+movimento: Locked-off macro close-up. The blade presses straight down slowly, in one continuous motion, and cuts through the rim; the crust cracks and the cross-section opens to show an open, airy crumb with large irregular alveoli. A few crumbs fall. The grazing light from the left reveals the texture. One take, no cuts. Realistic physics, smartphone footage, no camera equipment in frame, no text.
 observar: A luz rasante da esquerda é o que desenha os alvéolos; de frente, eles somem. / O alto do quadro, até uns 650 px, é da tarja de três linhas e do rótulo 50 TOP PIZZA, então o corte acontece abaixo disso. / O corte é um movimento só, devagar.
 erra: A lâmina entra como se a massa fosse bolo, e a alveolatura sai regular demais. Troque straight blade pela ferramenta da QT: pizza wheel, rocker knife ou serrated knife.
 ```
@@ -200,7 +200,7 @@ foto: tripé alto, de cima em diagonal, a cerca de 45°, lente 1×. No quadro: a
 quadro-chave: Use the reference photo for the exact camera position, lens and the real counter. Vertical 9:16 frame, high angle at about 45 degrees: a whole baked Neapolitan Margherita on a wooden board, already cut into slices; fingers hold the first slice by its rim, ready to lift it. Soft warm side light. Photorealistic smartphone photo, natural color. No text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 4
-movimento: Slow motion, as if shot at 120 fps and played at 30 fps. The hand lifts the first slice up and away from the pizza; the melted fior di latte stretches into a few short strings and breaks naturally; steam rises. Camera locked. One take, no cuts. Realistic physics, smartphone footage, no text.
+movimento: Slow motion, as if shot at 120 fps and played at 30 fps. The hand lifts the first slice up and away from the pizza; the melted fior di latte stretches into a few short strings and breaks naturally; steam rises. Camera locked. One take, no cuts. Realistic physics, smartphone footage, no camera equipment in frame, no text.
 observar: A fatia sobe em direção ao meio do quadro, abaixo da tarja. / O foco fica na ponta da fatia, que é onde o queijo estica.
 erra: Estica o queijo em fios longos, como muçarela de rede de fast-food. O fior di latte da QT estica menos: o ensaio mostra o enquadramento, não a quantidade de queijo, e o prompt já pede fios curtos.
 ```
@@ -214,7 +214,7 @@ foto: tripé com braço, a 70 cm do tampo, de cima, lente 1×. No quadro: a mesa
 quadro-chave: Use the reference photo for the exact camera position, lens and the real table. Vertical 9:16 overhead shot looking straight down from 70 cm above the table: a waiter's hands are setting a whole Neapolitan Margherita down at the center of the table; two glasses of water at opposite corners, cutlery and napkins. Warm restaurant light with a soft fill. Photorealistic smartphone photo, natural color. No alcohol, no text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 4
-movimento: Locked overhead shot. The waiter's hands set the pizza down at the center and leave the frame; a wisp of steam rises; two diners' hands reach in from the bottom edge toward the pizza. No faces, no alcohol. Natural speed, one take, no cuts. Smartphone footage, no text.
+movimento: Locked overhead shot. The waiter's hands set the pizza down at the center and leave the frame; a wisp of steam rises; two diners' hands reach in from the bottom edge toward the pizza. No faces, no alcohol. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
 observar: A pizza no centro, abaixo da tarja Fica nos Jardins. / As mãos entram por baixo, nunca por cima, que é onde está o texto. / A 70 cm, a pizza ocupa mais da metade da largura do quadro.
 erra: Dedos a mais e pizza que muda de tamanho quando pousa.
 ```
@@ -226,7 +226,7 @@ foto: a mesma do M1.
 quadro-chave: Use the reference photo for the exact camera position, lens and the real table. Vertical 9:16 overhead shot looking straight down from 70 cm above the table: a waiter's hands are setting a whole Neapolitan Margherita down at the center of the table; a cocktail glass in the top-left corner and another at the lower right, both untouched; cutlery and napkins. Warm restaurant light with a soft side light from a small LED. Photorealistic smartphone photo, natural color. No text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 4
-movimento: Locked overhead shot. The pizza is set down at the center and steam rises from it against the darker tabletop; the waiter's hands leave the frame; the cocktail glasses stay still. Nobody drinks, no toast. Natural speed, one take, no cuts. Smartphone footage, no text.
+movimento: Locked overhead shot. The pizza is set down at the center and steam rises from it against the darker tabletop; the waiter's hands leave the frame; the cocktail glasses stay still. Nobody drinks, no toast. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
 observar: O vapor é o gancho do A2: o LED de lado, a 45°, faz o vapor aparecer contra o tampo. / O drink fica parado do começo ao fim, que é regra do CONAR.
 erra: Vapor de panela, exagerado, e mão que pega o copo. Se a IA puser alguém bebendo, o clipe não serve nem de referência.
 ```
@@ -239,7 +239,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 quadro-final: Use the reference photo for the exact camera position, lens and the real dining room. Vertical 9:16 frame at chest height, 1x lens, about 1 m from a table in the middle of the room: a Margherita and two untouched cocktails on the table, the hands of two guests, warm pendant light, background tables softly blurred, no recognizable faces. Photorealistic smartphone photo, natural color. No text, no logos, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 8
-movimento: Smooth gimbal shot at chest height. The camera walks slowly forward through the dining room and arrives at the table in the middle, ending on the Margherita and the two cocktails. Constant slow speed, no shake, no turns. Guests in the background stay soft; nobody drinks. One take, no cuts. Smartphone footage, natural color, no text.
+movimento: Smooth, stabilized shot at chest height. The camera walks slowly forward through the dining room and arrives at the table in the middle, ending on the Margherita and the two cocktails. Constant slow speed, no shake, no turns. Guests in the background stay soft; nobody drinks. One take, no cuts. Smartphone footage, natural color, no camera equipment in frame, no text.
 observar: É o único movimento do A2: 3,5 s de passos, ou uns 2 a 3 m de caminho, não mais. / Altura constante do começo ao fim; o joelho levemente dobrado amortece o passo. / A mesa de chegada termina no centro do quadro, abaixo da tarja nos Jardins.
 erra: Vira a câmera no meio do caminho ou acelera no fim, e gente aparece do nada. Se errar duas vezes, troque para o Kling 3.0 Turbo.
 ```
@@ -251,7 +251,7 @@ foto: tripé na altura da mesa, de lado, lente 2×. No quadro: o tampo na parte 
 quadro-chave: Use the reference photo for the exact camera position, lens and the real table. Vertical 9:16 side view at table height, 2x lens, focus on the hands: a hand on the left holds out a slice of Margherita across the table toward an open hand on the right; a cocktail glass rests beside a plate; the dining room behind is softly blurred. Warm light. Photorealistic smartphone photo, natural color. No text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 4
-movimento: Locked shot at table height, focus on the hands. The slice passes from the left hand to the right hand across the table; then a hand sets a cocktail glass down beside the plate and lets go. Nobody drinks, no toast. Natural speed, one take, no cuts. Smartphone footage, no text.
+movimento: Locked shot at table height, focus on the hands. The slice passes from the left hand to the right hand across the table; then a hand sets a cocktail glass down beside the plate and lets go. Nobody drinks, no toast. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
 observar: A lente 2× desfoca o fundo e isola as mãos. / A passagem acontece no meio do quadro, abaixo das duas linhas da tarja. / O copo pousa e fica.
 erra: A fatia dobra, some ou se duplica no meio da passagem.
 ```
@@ -263,7 +263,7 @@ foto: tripé com braço mais alto que o do M2, uns 1,2 m acima do tampo. No quad
 quadro-chave: Use the reference photo for the exact camera position, lens and the real table. Vertical 9:16 top-down shot from about 1.2 m above the tabletop: the whole table, the Margherita half eaten, two untouched cocktails, plates and napkins, the hands and forearms of two people in conversation. Warm restaurant light. Photorealistic smartphone photo, natural color. No text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 6
-movimento: Locked overhead shot. Hands gesture as the two people talk and laugh; one hand takes a slice; the glasses stay on the table, untouched. Nobody drinks. Natural speed, one take, no cuts. Smartphone footage, no text.
+movimento: Locked overhead shot. Hands gesture as the two people talk and laugh; one hand takes a slice; the glasses stay on the table, untouched. Nobody drinks. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
 observar: Mais alto que o M2: a mesa cabe inteira e sobra tampo nas bordas. / A tarja de três linhas ocupa o alto, e lá fica tampo ou prato, nunca as mãos. / As taças ficam paradas o plano inteiro.
 erra: Mãos demais na mesa e copos que se mexem sozinhos.
 ```
@@ -275,7 +275,7 @@ foto: na altura da mesa, lente 1×, a 3 m da mesa do meio. No quadro: a mesa, as
 quadro-chave: Use the reference photo for the exact camera position, lens and the real dining room, and keep the architecture exactly as it is. Vertical 9:16 frame at table height, 1x lens, about 3 m from a table in the middle of the room: a Margherita in the center, two glasses, the hands of two guests; the background tables occupied and out of focus; aged brick, black-and-white details, dark navy benches and warm pendant lights visible. Photorealistic smartphone photo, natural color. No text, no logos, no recognizable faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 6
-movimento: Slow, steady gimbal push-in at table height toward the table, ending about 1 m from the pizza. Constant speed, no shake, no turns. The guests' hands move naturally; nobody drinks. The background stays soft. One take, no cuts. Smartphone footage, natural color, no text.
+movimento: The camera glides slowly forward at table height toward the table, a smooth and steady push-in that ends about 1 m from the pizza. Constant speed, no shake, no turns. The guests' hands move naturally; nobody drinks. The background stays soft. One take, no cuts. Smartphone footage, natural color, no camera equipment in frame, no text.
 observar: O tijolo, o preto e branco e os bancos azul-escuro precisam estar no quadro: são a assinatura da casa. / O último quadro congela na cartela do B2, então a aproximação termina numa imagem parada e bonita.
 erra: Troca a arquitetura: inventa janela, muda o tijolo, acende luz que a casa não tem. É para isso que serve a foto de referência.
 ```
@@ -290,7 +290,7 @@ quadro-chave: foto
 quadro-final: Use the reference photo for the exact camera position, lens and the real dining room, and keep everything identical. The same view at night with the house full: every table occupied, people small in the frame and not recognizable, the pendant lights glowing warm, the window dark. Photorealistic smartphone photo, ultra-wide lens, natural color. No text, no logos, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 8
-movimento: Time-lapse from a fixed high corner, ultra-wide lens: the dining room fills up, from empty to full, while the daylight in the window fades to night and the pendant lights take over. People appear as quick blurred motion, with no recognizable faces. Locked camera. Smartphone footage, natural color, no text.
+movimento: Time-lapse from a fixed high corner, ultra-wide lens: the dining room fills up, from empty to full, while the daylight in the window fades to night and the pendant lights take over. People appear as quick blurred motion, with no recognizable faces. Locked camera. Smartphone footage, natural color, no camera equipment in frame, no text.
 observar: O canto alto deixa as pessoas pequenas, e é isso que garante que nenhum cliente fique reconhecível. / A janela no quadro é o relógio do vídeo. / A tarja de três linhas cobre o alto: o teto e os pendentes ficam atrás do texto, e o salão abaixo dele.
 erra: O salão muda de forma ao longo do clipe e aparece rosto nítido. Se acontecer, fique com o quadro final como referência e descarte o clipe.
 ```
@@ -304,7 +304,7 @@ foto: câmera alta, de cima, sobre as mesas juntas no lugar da mesa comprida. No
 quadro-chave: Use the reference photo for the exact camera position, lens and the real room. Vertical 9:16 top-down shot from high above a long table made of the house tables joined end to end, running from the top to the bottom of the frame, set for ten people: plates, glasses of water, napkins, cutlery; the guests' hands and shoulders along both sides. Warm restaurant light. Photorealistic smartphone photo, natural color. No text, no logos, no faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 6
-movimento: Locked overhead shot. Pizzas arrive one after another and are set down along the center of the table by a waiter who always enters from the same side; the guests' hands reach in. Natural speed, one take, no cuts. Smartphone footage, no text.
+movimento: Locked overhead shot. Pizzas arrive one after another and are set down along the center of the table by a waiter who always enters from the same side; the guests' hands reach in. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
 observar: A mesa inteira no quadro, de cima a baixo. / O garçom entra sempre pelo mesmo lado. / No vídeo o plano vai acelerado 2×, e os 6 s do clipe viram 3.
 erra: O número de pessoas muda e aparece pizza do nada na mesa.
 ```
@@ -316,7 +316,7 @@ foto: tripé na altura da mesa, de lado, lente 2×, olhando ao longo da mesa com
 quadro-chave: Use the reference photo for the exact camera position, lens and the real room. Vertical 9:16 side view at table height, 2x lens, along the long table: hands pass a pizza and slices from one guest to the next; plates and glasses of water on the table; faces out of frame or out of focus. Warm light. Photorealistic smartphone photo, natural color. No text, no logos, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 4
-movimento: Locked shot at table height. A pizza and slices pass from hand to hand along the table while people laugh off frame. Natural speed, one take, no cuts. Smartphone footage, no text.
+movimento: Locked shot at table height. A pizza and slices pass from hand to hand along the table while people laugh off frame. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
 observar: As mãos no meio do quadro, abaixo das duas linhas da tarja. / A passagem vai sempre no mesmo sentido, em todas as tomadas.
 erra: Mão que sai do nada e pizza que se divide sozinha.
 ```
@@ -328,7 +328,7 @@ foto: na cabeceira, na altura do peito, lente 1×. No quadro: a mesa em fuga at�
 quadro-chave: Use the reference photo for the exact camera position, lens and the real room. Vertical 9:16 frame from the head of a long table at chest height, 1x lens: a group of ten seated along both sides, pizzas down the middle of the table, warm pendant lights above, everyone talking. Faces soft and not the subject. Photorealistic smartphone photo, natural color. No text, no logos, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 6
-movimento: Slow, steady gimbal push-in from the head of the table along its length. Constant speed, no shake, no turns. People talk and pass slices. One take, no cuts. Smartphone footage, natural color, no text.
+movimento: The camera glides slowly forward from the head of the table along its length, a smooth and steady push-in. Constant speed, no shake, no turns. People talk and pass slices. One take, no cuts. Smartphone footage, natural color, no camera equipment in frame, no text.
 observar: A mesa em fuga para o centro do quadro, com as pessoas dos dois lados. / As duas tarjas da proposta ficam no alto, e a mesa começa abaixo delas.
 erra: O grupo muda de tamanho durante a aproximação e as pizzas se multiplicam.
 ```
