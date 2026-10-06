@@ -38,7 +38,7 @@ Um dia só, de preferência uma terça, que é dia de casa mais calma. Os horár
 | `15h30` | `1` · Forno | `A1` planos `1` a `3`, `B1` inteiro, a leitura do termômetro | `6` |
 | `16h30` | `2` · Bancada | `A1` planos `4` e `5`: o corte, a fatia e o som da crosta | `3` |
 | `17h10` | `3` · Fotos | os `4` cards do `A3` e a Margherita do `A4`, ainda com luz do dia | `1` e o disco cru |
-| `17h50` | Pausa | descarregar o celular, conferir o material, recarregar | |
+| `17h50` | Pausa | descarregar o celular, mandar os blocos `1` a `3` para aprovação, recarregar | |
 | `18h20` | `4` · Mesa encenada | `A1` plano `6`, `A2` inteiro, `B2` plano `2` e o som do salão, só com figurantes | `2` |
 | `19h00` | `5` · Time-lapse | `B2` plano `1`: celular fixo no alto do salão, da abertura até `20h30` | |
 | `20h30` | Backup | todo o material em dois lugares antes de ir embora | |
@@ -197,7 +197,8 @@ O modelo de termo abaixo é simples, para o advogado da casa revisar antes do us
 - **Nome.** O código do anúncio mais o formato: `DEST_REELS_FORNO_v1_9x16.mp4` e `DEST_REELS_FORNO_v1_4x5.mp4`.
 - **Pastas.** `brutos` com tudo que saiu do celular, `editados` com os finais, `fotos` com o `A3` e o `A4`.
 - **Backup.** Em dois lugares no mesmo dia, computador e nuvem.
-- **Edição.** Qualquer editor que aceite fonte própria e exporte em `1080 × 1920`. O CapCut no computador resolve, com a Oswald instalada, que é gratuita no Google Fonts.
+- **Envio para aprovação.** O vídeo original, do jeito que saiu do celular e sem cortar, uma mensagem por plano com o código na legenda: `F1`, `C2`, `M3`. A tomada escolhida e, na dúvida, até duas. Se outra pessoa filmou, o arquivo passa por AirDrop ou cabo, nunca por WhatsApp, que comprime.
+- **Edição.** Cada tomada é conferida contra o roteiro e volta aprovada ou com o que refazer. A montagem final usa o mesmo processo das animáticas, com o texto da camiseta já na posição. Para montar na mão, o CapCut no computador resolve, com a Oswald instalada, que é gratuita no Google Fonts.
 
 ## A aprovação antes de subir
 
