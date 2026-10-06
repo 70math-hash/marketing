@@ -275,9 +275,9 @@ foto: na altura da mesa, lente 1×, a 3 m da mesa do meio. No quadro: a mesa, as
 quadro-chave: Use the reference photo for the exact camera position, lens and the real dining room, and keep the architecture exactly as it is. Vertical 9:16 frame at table height, 1x lens, about 3 m from a table in the middle of the room: a Margherita in the center, two glasses, the hands of two guests; the background tables occupied and out of focus; aged brick, black-and-white details, dark navy benches and warm pendant lights visible. Photorealistic smartphone photo, natural color. No text, no logos, no recognizable faces, no camera equipment in frame.
 video: veo3_1_lite
 segundos: 6
-movimento: The camera glides slowly forward at table height toward the table, a smooth and steady push-in that ends about 1 m from the pizza. Constant speed, no shake, no turns. The guests' hands move naturally; nobody drinks. The background stays soft. One take, no cuts. Smartphone footage, natural color, no camera equipment in frame, no text.
+movimento: The camera glides slowly forward at table height toward the table, a smooth and steady push-in that ends about 1 m from the pizza. Constant speed, no shake, no turns. The guests' hands move naturally and stay low; nobody drinks or raises a glass, no toast. The background stays soft. One take, no cuts. Smartphone footage, natural color, no camera equipment in frame, no text.
 observar: O tijolo, o preto e branco e os bancos azul-escuro precisam estar no quadro: são a assinatura da casa. / O último quadro congela na cartela do B2, então a aproximação termina numa imagem parada e bonita.
-erra: Troca a arquitetura: inventa janela, muda o tijolo, acende luz que a casa não tem. É para isso que serve a foto de referência.
+erra: Troca a arquitetura: inventa janela, muda o tijolo, acende luz que a casa não tem; é para isso que serve a foto de referência. E põe as pessoas levantando o copo no fim, o que vira brinde e não pode, pela regra do CONAR.
 ```
 
 ### Time-lapse
