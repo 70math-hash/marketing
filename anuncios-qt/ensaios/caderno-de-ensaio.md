@@ -72,26 +72,26 @@ Nas cartelas, a leitura é em degraus: o olho pega a chamada, depois o nome da c
 | Vídeo | Texto na tela | Segundos | Caracteres | Por segundo | Leitura |
 |---|---|---|---|---|---|
 | `A1` | 400°C | `2,5` | `5` | `2,0` | folgada |
-| `A1` | 48 horas de fermentação | `5,5` | `23` | `4,2` | folgada |
-| `A1` | Entre as 100 melhores pizzarias do mundo · 50 TOP PIZZA · DESDE 2022 | `8,0` | `66` | `8,3` | folgada |
-| `A1` | Fica nos Jardins | `3,5` | `16` | `4,6` | folgada |
-| `A1` | cartela: Reserve sua mesa pelo WhatsApp | `2,5` | `30` | `12,0` | folgada |
-| `A2` | Terça à noite | `2,5` | `13` | `5,2` | folgada |
-| `A2` | nos Jardins | `3,5` | `11` | `3,1` | folgada |
-| `A2` | Pizza napolitana e um drink bem feito | `4,0` | `37` | `9,3` | folgada |
-| `A2` | Aquele lugar para ficar mais um pouquinho | `4,5` | `41` | `9,1` | folgada |
-| `A2` | cartela: Reserve pelo WhatsApp · Evite o consumo excessivo de álcool. | `3,5` | `58` | `16,6` | apertada |
+| `A1` | 48 horas de fermentação · a massa descansa mais que a gente | `5,5` | `57` | `10,4` | folgada |
+| `A1` | Top 100 do mundo · segundo o 50 Top Pizza, desde 2022 | `8,0` | `51` | `6,4` | folgada |
+| `A1` | E fica logo ali, nos Jardins | `3,5` | `28` | `8,0` | folgada |
+| `A1` | cartela: Reserva no WhatsApp | `2,5` | `19` | `7,6` | folgada |
+| `A2` | Terça? Pizza. | `2,5` | `13` | `5,2` | folgada |
+| `A2` | Logo ali, nos Jardins | `3,5` | `21` | `6,0` | folgada |
+| `A2` | Uma napolitana, um drink e nenhuma pressa | `4,0` | `41` | `10,3` | folgada |
+| `A2` | Fica mais um pouquinho · a gente não se importa | `4,0` | `45` | `11,3` | folgada |
+| `A2` | cartela: Reserva no WhatsApp · Evite o consumo excessivo de álcool. | `4,0` | `56` | `14,0` | justa |
 | `B1` | 400°C | `6,0` | `5` | `0,8` | folgada |
-| `B1` | cartela: Pizza napolitana nos Jardins | `3,0` | `28` | `9,3` | folgada |
-| `B2` | Aquele lugar onde você quer ficar mais um pouquinho | `5,0` | `51` | `10,2` | folgada |
+| `B1` | cartela: Napolitana de verdade, nos Jardins | `3,0` | `34` | `11,3` | folgada |
+| `B2` | Chega cedo. Daqui a pouco enche. | `5,0` | `32` | `6,4` | folgada |
 | `B2` | cartela: Jardins · Evite o consumo excessivo de álcool. | `3,5` | `44` | `12,6` | justa |
-| `G1` | Confraternização de fim de ano | `3,0` | `30` | `10,0` | folgada |
-| `G1` | Pizza napolitana para a mesa toda | `4,0` | `33` | `8,3` | folgada |
-| `G1` | [grupos de N a N pessoas] · [formato e valor por pessoa] | `4,5` | `54` | `12,0` | folgada |
-| `G1` | cartela: Orce pelo WhatsApp | `4,5` | `18` | `4,0` | folgada |
+| `G1` | Confraternização sem PowerPoint | `3,0` | `31` | `10,3` | folgada |
+| `G1` | Pizza pra mesa toda · ninguém fica sem fatia | `4,0` | `42` | `10,5` | folgada |
+| `G1` | [grupos de N a N pessoas] [formato e valor por pessoa] | `4,5` | `54` | `12,0` | folgada |
+| `G1` | cartela: Orça no WhatsApp | `4,5` | `16` | `3,6` | folgada |
 <!-- /leitura -->
 
-**O que a conta mostra.** Os textos de prova e de convite estão folgados. A única apertada é a cartela do `A2`, que junta a chamada e a advertência em `3,5` segundos, e a advertência precisa ser lida, não só aparecer. A correção mais simples é passar meio segundo do plano `4` para a cartela: o plano `4` fica com `4` segundos, a cartela com `4`, e a leitura cai para `14,5` caracteres por segundo. Vale confirmar na animática antes de mexer no roteiro.
+**O que a conta mostra.** Com os textos na pegada da camiseta, nada passa do teto. As duas cartelas com advertência ficam justas: a do `A2`, que ganhou meio segundo do plano `4` e agora tem `4` segundos, e a do `B2`. Nelas, a advertência precisa ser lida, não só aparecer, então vale conferir na animática.
 
 ## Como escrever um prompt
 
@@ -139,7 +139,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 6
 movimento: Locked-off static camera: no movement, no zoom. In real time, the pizza rim rises and puffs up, air bubbles inflate along it and dark leopard spotting appears; the cheese starts to bubble. Flames flicker in the background with heat shimmer. Nothing enters the frame: no peel, no hands. One continuous take, no cuts. Realistic physics, smartphone footage, natural color, no camera equipment in frame, no text.
-observar: A borda ocupa a metade de baixo e o alto fica escuro, que é onde o 400°C entra, em branco e sem tarja. / A lente 3× aproxima a borda sem aproximar o celular do calor; por isso o tripé fica a 1,2 m. / No A1 o plano dura 2,5 s acelerado 2×, ou seja, 5 s de borda; no B1 são 6 s em tempo real, e o clipe de 6 s serve aos dois.
+observar: A borda ocupa a metade de baixo e o alto fica escuro, que é onde o 400°C entra, grande, em creme com sombra azul. / A lente 3× aproxima a borda sem aproximar o celular do calor; por isso o tripé fica a 1,2 m. / No A1 o plano dura 2,5 s acelerado 2×, ou seja, 5 s de borda; no B1 são 6 s em tempo real, e o clipe de 6 s serve aos dois.
 erra: A borda cresce rápido e regular demais, e as manchas saem todas iguais. No forno, o tempo é o do fogo: a previz mostra o enquadramento, e a tomada longa da diária garante o trecho bom.
 ```
 
@@ -189,7 +189,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 4
 movimento: Locked-off macro close-up. The blade presses straight down slowly, in one continuous motion, and cuts through the rim; the crust cracks and the cross-section opens to show an open, airy crumb with large irregular alveoli. A few crumbs fall. The grazing light from the left reveals the texture. One take, no cuts. Realistic physics, smartphone footage, no camera equipment in frame, no text.
-observar: A luz rasante da esquerda é o que desenha os alvéolos; de frente, eles somem. / O alto do quadro, até uns 650 px, é da tarja de três linhas e do rótulo 50 TOP PIZZA, então o corte acontece abaixo disso. / O corte é um movimento só, devagar.
+observar: A luz rasante da esquerda é o que desenha os alvéolos; de frente, eles somem. / O alto do quadro, até uns 620 px, é da etiqueta Top 100 do mundo e da frase de apoio, então o corte acontece abaixo disso. / O corte é um movimento só, devagar.
 erra: A lâmina entra como se a massa fosse bolo, e a alveolatura sai regular demais. Troque straight blade pela ferramenta da QT: pizza wheel, rocker knife ou serrated knife.
 ```
 
@@ -201,7 +201,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 4
 movimento: Slow motion, as if shot at 120 fps and played at 30 fps. The hand lifts the first slice up and away from the pizza; the melted fior di latte stretches into a few short strings and breaks naturally; steam rises. Camera locked. One take, no cuts. Realistic physics, smartphone footage, no camera equipment in frame, no text.
-observar: A fatia sobe em direção ao meio do quadro, abaixo da tarja. / O foco fica na ponta da fatia, que é onde o queijo estica.
+observar: A fatia sobe em direção ao meio do quadro, abaixo da etiqueta. / O foco fica na ponta da fatia, que é onde o queijo estica.
 erra: Estica o queijo em fios longos, como muçarela de rede de fast-food. O fior di latte da QT estica menos: o ensaio mostra o enquadramento, não a quantidade de queijo, e o prompt já pede fios curtos.
 ```
 
@@ -215,7 +215,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 4
 movimento: Locked overhead shot. The waiter's hands set the pizza down at the center and leave the frame; a wisp of steam rises; two diners' hands reach in from the bottom edge toward the pizza. No faces, no alcohol. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
-observar: A pizza no centro, abaixo da tarja Fica nos Jardins. / As mãos entram por baixo, nunca por cima, que é onde está o texto. / A 70 cm, a pizza ocupa mais da metade da largura do quadro.
+observar: A pizza no centro, abaixo da etiqueta E fica logo ali, nos Jardins. / As mãos entram por baixo, nunca por cima, que é onde está o texto. / A 70 cm, a pizza ocupa mais da metade da largura do quadro.
 erra: Dedos a mais e pizza que muda de tamanho quando pousa.
 ```
 
@@ -240,7 +240,7 @@ quadro-final: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 8
 movimento: Smooth, stabilized shot at chest height. The camera walks slowly forward through the dining room and arrives at the table in the middle, ending on the Margherita and the two cocktails. Constant slow speed, no shake, no turns. Guests in the background stay soft; nobody drinks. One take, no cuts. Smartphone footage, natural color, no camera equipment in frame, no text.
-observar: É o único movimento do A2: 3,5 s de passos, ou uns 2 a 3 m de caminho, não mais. / Altura constante do começo ao fim; o joelho levemente dobrado amortece o passo. / A mesa de chegada termina no centro do quadro, abaixo da tarja nos Jardins.
+observar: É o único movimento do A2: 3,5 s de passos, ou uns 2 a 3 m de caminho, não mais. / Altura constante do começo ao fim; o joelho levemente dobrado amortece o passo. / A mesa de chegada termina no centro do quadro, abaixo da etiqueta Logo ali, nos Jardins.
 erra: Vira a câmera no meio do caminho ou acelera no fim, e gente aparece do nada. Se errar duas vezes, troque para o Kling 3.0 Turbo.
 ```
 
@@ -252,7 +252,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 4
 movimento: Locked shot at table height, focus on the hands. The slice passes from the left hand to the right hand across the table; then a hand sets a cocktail glass down beside the plate and lets go. Nobody drinks, no toast. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
-observar: A lente 2× desfoca o fundo e isola as mãos. / A passagem acontece no meio do quadro, abaixo das duas linhas da tarja. / O copo pousa e fica.
+observar: A lente 2× desfoca o fundo e isola as mãos. / A passagem acontece no meio do quadro, abaixo da etiqueta de três linhas. / O copo pousa e fica.
 erra: A fatia dobra, some ou se duplica no meio da passagem.
 ```
 
@@ -264,7 +264,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 6
 movimento: Locked overhead shot. Hands gesture as the two people talk and laugh; one hand takes a slice; the glasses stay on the table, untouched. Nobody drinks. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
-observar: Mais alto que o M2: a mesa cabe inteira e sobra tampo nas bordas. / A tarja de três linhas ocupa o alto, e lá fica tampo ou prato, nunca as mãos. / As taças ficam paradas o plano inteiro.
+observar: Mais alto que o M2: a mesa cabe inteira e sobra tampo nas bordas. / A etiqueta e a frase de apoio ocupam o alto, e lá fica tampo ou prato, nunca as mãos. / As taças ficam paradas o plano inteiro.
 erra: Mãos demais na mesa e copos que se mexem sozinhos.
 ```
 
@@ -291,7 +291,7 @@ quadro-final: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 8
 movimento: Time-lapse from a fixed high corner, ultra-wide lens: the dining room fills up, from empty to full, while the daylight in the window fades to night and the pendant lights take over. People appear as quick blurred motion, with no recognizable faces. Locked camera. Smartphone footage, natural color, no camera equipment in frame, no text.
-observar: O canto alto deixa as pessoas pequenas, e é isso que garante que nenhum cliente fique reconhecível. / A janela no quadro é o relógio do vídeo. / A tarja de três linhas cobre o alto: o teto e os pendentes ficam atrás do texto, e o salão abaixo dele.
+observar: O canto alto deixa as pessoas pequenas, e é isso que garante que nenhum cliente fique reconhecível. / A janela no quadro é o relógio do vídeo. / A etiqueta de três linhas cobre o alto: o teto e os pendentes ficam atrás do texto, e o salão abaixo dele.
 erra: O salão muda de forma ao longo do clipe e aparece rosto nítido. Se acontecer, fique com o quadro final como referência e descarte o clipe.
 ```
 
@@ -317,7 +317,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 4
 movimento: Locked shot at table height. A pizza and slices pass from hand to hand along the table while people laugh off frame. Natural speed, one take, no cuts. Smartphone footage, no camera equipment in frame, no text.
-observar: As mãos no meio do quadro, abaixo das duas linhas da tarja. / A passagem vai sempre no mesmo sentido, em todas as tomadas.
+observar: As mãos no meio do quadro, abaixo da etiqueta e da frase de apoio. / A passagem vai sempre no mesmo sentido, em todas as tomadas.
 erra: Mão que sai do nada e pizza que se divide sozinha.
 ```
 
@@ -329,7 +329,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 6
 movimento: The camera glides slowly forward from the head of the table along its length, a smooth and steady push-in. Constant speed, no shake, no turns. People talk and pass slices. One take, no cuts. Smartphone footage, natural color, no camera equipment in frame, no text.
-observar: A mesa em fuga para o centro do quadro, com as pessoas dos dois lados. / As duas tarjas da proposta ficam no alto, e a mesa começa abaixo delas.
+observar: A mesa em fuga para o centro do quadro, com as pessoas dos dois lados. / As duas linhas da proposta ficam no alto, e a mesa começa abaixo delas.
 erra: O grupo muda de tamanho durante a aproximação e as pizzas se multiplicam.
 ```
 

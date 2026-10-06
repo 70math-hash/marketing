@@ -37,7 +37,7 @@ fundo: mesa
 imagem: de cima, a Margherita pousa na mesa e o vapor sobe; o drink entra no canto
 camera: de cima, a 70 cm do tampo, tripé com braço, travado
 som: o prato tocando a mesa, o salão
-texto: Terça à noite | 300 | 80 | tarja
+texto: Terça? / Pizza. | 300 | 110 | etiqueta
 ```
 
 ```quadro
@@ -49,7 +49,7 @@ fundo: salao
 imagem: a câmera atravessa o salão até essa mesa
 camera: estabilizador, passos lentos, altura do peito, lente 1×
 som: conversa baixa, talheres
-texto: nos Jardins | 300 | 80 | tarja
+texto: Logo ali, / nos Jardins | 300 | 84 | etiqueta
 ```
 
 ```quadro
@@ -61,33 +61,35 @@ fundo: mesa
 imagem: a fatia passa de um lado da mesa para o outro e o drink pousa ao lado
 camera: lateral, na altura da mesa, lente 2×, foco nas mãos
 som: o salão
-texto: Pizza napolitana / e um drink bem feito | 300 | 64 | tarja
+texto: Uma napolitana, / um drink e / nenhuma pressa | 300 | 72 | etiqueta
 ```
 
 ```quadro
 plano: 4
 capta: M5
-tempo: 10,0 a 14,5 s
+tempo: 10,0 a 14,0 s
 desenho: mesa-drink
 fundo: mesa
 imagem: a mesa de cima, mais aberta; mãos conversando, taças paradas, ninguém bebendo
 camera: de cima, como o plano 1, mais alto
 som: o salão e uma risada
-texto: Aquele lugar para / ficar mais / um pouquinho | 300 | 72 | tarja
+texto: Fica mais um / pouquinho | 300 | 84 | etiqueta
+texto: a gente não se importa | 535 | 42 | fala
 ```
 
 ```quadro
 plano: 5
-tempo: 14,5 a 18,0 s
+tempo: 14,0 a 18,0 s
 desenho: cartela
-fundo: preto
-imagem: cartela final, em preto
+fundo: creme
+imagem: cartela final, em creme, com o lema da camiseta
 camera: gráfico, feito na edição
 som: o salão baixando
-texto: QT PIZZA BAR | 700 | 34 | rotulo
-texto: Reserve pelo / WhatsApp | 770 | 80 | limpo
-texto: Jardins · terça a domingo, no jantar | 1000 | 40 | apoio
-texto: Evite o consumo excessivo de álcool. | 1100 | 32 | apoio
+texto: Aqui cortamos carboidratos | 760 | 64 | lema
+texto: QT PIZZA BAR | 690 | 46 | marca
+texto: Reserva no / WhatsApp | 860 | 92 | chamada
+texto: Jardins · terça a domingo, no jantar | 1080 | 38 | nota
+texto: Evite o consumo excessivo de álcool. | 1150 | 34 | aviso
 ```
 
 ## Como filmar
@@ -102,11 +104,11 @@ texto: Evite o consumo excessivo de álcool. | 1100 | 32 | apoio
 
 ## Como montar
 
-- **Ritmo mais calmo que o `A1`.** Planos de `3` a `4,5` segundos, cortes secos, e o único movimento de câmera é o plano `2`.
+- **Ritmo mais calmo que o `A1`.** Planos de `2,5` a `4` segundos, cortes secos, e o único movimento de câmera é o plano `2`.
 - **Cor.** Quente e natural, como a casa é de noite. Sem filtro.
 - **Som.** O ambiente do `S1` por baixo de tudo, o prato tocando a mesa no plano `1` e a risada no plano `4`.
-- **Texto.** Helvetica Bold sobre tarja preta `#1A1E1E`, que é o que garante leitura sobre a mesa clara.
-- **Advertência.** "Evite o consumo excessivo de álcool." fica na cartela inteira, legível, e também no texto do anúncio.
+- **Texto.** Etiqueta creme com letra azul, como na camiseta da casa, levemente torta; é o que garante leitura sobre a mesa clara. A frase de apoio vai em creme sobre azul.
+- **Advertência.** "Evite o consumo excessivo de álcool." fica na cartela inteira, que tem `4` segundos para dar tempo de ler a chamada e o aviso, e também no texto do anúncio.
 
 ## Variações para teste
 

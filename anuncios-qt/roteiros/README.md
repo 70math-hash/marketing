@@ -34,12 +34,16 @@ fundo: forno
 imagem: a borda já dentro do forno, estufando e pintando de leopardo
 camera: tripé a 1,2 m da boca, lente 3×, travado
 som: fogo e chiado
-texto: 400°C | 300 | 150 | limpo
+texto: 400°C | 300 | 190 | numero
 ```
 
 A linha `capta` diz de qual plano da lista de filmagem sai a imagem: `F1`, `C1`, `M2`. É por ela que a animática e o [caderno de ensaio](../ensaios/caderno-de-ensaio.md) acham o material de cada plano. A cartela, que é gráfico da edição, não tem `capta`.
 
-A linha `texto` é `conteúdo | altura em px | tamanho em px | estilo`, em pixel do vídeo final, `1080 × 1920`. O texto quebra linha em ` / `. Os estilos são `limpo`, `tarja`, `rotulo` e `apoio`. Os desenhos disponíveis estão em [`../storyboard.mjs`](../storyboard.mjs): `borda`, `forno`, `saida`, `corte`, `fatia`, `mesa`, `mesa-drink`, `dividir`, `salao`, `timelapse`, `mesa-longa`, `mesa-cabeceira` e `cartela`.
+A linha `texto` é `conteúdo | altura em px | tamanho em px | estilo`, em pixel do vídeo final, `1080 × 1920`. O texto quebra linha em ` / `.
+
+O texto na tela segue a camiseta da casa: azul royal `#1F45B5` sobre creme `#F1E9DA`, na Oswald, que vai embutida no PDF e no vídeo. Nos planos, `numero` é o número grande em creme com sombra azul, `etiqueta` é a frase principal em etiqueta creme levemente torta e `fala` é a frase de apoio em creme sobre azul. Na cartela, `lema` põe a frase em arco, como nas costas da camiseta, e `marca`, `chamada`, `nota` e `aviso` vêm centralizados embaixo. A linha `cartao: sim` põe um cartão creme por trás da cartela que entra sobre a imagem, e `fundo: creme` faz a cartela de fundo inteiro. Os estilos antigos, `limpo`, `tarja`, `rotulo` e `apoio`, continuam funcionando.
+
+Os desenhos disponíveis estão em [`../storyboard.mjs`](../storyboard.mjs): `borda`, `forno`, `saida`, `corte`, `fatia`, `mesa`, `mesa-drink`, `dividir`, `salao`, `timelapse`, `mesa-longa`, `mesa-cabeceira` e `cartela`.
 
 Depois de mexer, gere de novo:
 

@@ -2,12 +2,28 @@
 // e o texto na tela na posição e no tamanho em que entra no vídeo.
 // Tudo em pixel do vídeo final, 1080 x 1920, então o quadro é o vídeo em miniatura.
 
+import { readFileSync, existsSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 const C = {
   claro: '#EFECEC', medio: '#A0A5A5', escuro: '#1A1E1E',
   massa: '#D9D6D2', molho: '#8E9292', mancha: '#4C5151',
   madeira: '#4A4E4E', pessoa: '#7E8282', roupa: '#5B6060',
 };
-const FUNDOS = { forno: '#141717', bancada: '#2C3030', mesa: '#3A3E3E', salao: '#262A2A', preto: '#1A1E1E' };
+
+// o texto na tela segue a camiseta da casa: azul royal sobre creme, letra condensada
+const CAMISETA = { azul: '#1F45B5', creme: '#F1E9DA' };
+
+const FUNDOS = { forno: '#141717', bancada: '#2C3030', mesa: '#3A3E3E', salao: '#262A2A', preto: '#1A1E1E', creme: CAMISETA.creme };
+
+// a Oswald vai embutida no html, para o texto sair igual no PDF e no vídeo; sem o pacote
+// instalado, o texto cai na FreeSans
+const ARQUIVO_OSWALD = join(dirname(fileURLToPath(import.meta.url)), '..', 'node_modules',
+  '@fontsource-variable', 'oswald', 'files', 'oswald-latin-wght-normal.woff2');
+const FONTE_OSWALD = existsSync(ARQUIVO_OSWALD)
+  ? `@font-face { font-family: 'Oswald QT'; font-weight: 200 700; src: url(data:font/woff2;base64,${readFileSync(ARQUIVO_OSWALD).toString('base64')}) format('woff2'); }`
+  : '';
 
 // zona segura do Reels: 14% em cima, 35% embaixo, 6% dos lados
 const ZONA = { topo: 269, base: 1248, lado: 65 };
@@ -332,6 +348,17 @@ export function lerQuadro(bloco) {
   return q;
 }
 
+// ---------- o lema da camiseta em arco ----------
+// centrado no quadro; o y da linha texto é o centro do arco, e o raio sai do tamanho da frase
+function lema(t, id) {
+  const texto = t.linhas.join(' ').toUpperCase();
+  const raio = Math.max(200, Math.round((texto.length * t.tamanho * 0.7) / Math.PI));
+  const arco = `M ${540 - raio} ${t.y} A ${raio} ${raio} 0 0 1 ${540 + raio} ${t.y}`;
+  return `<svg class="q-lema" viewBox="0 0 1080 1920" preserveAspectRatio="none" aria-hidden="true">` +
+    `<defs><path id="${id}" d="${arco}"/></defs><text font-size="${t.tamanho}">` +
+    `<textPath href="#${id}" startOffset="50%" text-anchor="middle">${esc(texto)}</textPath></text></svg>`;
+}
+
 // ---------- as camadas do quadro ----------
 // a cena desenhada, as faixas do Reels e o texto na tela, separados porque a animática
 // põe as faixas e o texto por cima do material filmado
@@ -339,7 +366,9 @@ export function camadas(q, i) {
   const id = `q${i}`;
   const desenho = DESENHOS[q.desenho] ? DESENHOS[q.desenho](id, q) : '';
   const escurecer = q.escurecer ? `<rect width="1080" height="1920" fill="#000" opacity="${Number(q.escurecer) / 100}"/>` : '';
-  const textos = q.textos.map(t =>
+  // a cartela sobre a imagem ganha um cartão creme, como um adesivo
+  const cartao = q.cartao ? '<div class="q-cartao"></div>' : '';
+  const textos = cartao + q.textos.map((t, k) => t.estilo === 'lema' ? lema(t, `${id}l${k}`) :
     `<div class="q-txt q-${t.estilo}" style="top:${n((t.y / 1920) * 100)}%; --t:${t.tamanho}">` +
     t.linhas.map(l => `<span>${esc(l).replace(/°/g, '<i class="q-grau">°</i>')}</span>`).join('<br>') + `</div>`).join('');
   return {
@@ -391,7 +420,7 @@ export function linhaDoTempo(qs) {
     `<div class="lt-rotulo">Segundos</div><div class="lt-regua">${marcas}</div></div>`;
 }
 
-export const cssStoryboard = `
+export const cssStoryboard = FONTE_OSWALD + `
 .storyboard { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5mm 3.5mm; margin: 4pt 0 6pt; }
 .q-bloco { margin: 0; break-inside: avoid; }
 .q-quadro { position: relative; aspect-ratio: 9 / 16; container-type: inline-size; overflow: hidden; border: 0.6pt solid #A0A5A5; background: #1A1E1E; }
@@ -402,6 +431,22 @@ export const cssStoryboard = `
 .q-rotulo { letter-spacing: 0.22em; text-transform: uppercase; color: #A0A5A5; }
 .q-apoio { font-weight: 400; }
 .q-grau { font-style: normal; margin: 0 -0.09em 0 -0.05em; }
+
+/* estilo da camiseta: azul sobre creme, Oswald, etiqueta levemente torta */
+.q-numero, .q-etiqueta, .q-fala, .q-marca, .q-chamada, .q-nota, .q-aviso, .q-lema text { font-family: 'Oswald QT', FreeSans, Helvetica, Arial, sans-serif; }
+.q-numero { color: ${CAMISETA.creme}; line-height: 1; text-shadow: calc(10 / 1080 * 100cqw) calc(10 / 1080 * 100cqw) 0 ${CAMISETA.azul}; }
+.q-numero .q-grau { margin: 0 0.01em 0 0; }
+.q-etiqueta, .q-fala { transform: rotate(-2deg); transform-origin: 0 0; }
+.q-etiqueta { color: ${CAMISETA.azul}; text-transform: uppercase; line-height: 1.3; }
+.q-etiqueta span { background: ${CAMISETA.creme}; padding: 0 calc(18 / 1080 * 100cqw); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.q-fala { color: ${CAMISETA.creme}; font-weight: 500; line-height: 1.3; }
+.q-fala span { background: ${CAMISETA.azul}; padding: 0 calc(14 / 1080 * 100cqw); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.q-marca, .q-chamada, .q-nota, .q-aviso { text-align: center; color: ${CAMISETA.azul}; }
+.q-marca { font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; }
+.q-chamada { text-transform: uppercase; line-height: 1.05; }
+.q-nota, .q-aviso { font-weight: 400; }
+.q-lema text { font-weight: 700; fill: ${CAMISETA.azul}; letter-spacing: 0.06em; }
+.q-cartao { position: absolute; left: 7%; right: 7%; top: 17%; bottom: 37.5%; background: ${CAMISETA.creme}; transform: rotate(-1.5deg); border-radius: calc(18 / 1080 * 100cqw); box-shadow: 0 calc(10 / 1080 * 100cqw) calc(40 / 1080 * 100cqw) rgba(0, 0, 0, 0.35); }
 .q-bloco figcaption { font-size: 6.8pt; line-height: 1.35; margin-top: 4pt; }
 .q-bloco figcaption b { font-size: 8pt; }
 .q-guia { width: 50mm; float: right; margin: 2pt 0 8pt 8mm; }

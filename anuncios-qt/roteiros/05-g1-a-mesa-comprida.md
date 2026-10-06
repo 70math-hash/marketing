@@ -46,7 +46,7 @@ fundo: mesa
 imagem: de cima, a mesa comprida montada; as pizzas chegam uma atrás da outra
 camera: câmera alta, de cima, travada; acelerado 2× na edição
 som: pratos na mesa, o grupo chegando
-texto: Confraternização / de fim de ano | 300 | 76 | tarja
+texto: Confraternização / sem PowerPoint | 300 | 76 | etiqueta
 ```
 
 ```quadro
@@ -58,7 +58,8 @@ fundo: mesa
 imagem: as pizzas passam de mão em mão pela mesa
 camera: lateral, na altura da mesa, lente 2×
 som: o grupo, risadas
-texto: Pizza napolitana / para a mesa toda | 300 | 72 | tarja
+texto: Pizza pra / mesa toda | 300 | 84 | etiqueta
+texto: ninguém fica sem fatia | 535 | 42 | fala
 ```
 
 ```quadro
@@ -70,21 +71,21 @@ fundo: salao
 imagem: o grupo inteiro em volta da mesa, visto da cabeceira
 camera: estabilizador, aproximação lenta, altura do peito
 som: o grupo
-texto: [grupos de N a N pessoas] | 300 | 52 | tarja
-texto: [formato e valor por pessoa] | 410 | 52 | tarja
+texto: [grupos de N a N pessoas] / [formato e valor por pessoa] | 300 | 52 | etiqueta
 ```
 
 ```quadro
 plano: 4
 tempo: 11,5 a 16,0 s
 desenho: cartela
-fundo: preto
-imagem: cartela final, em preto
+fundo: creme
+imagem: cartela final, em creme, com o lema da camiseta
 camera: gráfico, feito na edição
 som: o grupo baixando
-texto: QT PIZZA BAR | 700 | 34 | rotulo
-texto: Orce pelo / WhatsApp | 770 | 80 | limpo
-texto: Jardins · terça a domingo, no jantar | 1000 | 40 | apoio
+texto: Aqui cortamos carboidratos | 760 | 64 | lema
+texto: QT PIZZA BAR | 690 | 46 | marca
+texto: Orça no / WhatsApp | 860 | 92 | chamada
+texto: Jardins · terça a domingo, no jantar | 1080 | 38 | nota
 ```
 
 ## Como filmar
@@ -101,7 +102,7 @@ texto: Jardins · terça a domingo, no jantar | 1000 | 40 | apoio
 - **Plano `1` acelerado `2×`,** para a mesa se encher nos `3` segundos.
 - **Cortes secos** e ritmo de `3` a `4,5` segundos por plano.
 - **Texto.** Os colchetes do plano `3` viram o texto real da proposta antes de exportar. Se não couber em duas linhas, a proposta está complicada demais para anúncio.
-- **Cartela.** Fundo preto, "Orce pelo WhatsApp". Se houver drink em cena, a advertência entra na cartela e no texto do anúncio.
+- **Cartela.** Fundo creme com o lema da camiseta em arco e "Orça no WhatsApp", tudo em azul. Se houver drink em cena, a advertência entra na cartela e no texto do anúncio.
 
 ## Variações para teste
 

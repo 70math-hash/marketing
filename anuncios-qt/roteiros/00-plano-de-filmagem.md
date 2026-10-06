@@ -13,7 +13,7 @@ Sete regras valem para todos:
 3. **Câmera parada é sinal de casa séria.** Tripé no forno e na mesa. No máximo um movimento por vídeo, sempre lento.
 4. **Os três primeiros segundos já mostram comida se mexendo.** Nunca começa com logo, tela preta ou fachada.
 5. **Som de verdade.** Fogo, pá, crosta, salão. Música de terceiros não entra nem de fundo, porque o Meta reconhece a faixa e silencia ou derruba o anúncio.
-6. **Texto na tela com a identidade da QT.** Helvetica, preto e branco, alinhado à esquerda, dentro da zona segura, entrando e saindo em corte seco.
+6. **Texto na tela na pegada da camiseta da casa.** Azul royal sobre creme, letra condensada em caixa alta, etiqueta levemente torta e humor de balcão, sempre dentro da zona segura e em corte seco. A graça fica no tom; as provas continuam exatas.
 7. **Mão conta a história, rosto só com termo assinado.** E onde houver drink em cena, todo mundo tem `25` anos ou mais e aparenta.
 
 ## Os vídeos
@@ -197,7 +197,7 @@ O modelo de termo abaixo é simples, para o advogado da casa revisar antes do us
 - **Nome.** O código do anúncio mais o formato: `DEST_REELS_FORNO_v1_9x16.mp4` e `DEST_REELS_FORNO_v1_4x5.mp4`.
 - **Pastas.** `brutos` com tudo que saiu do celular, `editados` com os finais, `fotos` com o `A3` e o `A4`.
 - **Backup.** Em dois lugares no mesmo dia, computador e nuvem.
-- **Edição.** Qualquer editor que aceite fonte própria e exporte em `1080 × 1920`. O CapCut no computador resolve, com a Helvetica instalada.
+- **Edição.** Qualquer editor que aceite fonte própria e exporte em `1080 × 1920`. O CapCut no computador resolve, com a Oswald instalada, que é gratuita no Google Fonts.
 
 ## A aprovação antes de subir
 

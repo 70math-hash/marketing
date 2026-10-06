@@ -36,7 +36,7 @@ fundo: forno
 imagem: a borda estufando em tempo real, sem corte, as manchas aparecendo
 camera: tripé a 1,2 m da boca, lente 3×, travado; tempo real
 som: fogo e chiado, como estiver
-texto: 400°C | 300 | 150 | limpo
+texto: 400°C | 300 | 190 | numero
 ```
 
 ```quadro
@@ -57,12 +57,14 @@ tempo: 9,0 a 12,0 s
 desenho: saida
 fundo: forno
 escurecer: 60
-imagem: a pizza inteira na pá, parada; a imagem escurece e a cartela entra por cima
+cartao: sim
+imagem: a pizza inteira na pá, parada; a imagem escurece e o cartão creme entra por cima
 camera: último quadro do plano 2 congelado e escurecido na edição
 som: o fogo baixando
-texto: QT PIZZA BAR | 700 | 34 | rotulo
-texto: Pizza napolitana / nos Jardins | 770 | 76 | limpo
-texto: terça a domingo, no jantar | 990 | 40 | apoio
+texto: Aqui cortamos carboidratos | 740 | 58 | lema
+texto: QT PIZZA BAR | 680 | 44 | marca
+texto: Napolitana de / verdade, nos Jardins | 840 | 70 | chamada
+texto: terça a domingo, no jantar | 1030 | 38 | nota
 ```
 
 ## Como filmar
@@ -76,7 +78,7 @@ texto: terça a domingo, no jantar | 990 | 40 | apoio
 
 - **Plano `1` em tempo real,** sem acelerar. O `400°C` entra meio segundo depois do começo e fica até o corte.
 - **Corte seco** para o plano `2`, na hora em que a pá entra no quadro.
-- **Cartela sobre a imagem.** O último quadro do plano `2` congela e escurece `60%` em meio segundo. Os textos entram por cima, em corte seco.
+- **Cartela sobre a imagem.** O último quadro do plano `2` congela e escurece `60%` em meio segundo, e o cartão creme com o lema da camiseta entra por cima, em corte seco.
 - **Som.** O fogo sobe um pouco no plano `1`, é o que segura quem está com som ligado. Termina com o fogo baixando junto com a imagem.
 
 ## Variações para teste

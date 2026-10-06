@@ -36,7 +36,7 @@ fundo: salao
 imagem: time-lapse do salão, da abertura vazia até a casa cheia, a luz de fora escurecendo
 camera: celular 2 fixo no canto alto, ultra-angular, modo time-lapse por 90 min
 som: o ambiente do S1 por baixo
-texto: Aquele lugar onde / você quer ficar / mais um pouquinho | 300 | 72 | tarja
+texto: Chega cedo. / Daqui a pouco / enche. | 300 | 84 | etiqueta
 ```
 
 ```quadro
@@ -57,13 +57,15 @@ tempo: 9,5 a 13,0 s
 desenho: salao
 fundo: salao
 escurecer: 60
-imagem: o último quadro escurece e a cartela entra por cima
+cartao: sim
+imagem: o último quadro escurece e o cartão creme entra por cima
 camera: gráfico, feito na edição
 som: o salão baixando
-texto: QT PIZZA BAR | 700 | 34 | rotulo
-texto: Jardins | 770 | 80 | limpo
-texto: terça a domingo, no jantar | 890 | 40 | apoio
-texto: Evite o consumo excessivo de álcool. | 990 | 32 | apoio
+texto: Aqui cortamos carboidratos | 740 | 58 | lema
+texto: QT PIZZA BAR | 680 | 44 | marca
+texto: Jardins | 840 | 96 | chamada
+texto: terça a domingo, no jantar | 980 | 38 | nota
+texto: Evite o consumo excessivo de álcool. | 1060 | 34 | aviso
 ```
 
 ## Como filmar
@@ -78,7 +80,7 @@ texto: Evite o consumo excessivo de álcool. | 990 | 32 | apoio
 
 - **Time-lapse em `5` segundos.** Os `90` minutos comprimidos, com o trecho do meio, em que a casa enche, ocupando a maior parte.
 - **Corte seco** para o plano `2` e aproximação contínua até o fim.
-- **Cartela sobre a imagem.** O último quadro congela e escurece `60%` em meio segundo, e os textos entram por cima.
+- **Cartela sobre a imagem.** O último quadro congela e escurece `60%` em meio segundo, e o cartão creme com o lema da camiseta entra por cima.
 - **Advertência.** "Evite o consumo excessivo de álcool." na cartela inteira e no texto do anúncio.
 - **Som.** O ambiente do `S1` por baixo de tudo. Se usar música, só da Coleção de Sons do Meta, baixa.
 
@@ -92,6 +94,7 @@ texto: Evite o consumo excessivo de álcool. | 990 | 32 | apoio
 ## Antes de subir
 
 - [ ] Nenhum rosto de cliente reconhecível no time-lapse.
+- [ ] O time-lapse mostra a casa enchendo de verdade. Se não encher, o texto do plano `1` volta a ser "Aquele lugar onde você quer ficar mais um pouquinho".
 - [ ] Figurantes com `25` anos ou mais, aparentando, e com termo assinado.
 - [ ] Ninguém bebe em cena e não há brinde.
 - [ ] A advertência está na cartela e no texto do anúncio.

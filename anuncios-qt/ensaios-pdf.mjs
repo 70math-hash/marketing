@@ -124,7 +124,7 @@ function tabelaLeitura() {
     }
     for (const { q, inicio, fim } of trechos) {
       const cartela = q.textos.some(t => t.linhas.join(' ') === 'QT PIZZA BAR');
-      const lidos = q.textos.map(t => t.linhas.join(' ')).filter((t, i) => !cartela || q.textos[i].estilo === 'limpo' || /álcool/.test(t));
+      const lidos = q.textos.map(t => t.linhas.join(' ')).filter((t, i) => !cartela || ['limpo', 'chamada'].includes(q.textos[i].estilo) || /álcool/.test(t));
       const caracteres = lidos.join(' ').length;
       const ritmo = caracteres / (fim - inicio);
       const leitura = LEITURA.find(([teto]) => ritmo <= teto)[1];

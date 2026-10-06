@@ -36,7 +36,7 @@ fundo: forno
 imagem: a borda já dentro do forno, estufando e pintando de leopardo
 camera: tripé a 1,2 m da boca, lente 3×, travado; acelerado 2× na edição
 som: fogo e chiado
-texto: 400°C | 300 | 150 | limpo
+texto: 400°C | 300 | 190 | numero
 ```
 
 ```quadro
@@ -48,7 +48,8 @@ fundo: forno
 imagem: a pá gira a pizza perto do fogo
 camera: mesmo tripé, lente 1×, a boca do forno inteira no quadro
 som: a pá raspando o piso
-texto: 48 horas de / fermentação | 300 | 76 | limpo
+texto: 48 horas de / fermentação | 300 | 84 | etiqueta
+texto: a massa descansa mais que a gente | 545 | 42 | fala
 ```
 
 ```quadro
@@ -60,7 +61,8 @@ fundo: forno
 imagem: a pizza sai do forno na pá, vindo na direção da câmera
 camera: tripé ao lado da boca, câmera lenta 120 qps
 som: a pá e a cozinha
-texto: 48 horas de / fermentação | 300 | 76 | limpo
+texto: 48 horas de / fermentação | 300 | 84 | etiqueta
+texto: a massa descansa mais que a gente | 545 | 42 | fala
 ```
 
 ```quadro
@@ -72,8 +74,8 @@ fundo: bancada
 imagem: o corte atravessa a borda e mostra a alveolatura
 camera: bancada, de lado, macro, LED rasante da esquerda, tripé
 som: o crac da crosta, de perto
-texto: Entre as 100 / melhores pizzarias / do mundo | 300 | 72 | tarja
-texto: 50 TOP PIZZA · DESDE 2022 | 610 | 34 | rotulo
+texto: Top 100 / do mundo | 300 | 96 | etiqueta
+texto: segundo o 50 Top Pizza, desde 2022 | 560 | 42 | fala
 ```
 
 ```quadro
@@ -85,8 +87,8 @@ fundo: bancada
 imagem: a primeira fatia sai e o fior di latte estica
 camera: de cima em diagonal, câmera lenta 120 qps
 som: a cozinha em silêncio, o queijo
-texto: Entre as 100 / melhores pizzarias / do mundo | 300 | 72 | tarja
-texto: 50 TOP PIZZA · DESDE 2022 | 610 | 34 | rotulo
+texto: Top 100 / do mundo | 300 | 96 | etiqueta
+texto: segundo o 50 Top Pizza, desde 2022 | 560 | 42 | fala
 ```
 
 ```quadro
@@ -98,20 +100,21 @@ fundo: mesa
 imagem: a pizza chega à mesa e duas mãos se aproximam
 camera: de cima, a 70 cm do tampo, tripé com braço
 som: o prato na mesa, o salão baixo
-texto: Fica nos Jardins | 300 | 76 | tarja
+texto: E fica logo ali, / nos Jardins | 300 | 76 | etiqueta
 ```
 
 ```quadro
 plano: 7
 tempo: 19,5 a 22,0 s
 desenho: cartela
-fundo: preto
-imagem: cartela final, em preto
+fundo: creme
+imagem: cartela final, em creme, com o lema da camiseta
 camera: gráfico, feito na edição
 som: o salão some
-texto: QT PIZZA BAR | 700 | 34 | rotulo
-texto: Reserve sua mesa / pelo WhatsApp | 770 | 76 | limpo
-texto: Jardins · terça a domingo, no jantar | 990 | 40 | apoio
+texto: Aqui cortamos carboidratos | 760 | 64 | lema
+texto: QT PIZZA BAR | 690 | 46 | marca
+texto: Reserva no / WhatsApp | 860 | 92 | chamada
+texto: Jardins · terça a domingo, no jantar | 1080 | 38 | nota
 ```
 
 ## Como filmar
@@ -130,8 +133,8 @@ texto: Jardins · terça a domingo, no jantar | 990 | 40 | apoio
 - **Velocidade.** Plano `1` acelerado `2×`, para a borda crescer dentro dos `2,5` segundos. Planos `3` e `5` em câmera lenta: o material de `120` qps tocado a `30`.
 - **Cor.** Natural. Corrija só exposição e balanço para os planos casarem. O fogo continua laranja e o fior di latte continua branco.
 - **Som.** O crac da crosta é o pico do vídeo. Fogo e pá ficam por baixo, e o salão entra baixo no plano `6`.
-- **Texto.** Helvetica Bold em branco `#EFECEC`. Sobre o forno escuro vai limpo, sem tarja. Sobre a bancada e a mesa vai com tarja preta `#1A1E1E`. Entra e sai em corte seco, junto com o plano, nunca animado.
-- **Cartela.** Fundo preto `#1A1E1E`, textos alinhados à esquerda. Se o arquivo do símbolo da QT estiver disponível, ele entra acima do texto, em branco.
+- **Texto.** Na pegada da camiseta da casa: Oswald em caixa alta, azul `#1F45B5` numa etiqueta creme `#F1E9DA`, levemente torta, e a frase de apoio em creme sobre azul. O `400°C` vai grande, em creme com sombra azul. Entra e sai em corte seco, junto com o plano.
+- **Cartela.** Fundo creme e tudo em azul, como as costas da camiseta: o lema Aqui cortamos carboidratos em arco, o nome da casa dentro do arco e a chamada embaixo. Se o arquivo do símbolo da QT estiver disponível, ele entra no lugar do nome.
 
 ## Variações para teste
 

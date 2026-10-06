@@ -11,6 +11,7 @@
     "animatica": "node anuncios-qt/animatica.mjs"
   },
   "devDependencies": {
+    "@fontsource-variable/oswald": "^5.3.0",
     "marked": "^18.1.0",
     "playwright": "^1.56.1"
   }
