@@ -332,17 +332,28 @@ export function lerQuadro(bloco) {
   return q;
 }
 
-// ---------- quadro em html ----------
-export function quadroHtml(q, i, { legenda = true } = {}) {
+// ---------- as camadas do quadro ----------
+// a cena desenhada, as faixas do Reels e o texto na tela, separados porque a animática
+// põe as faixas e o texto por cima do material filmado
+export function camadas(q, i) {
   const id = `q${i}`;
   const desenho = DESENHOS[q.desenho] ? DESENHOS[q.desenho](id, q) : '';
   const escurecer = q.escurecer ? `<rect width="1080" height="1920" fill="#000" opacity="${Number(q.escurecer) / 100}"/>` : '';
-  const guia = q.desenho === 'guia';
-  const svg = `<svg viewBox="0 0 1080 1920" preserveAspectRatio="none" aria-hidden="true">` +
-    `<rect width="1080" height="1920" fill="${FUNDOS[q.fundo] || FUNDOS.preto}"/>${desenho}${escurecer}${guia ? '' : zonas()}</svg>`;
   const textos = q.textos.map(t =>
     `<div class="q-txt q-${t.estilo}" style="top:${n((t.y / 1920) * 100)}%; --t:${t.tamanho}">` +
     t.linhas.map(l => `<span>${esc(l).replace(/°/g, '<i class="q-grau">°</i>')}</span>`).join('<br>') + `</div>`).join('');
+  return {
+    cena: `<rect width="1080" height="1920" fill="${FUNDOS[q.fundo] || FUNDOS.preto}"/>${desenho}${escurecer}`,
+    faixas: zonas(),
+    textos,
+  };
+}
+
+// ---------- quadro em html ----------
+export function quadroHtml(q, i, { legenda = true } = {}) {
+  const { cena, faixas, textos } = camadas(q, i);
+  const guia = q.desenho === 'guia';
+  const svg = `<svg viewBox="0 0 1080 1920" preserveAspectRatio="none" aria-hidden="true">${cena}${guia ? '' : faixas}</svg>`;
   const cap = legenda
     ? `<figcaption><b>${esc(q.plano)}</b> · ${esc(q.tempo || '')}<br>${esc(q.imagem || '')}</figcaption>`
     : '';

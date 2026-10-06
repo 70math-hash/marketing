@@ -29,6 +29,7 @@ Tempo real é escolha, não falta de edição. Acelerar deixa a borda bonita; te
 
 ```quadro
 plano: 1
+capta: F1
 tempo: 0,0 a 6,0 s
 desenho: borda
 fundo: forno
@@ -40,6 +41,7 @@ texto: 400°C | 300 | 150 | limpo
 
 ```quadro
 plano: 2
+capta: F2
 tempo: 6,0 a 9,0 s
 desenho: forno
 fundo: forno
@@ -50,6 +52,7 @@ som: a pá raspando o piso
 
 ```quadro
 plano: 3
+capta: F2
 tempo: 9,0 a 12,0 s
 desenho: saida
 fundo: forno

@@ -27,6 +27,7 @@ O texto mora no `.md`. Cada plano é um bloco `quadro`:
 
 ```
 plano: 1
+capta: F1
 tempo: 0,0 a 2,5 s
 desenho: borda
 fundo: forno
@@ -35,6 +36,8 @@ camera: tripé a 1,2 m da boca, lente 3×, travado
 som: fogo e chiado
 texto: 400°C | 300 | 150 | limpo
 ```
+
+A linha `capta` diz de qual plano da lista de filmagem sai a imagem: `F1`, `C1`, `M2`. É por ela que a animática e o [caderno de ensaio](../ensaios/caderno-de-ensaio.md) acham o material de cada plano. A cartela, que é gráfico da edição, não tem `capta`.
 
 A linha `texto` é `conteúdo | altura em px | tamanho em px | estilo`, em pixel do vídeo final, `1080 × 1920`. O texto quebra linha em ` / `. Os estilos são `limpo`, `tarja`, `rotulo` e `apoio`. Os desenhos disponíveis estão em [`../storyboard.mjs`](../storyboard.mjs): `borda`, `forno`, `saida`, `corte`, `fatia`, `mesa`, `mesa-drink`, `dividir`, `salao`, `timelapse`, `mesa-longa`, `mesa-cabeceira` e `cartela`.
 
@@ -47,3 +50,5 @@ npm run roteiros -- a1    # só um
 ```
 
 O desenho de cada quadro é esquema de enquadramento, não ilustração: mostra onde a pizza, o forno e as mãos ficam no quadro, e onde o texto pode entrar.
+
+Cada roteiro tem também uma animática, os mesmos quadros montados no tempo exato do vídeo, em [`../ensaios/animaticas/`](../ensaios/animaticas/). Mexeu num roteiro, rode `npm run animatica` junto com o `npm run roteiros`.

@@ -39,6 +39,7 @@ A estrela é a mesa, não a bebida. Se houver drink, ele é cenário.
 
 ```quadro
 plano: 1
+capta: L1
 tempo: 0,0 a 3,0 s
 desenho: mesa-longa
 fundo: mesa
@@ -50,6 +51,7 @@ texto: Confraternização / de fim de ano | 300 | 76 | tarja
 
 ```quadro
 plano: 2
+capta: L2
 tempo: 3,0 a 7,0 s
 desenho: dividir
 fundo: mesa
@@ -61,6 +63,7 @@ texto: Pizza napolitana / para a mesa toda | 300 | 72 | tarja
 
 ```quadro
 plano: 3
+capta: L3
 tempo: 7,0 a 11,5 s
 desenho: mesa-cabeceira
 fundo: salao

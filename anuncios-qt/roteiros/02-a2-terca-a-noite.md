@@ -30,6 +30,7 @@ O gancho é comida, não salão. Salão bonito existe em qualquer lugar; a Margh
 
 ```quadro
 plano: 1
+capta: M2
 tempo: 0,0 a 2,5 s
 desenho: mesa-drink
 fundo: mesa
@@ -41,6 +42,7 @@ texto: Terça à noite | 300 | 80 | tarja
 
 ```quadro
 plano: 2
+capta: M3
 tempo: 2,5 a 6,0 s
 desenho: salao
 fundo: salao
@@ -52,6 +54,7 @@ texto: nos Jardins | 300 | 80 | tarja
 
 ```quadro
 plano: 3
+capta: M4
 tempo: 6,0 a 10,0 s
 desenho: dividir
 fundo: mesa
@@ -63,6 +66,7 @@ texto: Pizza napolitana / e um drink bem feito | 300 | 64 | tarja
 
 ```quadro
 plano: 4
+capta: M5
 tempo: 10,0 a 14,5 s
 desenho: mesa-drink
 fundo: mesa

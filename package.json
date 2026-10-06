@@ -6,7 +6,9 @@
   "scripts": {
     "render": "node template/render.mjs",
     "apostila": "node anuncios-qt/apostila-pdf.mjs",
-    "roteiros": "node anuncios-qt/roteiros-pdf.mjs"
+    "roteiros": "node anuncios-qt/roteiros-pdf.mjs",
+    "ensaios": "node anuncios-qt/ensaios-pdf.mjs",
+    "animatica": "node anuncios-qt/animatica.mjs"
   },
   "devDependencies": {
     "marked": "^18.1.0",

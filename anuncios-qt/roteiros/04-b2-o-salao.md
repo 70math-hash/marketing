@@ -29,6 +29,7 @@ O time-lapse resolve duas coisas de uma vez: dá movimento sem ninguém segurar 
 
 ```quadro
 plano: 1
+capta: T1
 tempo: 0,0 a 5,0 s
 desenho: timelapse
 fundo: salao
@@ -40,6 +41,7 @@ texto: Aquele lugar onde / você quer ficar / mais um pouquinho | 300 | 72 | tar
 
 ```quadro
 plano: 2
+capta: M6
 tempo: 5,0 a 9,5 s
 desenho: salao
 fundo: salao
@@ -50,6 +52,7 @@ som: o salão
 
 ```quadro
 plano: 3
+capta: M6
 tempo: 9,5 a 13,0 s
 desenho: salao
 fundo: salao

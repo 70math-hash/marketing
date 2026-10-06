@@ -29,6 +29,7 @@ O vídeo não explica técnica, mostra. O número na tela faz o papel do profess
 
 ```quadro
 plano: 1
+capta: F1
 tempo: 0,0 a 2,5 s
 desenho: borda
 fundo: forno
@@ -40,6 +41,7 @@ texto: 400°C | 300 | 150 | limpo
 
 ```quadro
 plano: 2
+capta: F2
 tempo: 2,5 a 5,5 s
 desenho: forno
 fundo: forno
@@ -51,6 +53,7 @@ texto: 48 horas de / fermentação | 300 | 76 | limpo
 
 ```quadro
 plano: 3
+capta: F3
 tempo: 5,5 a 8,0 s
 desenho: saida
 fundo: forno
@@ -62,6 +65,7 @@ texto: 48 horas de / fermentação | 300 | 76 | limpo
 
 ```quadro
 plano: 4
+capta: C1
 tempo: 8,0 a 12,0 s
 desenho: corte
 fundo: bancada
@@ -74,6 +78,7 @@ texto: 50 TOP PIZZA · DESDE 2022 | 610 | 34 | rotulo
 
 ```quadro
 plano: 5
+capta: C2
 tempo: 12,0 a 16,0 s
 desenho: fatia
 fundo: bancada
@@ -86,6 +91,7 @@ texto: 50 TOP PIZZA · DESDE 2022 | 610 | 34 | rotulo
 
 ```quadro
 plano: 6
+capta: M1
 tempo: 16,0 a 19,5 s
 desenho: mesa
 fundo: mesa
