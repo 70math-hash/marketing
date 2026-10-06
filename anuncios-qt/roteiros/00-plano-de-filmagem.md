@@ -34,15 +34,17 @@ Um dia só, de preferência uma terça, que é dia de casa mais calma. Os horár
 
 | Hora | Bloco | O que se filma | Pizzas |
 |---|---|---|---|
-| `14h30` | Montagem | tripés, luz, teste de som, termos impressos, `20` discos de Margherita prontos | |
+| `14h30` | Montagem | tripés, luz, teste de som, termos impressos, `20` discos de Margherita prontos, fotos de enquadramento do forno e da bancada | |
 | `15h30` | `1` · Forno | `A1` planos `1` a `3`, `B1` inteiro, a leitura do termômetro | `6` |
 | `16h30` | `2` · Bancada | `A1` planos `4` e `5`: o corte, a fatia e o som da crosta | `3` |
 | `17h10` | `3` · Fotos | os `4` cards do `A3` e a Margherita do `A4`, ainda com luz do dia | `1` e o disco cru |
-| `17h50` | Pausa | descarregar o celular, mandar os blocos `1` a `3` para aprovação, recarregar | |
+| `17h50` | Pausa | descarregar o celular, mandar os blocos `1` a `3` e as fotos de enquadramento da mesa para aprovação, recarregar | |
 | `18h20` | `4` · Mesa encenada | `A1` plano `6`, `A2` inteiro, `B2` plano `2` e o som do salão, só com figurantes | `2` |
 | `19h00` | `5` · Time-lapse | `B2` plano `1`: celular fixo no alto do salão, da abertura até `20h30` | |
 | `20h30` | Backup | todo o material em dois lugares antes de ir embora | |
 | outro dia | `6` · Mesa comprida | `G1` inteiro, com `8` a `10` figurantes | `5` |
+
+Antes de cada bloco vai a foto de enquadramento: o celular já na posição do plano, na lente do plano e sem ninguém no quadro. Ela segue para aprovação com o código na legenda e volta aprovada ou com o ajuste. Não gasta pizza e evita descobrir um quadro torto depois que o bloco acabou. São `11`: `F1`, `F2`, `F3`, `C1` e `C2` na montagem; `M1`, `M3`, `M4`, `M5` e `M6` na pausa; e `T1` antes de ligar o time-lapse. O `F4` é na mão e o `M2` usa a posição do `M1`.
 
 São `20` discos: `17` pizzas para a câmera, `1` disco cru para a foto e `2` de reserva. As pizzas da gravação entram como custo de produção, `17` vezes o custo da ficha técnica da Margherita, ou `12` sem a mesa comprida. Depois de filmadas, viram refeição da equipe.
 
