@@ -1,6 +1,6 @@
 # Anúncios da QT · Meta Ads
 
-Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, com preto `#1A1E1E`, cinza `#A0A5A5`, branco `#EFECEC` e Helvetica, e o tom da casa. Nada daqui vai para o @matheus__ramos, e nada da identidade MR entra nos anúncios da QT.
+Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, com preto `#1A1E1E`, cinza `#A0A5A5`, branco `#EFECEC` e Helvetica, e o tom da casa. O texto na tela dos vídeos segue a camiseta: azul royal `#1F45B5` sobre creme `#F1E9DA`, na Oswald. Nada daqui vai para o @matheus__ramos, e nada da identidade MR entra nos anúncios da QT.
 
 ## O que tem aqui
 
@@ -11,12 +11,14 @@ Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, 
 | [`plano-de-largada.md`](plano-de-largada.md) | as duas primeiras campanhas prontas para montar: fichas técnicas, textos, atendimento no WhatsApp, as quatro semanas, o teste do mês `2` e a campanha de confraternização |
 | [`roteiros/`](roteiros/README.md) | os vídeos da campanha: o plano de filmagem e um roteiro com storyboard para cada vídeo, em markdown e PDF |
 | [`ensaios/`](ensaios/README.md) | o ensaio antes da diária: o caderno com as `16` fichas, fotos de posição e prompts para a previz com IA, em markdown e PDF, e uma animática por vídeo |
+| [`edicoes/`](edicoes/) | os vídeos que chegam editados e viram anúncio: um roteiro de edição por vídeo, com o texto na pegada da camiseta e o tempo de cada um |
 | [`meta-ads-qt.xlsx`](meta-ads-qt.xlsx) | a planilha: Calculadora, Campanhas, Semanal, Criativos, Checklist e Como ler |
 | [`planilha.py`](planilha.py) | gera a planilha |
 | [`apostila-pdf.mjs`](apostila-pdf.mjs) | gera o PDF da apostila a partir do markdown |
 | [`roteiros-pdf.mjs`](roteiros-pdf.mjs) | gera os PDFs dos roteiros, com o storyboard de [`storyboard.mjs`](storyboard.mjs) |
 | [`animatica.mjs`](animatica.mjs) | monta a animática de cada vídeo a partir do roteiro, com o storyboard ou com o material do ensaio |
 | [`ensaios-pdf.mjs`](ensaios-pdf.mjs) | gera o PDF do caderno de ensaio e recalcula as tabelas de custo e de tempo de leitura |
+| [`edicao.mjs`](edicao.mjs) | põe o texto de um roteiro de edição sobre o vídeo pronto, sem mexer nos cortes, e troca a trilha |
 | [`pdf-qt.mjs`](pdf-qt.mjs) | a base comum dos PDFs da QT: fonte, página e impressão |
 
 ## Ordem de uso
@@ -87,7 +89,7 @@ Vale repetir essa verificação se alguém mexer nas fórmulas.
 - Como a reserva é feita hoje. Se for por plataforma com link, a campanha principal troca para Tráfego.
 - Ticket médio sem os `13%`, CMV, impostos, taxas, comparecimento, pessoas por reserva e lugares que sobram de terça a quinta.
 - Nos textos do WhatsApp: horário, endereço, links, tolerância da reserva e a proposta para grupo.
-- Nos anúncios: os textos citam "entre as `100` melhores do mundo pelo 50 Top Pizza desde `2022`" e "Pizza Maker of the Year `2024`". Se quiser citar a posição de `2025` ou `2026`, troque no plano antes de subir.
+- Nos anúncios: os textos citam "`17ª` melhor pizzaria do mundo no 50 Top Pizza `2026`" e "Pizza Maker of the Year `2024`". Quando sair o ranking de `2027`, troque nos roteiros e no plano antes de subir.
 
 ## Validade
 

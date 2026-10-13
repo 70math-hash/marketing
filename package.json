@@ -8,7 +8,8 @@
     "apostila": "node anuncios-qt/apostila-pdf.mjs",
     "roteiros": "node anuncios-qt/roteiros-pdf.mjs",
     "ensaios": "node anuncios-qt/ensaios-pdf.mjs",
-    "animatica": "node anuncios-qt/animatica.mjs"
+    "animatica": "node anuncios-qt/animatica.mjs",
+    "edicao": "node anuncios-qt/edicao.mjs"
   },
   "devDependencies": {
     "@fontsource-variable/oswald": "^5.3.0",

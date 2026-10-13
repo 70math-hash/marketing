@@ -433,7 +433,7 @@ export const cssStoryboard = FONTE_OSWALD + `
 .q-grau { font-style: normal; margin: 0 -0.09em 0 -0.05em; }
 
 /* estilo da camiseta: azul sobre creme, Oswald, etiqueta levemente torta */
-.q-numero, .q-etiqueta, .q-fala, .q-marca, .q-chamada, .q-nota, .q-aviso, .q-lema text { font-family: 'Oswald QT', FreeSans, Helvetica, Arial, sans-serif; }
+.q-numero, .q-etiqueta, .q-fala, .q-marca, .q-chamada, .q-nota, .q-aviso, .q-legenda, .q-lema text { font-family: 'Oswald QT', FreeSans, Helvetica, Arial, sans-serif; }
 .q-numero { color: ${CAMISETA.creme}; line-height: 1; text-shadow: calc(10 / 1080 * 100cqw) calc(10 / 1080 * 100cqw) 0 ${CAMISETA.azul}; }
 .q-numero .q-grau { margin: 0 0.01em 0 0; }
 .q-etiqueta, .q-fala { transform: rotate(-2deg); transform-origin: 0 0; }
@@ -445,6 +445,7 @@ export const cssStoryboard = FONTE_OSWALD + `
 .q-marca { font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; }
 .q-chamada { text-transform: uppercase; line-height: 1.05; }
 .q-nota, .q-aviso { font-weight: 400; }
+.q-legenda { text-align: center; color: ${CAMISETA.creme}; font-weight: 500; letter-spacing: 0.02em; text-shadow: 0 0 calc(8 / 1080 * 100cqw) rgba(0, 0, 0, 0.85), 0 calc(2 / 1080 * 100cqw) calc(3 / 1080 * 100cqw) rgba(0, 0, 0, 0.9); }
 .q-lema text { font-weight: 700; fill: ${CAMISETA.azul}; letter-spacing: 0.06em; }
 .q-cartao { position: absolute; left: 7%; right: 7%; top: 17%; bottom: 37.5%; background: ${CAMISETA.creme}; transform: rotate(-1.5deg); border-radius: calc(18 / 1080 * 100cqw); box-shadow: 0 calc(10 / 1080 * 100cqw) calc(40 / 1080 * 100cqw) rgba(0, 0, 0, 0.35); }
 .q-bloco figcaption { font-size: 6.8pt; line-height: 1.35; margin-top: 4pt; }

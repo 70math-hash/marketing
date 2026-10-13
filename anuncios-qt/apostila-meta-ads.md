@@ -328,7 +328,7 @@ Ganchos que a QT tem e quase ninguém tem:
 
 Exemplo de texto principal para cada um. Os completos, com roteiro, estão no plano de largada.
 
-> **`DEST`** Desde 2022 a QT está entre as 100 melhores pizzarias do mundo no ranking 50 Top Pizza. A massa fermenta no mínimo 48 horas a 4°C e o forno trabalha a 400°C. A mesa fica nos Jardins, e a reserva é por aqui.
+> **`DEST`** A QT é a 17ª melhor pizzaria do mundo no ranking 50 Top Pizza 2026, e está na lista desde 2022. A massa fermenta no mínimo 48 horas a 4°C e o forno trabalha a 400°C. A mesa fica nos Jardins, e a reserva é por aqui.
 
 > **`OCAS`** Terça também é dia de sair para jantar. Pizza napolitana, um drink bem feito e aquela mesa onde a conversa estica mais um pouquinho. Fica nos Jardins. Chama no WhatsApp que a gente separa a sua.
 

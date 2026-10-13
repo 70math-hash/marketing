@@ -80,7 +80,7 @@ Os criativos saem de **uma diária só**, detalhada no [plano de filmagem](rotei
 
 Reels `9:16`, `22` segundos. Ângulo destino. O forno, a borda, o corte e as três provas na tela. Roteiro: [`01-a1-o-forno`](roteiros/01-a1-o-forno.md).
 
-**Texto principal.** Desde 2022 a QT está entre as 100 melhores pizzarias do mundo no ranking 50 Top Pizza. A massa fermenta no mínimo 48 horas a 4°C e o forno trabalha a 400°C. A mesa fica nos Jardins, e a reserva é por aqui.
+**Texto principal.** A QT é a 17ª melhor pizzaria do mundo no ranking 50 Top Pizza 2026, e está na lista desde 2022. A massa fermenta no mínimo 48 horas a 4°C e o forno trabalha a 400°C. A mesa fica nos Jardins, e a reserva é por aqui.
 
 **Título.** Reserve sua mesa nos Jardins
 
@@ -119,7 +119,7 @@ Carrossel `4:5`, `4` cards. Ângulo processo.
 
 Foto `4:5`. Ângulo destino.
 
-**Imagem.** A Margherita vista de cima, superfície natural, luz natural, sem filtro. Na faixa central de baixo, pequeno e fora da área dos botões: `50 Top Pizza · entre as 100 melhores do mundo desde 2022`.
+**Imagem.** A Margherita vista de cima, superfície natural, luz natural, sem filtro. Na faixa central de baixo, pequeno e fora da área dos botões: `50 Top Pizza 2026 · 17ª melhor pizzaria do mundo`.
 
 **Texto principal.** Feita pelo Pizza Maker of the Year 2024, título dado pelo 50 Top Pizza. A QT fica nos Jardins e abre de terça a domingo, no jantar. Reserve sua mesa pelo WhatsApp.
 

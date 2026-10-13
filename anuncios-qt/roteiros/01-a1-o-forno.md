@@ -74,8 +74,8 @@ fundo: bancada
 imagem: o corte atravessa a borda e mostra a alveolatura
 camera: bancada, de lado, macro, LED rasante da esquerda, tripé
 som: o crac da crosta, de perto
-texto: Top 100 / do mundo | 300 | 96 | etiqueta
-texto: segundo o 50 Top Pizza, desde 2022 | 560 | 42 | fala
+texto: 17ª melhor pizzaria / do mundo | 300 | 84 | etiqueta
+texto: segundo o 50 Top Pizza 2026 | 545 | 42 | fala
 ```
 
 ```quadro
@@ -87,8 +87,8 @@ fundo: bancada
 imagem: a primeira fatia sai e o fior di latte estica
 camera: de cima em diagonal, câmera lenta 120 qps
 som: a cozinha em silêncio, o queijo
-texto: Top 100 / do mundo | 300 | 96 | etiqueta
-texto: segundo o 50 Top Pizza, desde 2022 | 560 | 42 | fala
+texto: 17ª melhor pizzaria / do mundo | 300 | 84 | etiqueta
+texto: segundo o 50 Top Pizza 2026 | 545 | 42 | fala
 ```
 
 ```quadro

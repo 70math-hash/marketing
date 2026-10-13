@@ -73,7 +73,7 @@ Nas cartelas, a leitura é em degraus: o olho pega a chamada, depois o nome da c
 |---|---|---|---|---|---|
 | `A1` | 400°C | `2,5` | `5` | `2,0` | folgada |
 | `A1` | 48 horas de fermentação · a massa descansa mais que a gente | `5,5` | `57` | `10,4` | folgada |
-| `A1` | Top 100 do mundo · segundo o 50 Top Pizza, desde 2022 | `8,0` | `51` | `6,4` | folgada |
+| `A1` | 17ª melhor pizzaria do mundo · segundo o 50 Top Pizza 2026 | `8,0` | `56` | `7,0` | folgada |
 | `A1` | E fica logo ali, nos Jardins | `3,5` | `28` | `8,0` | folgada |
 | `A1` | cartela: Reserva no WhatsApp | `2,5` | `19` | `7,6` | folgada |
 | `A2` | Terça? Pizza. | `2,5` | `13` | `5,2` | folgada |
@@ -189,7 +189,7 @@ quadro-chave: Use the reference photo for the exact camera position, lens and th
 video: veo3_1_lite
 segundos: 4
 movimento: Locked-off macro close-up. The blade presses straight down slowly, in one continuous motion, and cuts through the rim; the crust cracks and the cross-section opens to show an open, airy crumb with large irregular alveoli. A few crumbs fall. The grazing light from the left reveals the texture. One take, no cuts. Realistic physics, smartphone footage, no camera equipment in frame, no text.
-observar: A luz rasante da esquerda é o que desenha os alvéolos; de frente, eles somem. / O alto do quadro, até uns 620 px, é da etiqueta Top 100 do mundo e da frase de apoio, então o corte acontece abaixo disso. / O corte é um movimento só, devagar.
+observar: A luz rasante da esquerda é o que desenha os alvéolos; de frente, eles somem. / O alto do quadro, até uns 620 px, é da etiqueta do 17º lugar e da frase de apoio, então o corte acontece abaixo disso. / O corte é um movimento só, devagar.
 erra: A lâmina entra como se a massa fosse bolo, e a alveolatura sai regular demais. Troque straight blade pela ferramenta da QT: pizza wheel, rocker knife ou serrated knife.
 ```
 
