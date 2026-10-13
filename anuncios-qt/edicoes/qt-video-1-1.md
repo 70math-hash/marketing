@@ -20,6 +20,8 @@ node anuncios-qt/edicao.mjs anuncios-qt/edicoes/qt-video-1-1.md "QT - VIDEO 1.1V
 
 A foto `placa-2026.jpg` fica na mesma pasta do vídeo, fora do Git, como todo material filmado.
 
+A versão limpa, sem nenhum texto e sem som, só com a placa de `2026` no lugar, sai com `--limpo --mudo` no lugar de `--audio`.
+
 ```quadro
 plano: gancho
 tempo: 0,00 a 3,67 s

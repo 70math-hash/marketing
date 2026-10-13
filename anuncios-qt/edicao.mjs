@@ -6,6 +6,8 @@
 //       --audio trilha.mp3   troca a trilha; sem ele, fica o som do próprio vídeo
 //       --faixas [reels|stories]  marca as faixas que a interface cobre, para revisão;
 //                                 sem o nome, as do Reels
+//       --limpo              sem nenhum texto: só as fotos que trocam planos
+//       --mudo               sem som: uma faixa de áudio em silêncio, para pôr a música depois
 //
 // O roteiro de edição usa as linhas tempo, texto e cartao dos roteiros, e o tempo vem em
 // segundos do vídeo, com vírgula: o bloco vale do primeiro quadro em que o tempo já chegou
@@ -27,18 +29,22 @@ import { lerQuadro, camadas, cssStoryboard } from './storyboard.mjs';
 const posicionais = [];
 let trilha = null;
 let faixas = null;
+let limpo = false;
+let mudo = false;
 const args = process.argv.slice(2);
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--audio') trilha = args[++i];
   else if (args[i] === '--faixas') faixas = ['reels', 'stories'].includes(args[i + 1]) ? args[++i] : 'reels';
+  else if (args[i] === '--limpo') limpo = true;
+  else if (args[i] === '--mudo') mudo = true;
   else posicionais.push(args[i]);
 }
 const [roteiro, video, saidaPedida] = posicionais;
 if (!roteiro || !video) {
-  console.error('uso: node anuncios-qt/edicao.mjs <roteiro-de-edicao.md> <video> [saida.mp4] [--audio trilha] [--faixas reels|stories]');
+  console.error('uso: node anuncios-qt/edicao.mjs <roteiro-de-edicao.md> <video> [saida.mp4] [--audio trilha | --mudo] [--limpo] [--faixas reels|stories]');
   process.exit(1);
 }
-const saida = saidaPedida || join(dirname(video), `${basename(video, extname(video))}-qt${faixas ? `-faixas-${faixas}` : ''}.mp4`);
+const saida = saidaPedida || join(dirname(video), `${basename(video, extname(video))}-qt${limpo ? '-limpo' : ''}${mudo ? '-mudo' : ''}${faixas ? `-faixas-${faixas}` : ''}.mp4`);
 
 const sonda = (...a) => execFileSync('ffprobe', ['-v', 'error', ...a, '-of', 'csv=p=0', video]).toString().trim();
 const duracao = Number(sonda('-show_entries', 'format=duration'));
@@ -55,7 +61,8 @@ const FAIXAS_STORIES = '<rect x="0" y="0" width="1080" height="250" fill="#EFECE
 // a foto de celular sai neutra e clara; o vídeo de cinema, quente e com as bordas mais escuras
 const TONS = { quente: 'colorchannelmixer=rr=1.12:gg=1.03:bb=0.95,vignette=angle=PI/6' };
 
-const blocos = [...readFileSync(roteiro, 'utf8').matchAll(/```quadro\n([\s\S]*?)```/g)].map(m => lerQuadro(m[1]));
+const blocos = [...readFileSync(roteiro, 'utf8').matchAll(/```quadro\n([\s\S]*?)```/g)].map(m => lerQuadro(m[1]))
+  .filter(q => !limpo || q.foto);
 for (const q of blocos) {
   if (!(q.fim > q.inicio)) throw new Error(`bloco "${q.plano}" sem tempo válido: ${q.tempo}`);
   if (q.fim > duracao + 0.05) throw new Error(`bloco "${q.plano}" termina em ${segundos(q.fim)} s, depois do fim do vídeo (${segundos(duracao)} s)`);
@@ -144,7 +151,9 @@ try {
 
   // ---------- o som: a trilha nova ou a do vídeo, em -14 LUFS ----------
   const nivel = 'loudnorm=I=-14:TP=-1.5:LRA=11';
-  if (trilha) {
+  if (mudo) {
+    filtros.push(`anullsrc=channel_layout=stereo:sample_rate=48000,atrim=0:${duracao}[a]`);
+  } else if (trilha) {
     const e = novaEntrada('-i', trilha);
     const fade = Math.min(1.2, duracao / 4);
     filtros.push(`[${e}:a]atrim=0:${duracao},asetpts=PTS-STARTPTS,afade=t=out:st=${(duracao - fade).toFixed(3)}:d=${fade},${nivel}[a]`);
@@ -161,7 +170,7 @@ try {
   { stdio: ['ignore', 'ignore', 'inherit'] });
 
   console.log(`salvo: ${saida} · ${segundos(duracao)} s · ${blocos.filter(q => q.png).length} blocos de texto · ${fotos.length} foto(s)` +
-    (trilha ? ` · trilha ${basename(trilha)}` : ' · som do vídeo'));
+    (mudo ? ' · sem som' : trilha ? ` · trilha ${basename(trilha)}` : ' · som do vídeo'));
 } finally {
   await navegador.close();
   rmSync(tmp, { recursive: true, force: true });
