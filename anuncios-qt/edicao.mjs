@@ -4,7 +4,8 @@
 //
 // Uso:  node anuncios-qt/edicao.mjs <roteiro-de-edicao.md> <video> [saida.mp4]
 //       --audio trilha.mp3   troca a trilha; sem ele, fica o som do próprio vídeo
-//       --faixas             marca as faixas que a interface do Reels cobre, para revisão
+//       --faixas [reels|stories]  marca as faixas que a interface cobre, para revisão;
+//                                 sem o nome, as do Reels
 //
 // O roteiro de edição usa as linhas tempo, texto e cartao dos roteiros, e o tempo vem em
 // segundos do vídeo, com vírgula. O som sai em -14 LUFS, o padrão para rede social.
@@ -19,22 +20,26 @@ import { lerQuadro, camadas, cssStoryboard } from './storyboard.mjs';
 
 const posicionais = [];
 let trilha = null;
-let comFaixas = false;
+let faixas = null;
 const args = process.argv.slice(2);
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--audio') trilha = args[++i];
-  else if (args[i] === '--faixas') comFaixas = true;
+  else if (args[i] === '--faixas') faixas = ['reels', 'stories'].includes(args[i + 1]) ? args[++i] : 'reels';
   else posicionais.push(args[i]);
 }
 const [roteiro, video, saidaPedida] = posicionais;
 if (!roteiro || !video) {
-  console.error('uso: node anuncios-qt/edicao.mjs <roteiro-de-edicao.md> <video> [saida.mp4] [--audio trilha] [--faixas]');
+  console.error('uso: node anuncios-qt/edicao.mjs <roteiro-de-edicao.md> <video> [saida.mp4] [--audio trilha] [--faixas reels|stories]');
   process.exit(1);
 }
-const saida = saidaPedida || join(dirname(video), `${basename(video, extname(video))}-qt${comFaixas ? '-faixas' : ''}.mp4`);
+const saida = saidaPedida || join(dirname(video), `${basename(video, extname(video))}-qt${faixas ? `-faixas-${faixas}` : ''}.mp4`);
 
 const duracao = Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', video]).toString().trim());
 const segundos = v => v.toFixed(2).replace('.', ',');
+
+// nos Stories, o topo tem a barra de progresso e o nome da conta, e o pé tem o botão do anúncio
+const FAIXAS_STORIES = '<rect x="0" y="0" width="1080" height="250" fill="#EFECEC" opacity=".18"/>' +
+  '<rect x="0" y="1580" width="1080" height="340" fill="#EFECEC" opacity=".18"/>';
 
 const blocos = [...readFileSync(roteiro, 'utf8').matchAll(/```quadro\n([\s\S]*?)```/g)].map(m => lerQuadro(m[1]));
 for (const q of blocos) {
@@ -64,9 +69,10 @@ try {
     await camada(camadas(q, k).textos, arquivo);
     sobreposicoes.push({ arquivo, inicio: q.inicio, fim: q.fim });
   }
-  if (comFaixas) {
+  if (faixas) {
     const arquivo = join(tmp, 'faixas.png');
-    await camada(`<svg viewBox="0 0 1080 1920" width="1080" height="1920">${camadas({ textos: [] }, 0).faixas}</svg>`, arquivo);
+    const desenho = faixas === 'stories' ? FAIXAS_STORIES : camadas({ textos: [] }, 0).faixas;
+    await camada(`<svg viewBox="0 0 1080 1920" width="1080" height="1920">${desenho}</svg>`, arquivo);
     sobreposicoes.push({ arquivo, inicio: 0, fim: duracao });
   }
 
