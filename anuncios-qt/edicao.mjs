@@ -4,7 +4,7 @@
 // muda a ordem dos planos antes.
 //
 // Uso:  node anuncios-qt/edicao.mjs <roteiro-de-edicao.md> <video> [saida.mp4]
-//       --audio trilha.wav   troca a trilha; sem ele, vale o bloco som do roteiro, se houver,
+//       --audio trilha.mp3   troca a trilha; sem ele, vale o bloco trilha do roteiro, se houver,
 //                            ou fica o som do próprio vídeo
 //       --mudo               sem som: uma faixa de áudio em silêncio, para pôr a música depois
 //       --limpo              sem nenhum texto: só as fotos que trocam planos
@@ -28,16 +28,16 @@
 //   0,83 a 8,09
 // Com montagem, os tempos dos outros blocos valem para o vídeo já remontado.
 //
-// O bloco som vira a trilha: um ASMR feito por síntese no asmr.py, com um som por gesto, no
-// tempo do vídeo já remontado. O som sai em -14 LUFS, o padrão para rede social, com um ganho
-// só, medido antes, para a trilha guardar a dinâmica. Precisa do ffmpeg, e o bloco som, do
-// Python com numpy e scipy.
+// O bloco trilha diz a música, na mesma pasta do vídeo, e o ponto dela em que o vídeo começa,
+// para uma virada da música cair num corte:
+//   Italian_Tarantella_Remix.mp4 a partir de 28,167 s
+// A música que passa do fim do vídeo some em 1,2 s. O som sai em -14 LUFS, o padrão para rede
+// social, com um ganho só, medido antes, para a música guardar a dinâmica. Precisa do ffmpeg.
 
 import { readFileSync, mkdtempSync, rmSync } from 'node:fs';
 import { join, dirname, basename, extname, isAbsolute } from 'node:path';
 import { tmpdir } from 'node:os';
 import { execFileSync, spawnSync } from 'node:child_process';
-import { fileURLToPath } from 'node:url';
 import { SANS, abrirNavegador } from './pdf-qt.mjs';
 import { lerQuadro, camadas, cssStoryboard } from './storyboard.mjs';
 
@@ -118,7 +118,16 @@ for (const q of todos) {
   if (q.tom && !TONS[q.tom]) throw new Error(`bloco "${q.plano}": tom "${q.tom}" não existe; use ${Object.keys(TONS).join(', ')}`);
 }
 const textoMontagem = (md.match(/```montagem\n([\s\S]*?)```/) || [])[1];
-const temBlocoSom = /```som\n/.test(md);
+
+// a música do bloco trilha e o ponto dela em que o vídeo começa; o --audio passa na frente
+const textoTrilha = (md.match(/```trilha\n([\s\S]*?)```/) || [])[1];
+let entradaTrilha = 0;
+if (textoTrilha && !trilha) {
+  const m = textoTrilha.trim().match(/^(.+?)\s+a partir de\s+([\d,.]+)\s*s?$/);
+  if (!m) throw new Error(`trilha: linha não entendida, "${textoTrilha.trim()}"`);
+  trilha = isAbsolute(m[1]) ? m[1] : join(dirname(original), m[1]);
+  entradaTrilha = num(m[2]);
+}
 
 // ---------- a montagem: os planos na ordem nova, com as fotos entre eles ----------
 // cada trecho do original é uma entrada própria, aberta já no ponto certo, para nada ficar
@@ -171,13 +180,6 @@ if (textoMontagem) {
   info = sondar(video);
 }
 const { duracao, qps, fps, totalQuadros } = info;
-
-// o bloco som vira a trilha, na duração exata do vídeo pronto
-if (temBlocoSom && !trilha && !mudo) {
-  trilha = join(tmp, 'asmr.wav');
-  execFileSync('python3', [fileURLToPath(new URL('./asmr.py', import.meta.url)), roteiro, '--duracao', String(duracao), '--saida', trilha],
-    { stdio: ['ignore', 'inherit', 'inherit'] });
-}
 
 const blocos = todos.filter(q => !q.naMontagem)
   .filter(q => !limpo || q.foto)
@@ -262,10 +264,12 @@ try {
     filtros.push(`anullsrc=channel_layout=stereo:sample_rate=48000,atrim=0:${duracao}[a]`);
   } else if (trilha) {
     const e = novaEntrada('-i', trilha);
-    // a música mais longa que o vídeo é cortada e some devagar; a trilha feita na medida já tem o seu fim
+    // a música entra no ponto pedido sem estalo; a que passa do fim do vídeo é cortada e some
+    // devagar, e a que acaba junto já tem o seu fim
     const fade = Math.min(1.2, duracao / 4);
-    const corte = `atrim=0:${duracao},asetpts=PTS-STARTPTS,` +
-      (duracaoDe(trilha) > duracao + 0.05 ? `afade=t=out:st=${(duracao - fade).toFixed(3)}:d=${fade},` : '');
+    const corte = `atrim=start=${entradaTrilha}:duration=${duracao},asetpts=PTS-STARTPTS,` +
+      (entradaTrilha > 0 ? 'afade=t=in:d=0.01,' : '') +
+      (duracaoDe(trilha) - entradaTrilha > duracao + 0.05 ? `afade=t=out:st=${(duracao - fade).toFixed(3)}:d=${fade},` : '');
     filtros.push(`[${e}:a]${corte}${nivel(trilha, corte)}[a]`);
   } else {
     filtros.push(`[0:a]${nivel(video, '')}[a]`);
@@ -279,7 +283,7 @@ try {
 
   console.log(`salvo: ${saida} · ${segundos(duracao)} s · ${blocos.filter(q => q.png).length} blocos de texto · ` +
     `${fotos.length + todos.filter(q => q.naMontagem).length} foto(s)${textoMontagem ? ' · remontado' : ''}` +
-    (mudo ? ' · sem som' : trilha ? ` · trilha ${basename(trilha)}` : ' · som do vídeo'));
+    (mudo ? ' · sem som' : trilha ? ` · trilha ${basename(trilha)}${entradaTrilha ? ` a partir de ${segundos(entradaTrilha)} s` : ''}` : ' · som do vídeo'));
 } finally {
   await navegador.close();
   rmSync(tmp, { recursive: true, force: true });

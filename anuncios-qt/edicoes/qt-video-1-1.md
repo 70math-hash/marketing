@@ -2,7 +2,7 @@
 
 O vídeo do videomaker, com `22` planos em `18,5` s, vira o anúncio de reserva nos Stories do Instagram. Os cortes ficam como estão: a edição põe o texto na pegada da camiseta, troca a placa de `2025` pela de `2026` e troca a trilha. Sem cartela no fim.
 
-A versão que foi para o anúncio, com a placa logo na segunda cena, sem texto e com som em ASMR, é a [`qt-video-1-1-stories.md`](qt-video-1-1-stories.md).
+A versão que foi para o anúncio, com a placa logo na segunda cena, sem texto e com a tarantella, é a [`qt-video-1-1-stories.md`](qt-video-1-1-stories.md).
 
 | | |
 |---|---|

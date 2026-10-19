@@ -12,7 +12,7 @@ Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, 
 | [`anuncio-stories-video-1-1.md`](anuncio-stories-video-1-1.md) | o passo a passo no Gerenciador para o vídeo `1.1` rodar só nos Stories, com o botão para o site de reservas, em markdown e PDF |
 | [`roteiros/`](roteiros/README.md) | os vídeos da campanha: o plano de filmagem e um roteiro com storyboard para cada vídeo, em markdown e PDF |
 | [`ensaios/`](ensaios/README.md) | o ensaio antes da diária: o caderno com as `16` fichas, fotos de posição e prompts para a previz com IA, em markdown e PDF, e uma animática por vídeo |
-| [`edicoes/`](edicoes/) | os vídeos que chegam editados e viram anúncio: um roteiro de edição por vídeo, com a ordem dos planos, o texto na pegada da camiseta e o som de cada gesto |
+| [`edicoes/`](edicoes/) | os vídeos que chegam editados e viram anúncio: um roteiro de edição por vídeo, com a ordem dos planos, o texto na pegada da camiseta e a música |
 | [`meta-ads-qt.xlsx`](meta-ads-qt.xlsx) | a planilha: Calculadora, Campanhas, Semanal, Criativos, Checklist e Como ler |
 | [`planilha.py`](planilha.py) | gera a planilha |
 | [`apostila-pdf.mjs`](apostila-pdf.mjs) | gera o PDF da apostila a partir do markdown |
@@ -21,7 +21,6 @@ Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, 
 | [`ensaios-pdf.mjs`](ensaios-pdf.mjs) | gera o PDF do caderno de ensaio e recalcula as tabelas de custo e de tempo de leitura |
 | [`doc-pdf.mjs`](doc-pdf.mjs) | gera o PDF de um documento avulso, como o passo a passo de um anúncio |
 | [`edicao.mjs`](edicao.mjs) | põe o texto de um roteiro de edição sobre o vídeo pronto, muda a ordem dos planos se o roteiro pedir e troca a trilha |
-| [`asmr.py`](asmr.py) | gera a trilha ASMR de um roteiro de edição: o som de cada gesto, por síntese, no quadro em que ele acontece |
 | [`pdf-qt.mjs`](pdf-qt.mjs) | a base comum dos PDFs da QT: fonte, página e impressão |
 
 ## Ordem de uso

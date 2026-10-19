@@ -7,7 +7,7 @@ Passo a passo no Gerenciador de Anúncios para o vídeo da casa rodar só nos St
 | Campanha | `QT_RES_SITE_STORIES`, objetivo Tráfego |
 | Conjunto | `R6km_18+_STORIES`: raio de `6` km, `18+`, só Stories do Instagram |
 | Anúncio | `DEST_STORIES_VIDEO11_v1`, com o botão Reservar agora levando ao site de reservas |
-| Arquivo | `QT video 1.1 stories asmr.mp4`: a placa de `2026` logo depois do forno, sem nenhum texto na imagem e com o som da cozinha em ASMR |
+| Arquivo | `QT video 1.1 stories tarantella.mp4`: a placa de `2026` logo depois do forno, sem nenhum texto na imagem e com a tarantella, que explode no corte da placa |
 | Orçamento | `R$ 20` por dia, por duas semanas |
 | Como se julga | custo por reserva pelo site, comparado com o da reserva pelo WhatsApp |
 
@@ -42,8 +42,8 @@ Passo a passo no Gerenciador de Anúncios para o vídeo da casa rodar só nos St
 
 10. Nome do anúncio: `DEST_STORIES_VIDEO11_v1`.
 11. Identidade: a Página da QT e o Instagram @qtpizzabar.
-12. Formato: **imagem ou vídeo único**. Suba o arquivo `QT video 1.1 stories asmr.mp4`.
-13. Música: **não adicione**. O vídeo já vem com som, um ASMR da cozinha feito na medida dos cortes. Se o Gerenciador oferecer música, deixe sem.
+12. Formato: **imagem ou vídeo único**. Suba o arquivo `QT video 1.1 stories tarantella.mp4`.
+13. Música: **não adicione** no Gerenciador. A música já vem dentro do vídeo, porque lá a opção de música só existe para anúncio de imagem.
 14. Texto principal: o da seção Textos para copiar.
 15. Título: o da seção Textos para copiar.
 16. Destino: **Site**, com o link do site de reservas. Botão: **Reservar agora**. Se ele não aparecer na lista, use **Saiba mais**.
