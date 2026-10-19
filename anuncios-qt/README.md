@@ -9,6 +9,7 @@ Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, 
 | [`apostila-meta-ads.md`](apostila-meta-ads.md) | a apostila: leilão, estrutura, objetivos, conta, público, criativo, verba, passo a passo no Gerenciador, medição, rotina, erros e exercícios com resposta |
 | [`apostila-meta-ads.pdf`](apostila-meta-ads.pdf) | a mesma apostila em PDF, `28` páginas A4 na identidade da QT, com capa, sumário, gabarito separado e marcadores de navegação |
 | [`plano-de-largada.md`](plano-de-largada.md) | as duas primeiras campanhas prontas para montar: fichas técnicas, textos, atendimento no WhatsApp, as quatro semanas, o teste do mês `2` e a campanha de confraternização |
+| [`anuncio-stories-video-1-1.md`](anuncio-stories-video-1-1.md) | o passo a passo no Gerenciador para o vídeo `1.1` rodar só nos Stories, com o botão para o site de reservas, em markdown e PDF |
 | [`roteiros/`](roteiros/README.md) | os vídeos da campanha: o plano de filmagem e um roteiro com storyboard para cada vídeo, em markdown e PDF |
 | [`ensaios/`](ensaios/README.md) | o ensaio antes da diária: o caderno com as `16` fichas, fotos de posição e prompts para a previz com IA, em markdown e PDF, e uma animática por vídeo |
 | [`edicoes/`](edicoes/) | os vídeos que chegam editados e viram anúncio: um roteiro de edição por vídeo, com o texto na pegada da camiseta e o tempo de cada um |
@@ -18,6 +19,7 @@ Esta pasta é da **QT Pizza Bar**, não da marca pessoal. Segue o manual da QT, 
 | [`roteiros-pdf.mjs`](roteiros-pdf.mjs) | gera os PDFs dos roteiros, com o storyboard de [`storyboard.mjs`](storyboard.mjs) |
 | [`animatica.mjs`](animatica.mjs) | monta a animática de cada vídeo a partir do roteiro, com o storyboard ou com o material do ensaio |
 | [`ensaios-pdf.mjs`](ensaios-pdf.mjs) | gera o PDF do caderno de ensaio e recalcula as tabelas de custo e de tempo de leitura |
+| [`doc-pdf.mjs`](doc-pdf.mjs) | gera o PDF de um documento avulso, como o passo a passo de um anúncio |
 | [`edicao.mjs`](edicao.mjs) | põe o texto de um roteiro de edição sobre o vídeo pronto, sem mexer nos cortes, e troca a trilha |
 | [`pdf-qt.mjs`](pdf-qt.mjs) | a base comum dos PDFs da QT: fonte, página e impressão |
 
