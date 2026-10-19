@@ -22,6 +22,8 @@ A foto `placa-2026.jpg` fica na mesma pasta do vídeo, fora do Git, como todo ma
 
 A versão limpa, sem nenhum texto e sem som, só com a placa de `2026` no lugar, sai com `--limpo --mudo` no lugar de `--audio`.
 
+A versão do anúncio para pôr a música no Gerenciador, sem texto e só com a advertência, sai com `--blocos placa,advertência --mudo`.
+
 ```quadro
 plano: gancho
 tempo: 0,00 a 3,67 s

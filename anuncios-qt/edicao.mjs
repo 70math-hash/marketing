@@ -7,6 +7,7 @@
 //       --faixas [reels|stories]  marca as faixas que a interface cobre, para revisão;
 //                                 sem o nome, as do Reels
 //       --limpo              sem nenhum texto: só as fotos que trocam planos
+//       --blocos placa,advertência   só os blocos com esses nomes na linha plano
 //       --mudo               sem som: uma faixa de áudio em silêncio, para pôr a música depois
 //
 // O roteiro de edição usa as linhas tempo, texto e cartao dos roteiros, e o tempo vem em
@@ -30,18 +31,20 @@ const posicionais = [];
 let trilha = null;
 let faixas = null;
 let limpo = false;
+let escolhidos = null;
 let mudo = false;
 const args = process.argv.slice(2);
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--audio') trilha = args[++i];
   else if (args[i] === '--faixas') faixas = ['reels', 'stories'].includes(args[i + 1]) ? args[++i] : 'reels';
   else if (args[i] === '--limpo') limpo = true;
+  else if (args[i] === '--blocos') escolhidos = args[++i].split(',').map(s => s.trim());
   else if (args[i] === '--mudo') mudo = true;
   else posicionais.push(args[i]);
 }
 const [roteiro, video, saidaPedida] = posicionais;
 if (!roteiro || !video) {
-  console.error('uso: node anuncios-qt/edicao.mjs <roteiro-de-edicao.md> <video> [saida.mp4] [--audio trilha | --mudo] [--limpo] [--faixas reels|stories]');
+  console.error('uso: node anuncios-qt/edicao.mjs <roteiro-de-edicao.md> <video> [saida.mp4] [--audio trilha | --mudo] [--limpo | --blocos a,b] [--faixas reels|stories]');
   process.exit(1);
 }
 const saida = saidaPedida || join(dirname(video), `${basename(video, extname(video))}-qt${limpo ? '-limpo' : ''}${mudo ? '-mudo' : ''}${faixas ? `-faixas-${faixas}` : ''}.mp4`);
@@ -62,7 +65,8 @@ const FAIXAS_STORIES = '<rect x="0" y="0" width="1080" height="250" fill="#EFECE
 const TONS = { quente: 'colorchannelmixer=rr=1.12:gg=1.03:bb=0.95,vignette=angle=PI/6' };
 
 const blocos = [...readFileSync(roteiro, 'utf8').matchAll(/```quadro\n([\s\S]*?)```/g)].map(m => lerQuadro(m[1]))
-  .filter(q => !limpo || q.foto);
+  .filter(q => !limpo || q.foto)
+  .filter(q => !escolhidos || escolhidos.includes(q.plano));
 for (const q of blocos) {
   if (!(q.fim > q.inicio)) throw new Error(`bloco "${q.plano}" sem tempo válido: ${q.tempo}`);
   if (q.fim > duracao + 0.05) throw new Error(`bloco "${q.plano}" termina em ${segundos(q.fim)} s, depois do fim do vídeo (${segundos(duracao)} s)`);
