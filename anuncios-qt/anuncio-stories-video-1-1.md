@@ -76,3 +76,14 @@ utm_source=instagram&utm_medium=stories&utm_campaign=qt_res_site&utm_content=vid
 - **Em duas semanas,** compare quanto custou cada reserva pelo site com quanto custou cada reserva pelo WhatsApp. O canal mais barato fica com a verba.
 
 Os nomes dos botões do Gerenciador mudam com frequência. Se algum estiver diferente, procure pela função dele.
+
+## Acompanhamento
+
+Os números de cada leitura, contados desde o começo, às `17` h de `19/10`. O CTR é cliques no link ÷ impressões, e o CPM é gasto ÷ impressões × `1.000`.
+
+| Leitura | Impressões | Cliques no link | CTR | Custo por clique | CPM | Gasto | Reservas pelo site |
+|---|---|---|---|---|---|---|---|
+| `19/10`, `17h41` | `202` | `3` | `1,5%` | `R$ 0,43` | `R$ 6,34` | `R$ 1,28` | `0` |
+| `20/10`, `8h36` | `1.621` | `40` | `2,5%` | `R$ 0,31` | `R$ 7,54` | `R$ 12,23` | `0` |
+
+Zero reserva com `40` cliques ainda não diz nada. Se o site transformar `3` em cada `100` cliques em reserva, a chance de nenhuma reserva em `40` cliques é de `30%` (`0,97` elevado a `40`). Em `100` cliques, ela cai para `5%`: chegando aí sem reserva nenhuma, o anúncio fez a parte dele e o problema está entre o clique e a reserva, no site.
