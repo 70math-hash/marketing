@@ -86,4 +86,6 @@ Os números de cada leitura, contados desde o começo, às `17` h de `19/10`. O 
 | `19/10`, `17h41` | `202` | `3` | `1,5%` | `R$ 0,43` | `R$ 6,34` | `R$ 1,28` | `0` |
 | `20/10`, `8h36` | `1.621` | `40` | `2,5%` | `R$ 0,31` | `R$ 7,54` | `R$ 12,23` | `0` |
 
+**No site.** O site de reservas fica na Netlify, que registra cada acesso no painel Observability do projeto `magical-liger-2b7ac2`. Cada clique no anúncio chega com uma marca única, o `fbclid`, junto com as marcas `utm` do anúncio. Até `8h43` de `20/10`, `51` cliques diferentes do anúncio abriram a página inteira, com o aplicativo de reserva carregado, e nenhum terminou numa reserva. O anúncio entrega as pessoas na porta, e elas saem sem reservar.
+
 Zero reserva com `40` cliques ainda não diz nada. Se o site transformar `3` em cada `100` cliques em reserva, a chance de nenhuma reserva em `40` cliques é de `30%` (`0,97` elevado a `40`). Em `100` cliques, ela cai para `5%`: chegando aí sem reserva nenhuma, o anúncio fez a parte dele e o problema está entre o clique e a reserva, no site.
