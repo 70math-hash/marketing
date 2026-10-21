@@ -133,6 +133,7 @@ Se a leitura de quinta confirmar o que os registros do site já mostram, sem res
 - **No Gerenciador,** acompanhe as conversas iniciadas e o custo por conversa. A meta do plano de largada é de até `R$ 20,65` por conversa.
 - **No WhatsApp,** toda conversa que chegar com a mensagem pré-preenchida ganha a etiqueta `Anúncio`, e depois `Reservou` e `Veio`.
 - **Se o custo por conversa estiver na meta e menos de `15%` das conversas virarem reserva,** o problema é o atendimento, não o anúncio: tempo de resposta e roteiro do WhatsApp.
+- **Os Reels ficam para a mudança seguinte.** A troca de quinta muda só o destino, para a comparação entre site e WhatsApp ficar limpa. Se a leitura de `26/10` mostrar conversa dentro da meta, a próxima mudança, sozinha, é marcar também os Reels do Instagram: o vídeo já é `9:16` e não tem texto na parte de baixo, que os Reels cobrem.
 
 ## Acompanhamento
 
