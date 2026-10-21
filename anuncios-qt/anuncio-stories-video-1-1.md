@@ -77,6 +77,63 @@ utm_source=instagram&utm_medium=stories&utm_campaign=qt_res_site&utm_content=vid
 
 Os nomes dos botões do Gerenciador mudam com frequência. Se algum estiver diferente, procure pela função dele.
 
+## Quinta, 22/10: a troca para o WhatsApp
+
+Se a leitura de quinta confirmar o que os registros do site já mostram, sem reserva vinda do anúncio, o mesmo vídeo passa a levar para o WhatsApp da QT, que é a aposta principal do [plano de largada](plano-de-largada.md). O Gerenciador não deixa trocar o objetivo de uma campanha publicada, então a troca é uma campanha nova. A de hoje só é desligada quando a nova estiver no ar, para o anúncio não ficar parado.
+
+### Até quinta
+
+1. **WhatsApp conectado.** No Meta Business Suite, em Configurações, confira se o número do WhatsApp Business da QT aparece entre as contas do WhatsApp. Tem que ser o número que a equipe atende. Sem ele, a opção WhatsApp não aparece no conjunto.
+2. **WhatsApp Business pronto:** saudação, ausência, respostas rápidas e as etiquetas `Anúncio`, `Reservou` e `Veio`, como no plano de largada.
+3. **Equipe avisada:** um responsável por turno e resposta em até `10` minutos durante o expediente.
+
+### A campanha nova
+
+1. No Gerenciador, clique em **Criar** e escolha o objetivo **Engajamento**, na configuração manual.
+2. Nome da campanha: `QT_RES_WPP_STORIES`. Categoria especial de anúncio: nenhuma.
+
+### O conjunto
+
+3. Nome do conjunto: `R6km_18+_STORIES`.
+4. Local da conversão: **Apps de mensagem**, só o **WhatsApp**, com o número da QT.
+5. Meta de desempenho: **Maximizar o número de conversas**.
+6. Orçamento de `R$ 20` por dia, começando na hora, sem data de término.
+7. Público igual ao de hoje: endereço da QT com raio de `6` km, idade mínima de `18`, público Advantage+ ligado, com sugestão de `25` a `45` anos e interesses em gastronomia, culinária italiana e pizza.
+8. Posicionamentos manuais: só **Stories do Instagram**. Desmarque também o gasto limitado em posicionamentos excluídos.
+
+### O anúncio
+
+9. Nome do anúncio: `DEST_STORIES_VIDEO11_WPP_v1`.
+10. Identidade: a Página da QT e o @qtpizzabar.
+11. Mídia: o mesmo `QT video 1.1 stories tarantella.mp4`, escolhido na biblioteca de mídia da conta, sem subir de novo.
+12. Texto principal e título: os de baixo.
+13. Botão: **Enviar mensagem pelo WhatsApp**.
+14. Modelo de mensagem: crie um novo, com a mensagem pré-preenchida de baixo. É ela que mostra para a equipe que a conversa veio deste anúncio.
+15. Melhorias de criativo Advantage+: tudo desligado, inclusive a música.
+16. Clique em **Visualizar**, escolha a tela dos Stories, confira o botão e clique em **Publicar**.
+17. Quando a campanha nova aparecer como **Ativo**, desligue a `QT_RES_SITE_STORIES` no botão da coluna Desat. Desligue, não exclua: o histórico serve para a comparação.
+
+### Textos para copiar na troca
+
+**Texto principal**
+
+> A 17ª melhor pizzaria do mundo no 50 Top Pizza 2026 fica logo ali, nos Jardins. Chama no WhatsApp que a gente separa a sua mesa. Evite o consumo excessivo de álcool.
+
+**Título**
+
+> Reserve pelo WhatsApp
+
+**Mensagem pré-preenchida**
+
+> Oi! Vi o vídeo da QT nos Stories e quero reservar uma mesa.
+
+### Depois da troca
+
+- **Não mexa por `3` dias,** até domingo, `25/10`. A primeira leitura é na segunda, `26/10`.
+- **No Gerenciador,** acompanhe as conversas iniciadas e o custo por conversa. A meta do plano de largada é de até `R$ 20,65` por conversa.
+- **No WhatsApp,** toda conversa que chegar com a mensagem pré-preenchida ganha a etiqueta `Anúncio`, e depois `Reservou` e `Veio`.
+- **Se o custo por conversa estiver na meta e menos de `15%` das conversas virarem reserva,** o problema é o atendimento, não o anúncio: tempo de resposta e roteiro do WhatsApp.
+
 ## Acompanhamento
 
 Os números de cada leitura, contados desde o começo, às `17` h de `19/10`. O CTR é cliques no link ÷ impressões, e o CPM é gasto ÷ impressões × `1.000`.
