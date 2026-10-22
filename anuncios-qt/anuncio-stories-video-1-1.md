@@ -144,11 +144,25 @@ Os números de cada leitura, contados desde o começo, às `17` h de `19/10`. O 
 | `19/10`, `17h41` | `202` | `3` | `1,5%` | `R$ 0,43` | `R$ 6,34` | `R$ 1,28` | `0` |
 | `20/10`, `8h36` | `1.621` | `40` | `2,5%` | `R$ 0,31` | `R$ 7,54` | `R$ 12,23` | `0` |
 | `21/10`, `8h22` | `4.482` | `130` | `2,9%` | `R$ 0,26` | `R$ 7,65` | `R$ 34,27` | `0` |
+| `22/10`, `11h15` | `6.990` | `203` | `2,9%` | `R$ 0,27` | `R$ 7,89` | `R$ 55,12` | `0` |
 
 **No site.** O site de reservas fica na Netlify, que registra cada acesso no painel Observability do projeto `magical-liger-2b7ac2`. Cada clique no anúncio chega com uma marca única, o `fbclid`, junto com as marcas `utm` do anúncio. Até `8h43` de `20/10`, `51` cliques diferentes do anúncio abriram a página inteira, com o aplicativo de reserva carregado, e nenhum terminou numa reserva. O anúncio entrega as pessoas na porta, e elas saem sem reservar.
 
 Até `20h51` de `20/10`, foram `96` cliques do anúncio com a página aberta, e nenhum escolheu sequer uma data: a consulta de horários livres só foi chamada por quem chegou de outro jeito. A primeira reserva pelo site desde o começo do anúncio entrou às `20h35`, para `24/10`, mas não veio do anúncio: foi feita num computador, vindo do site da QT, e esse computador nunca clicou no anúncio. Uma visita do Instagram que veio pelo Linktree da bio escolheu datas `8` vezes no mesmo navegador do Instagram, então a página funciona ali. Quem chega pelo anúncio vai embora na primeira tela.
 
 Até `8h24` de `21/10`, o site registrou `160` aberturas da página com a marca do anúncio, contra `130` cliques no Gerenciador, que conta de outro jeito. Nenhuma escolheu data. No mesmo período, o site recebeu `2` reservas, nenhuma do anúncio: a de `20h35`, do site da QT num computador, e outra às `22h11` de `20/10`, de um celular Android que chegou pelo ChatGPT.
+
+**A leitura de quinta, `22/10`, às `11h16`.** Em três dias, o site registrou `243` cliques diferentes do anúncio com a página aberta, e nenhum escolheu data. A página guarda as marcas de origem quando alguém consulta horários, então daria para ver se fosse quem veio do anúncio: as `36` consultas de horário vieram de outros caminhos. No mesmo período, entraram `6` reservas pelo site, nenhuma pelo link do anúncio:
+
+| Quando | Aparelho | De onde veio |
+|---|---|---|
+| `20/10`, `20h35` | computador | site da QT |
+| `20/10`, `22h11` | celular Android | ChatGPT |
+| `21/10`, `10h37` | celular Android | link da bio do Instagram |
+| `21/10`, `17h12` | computador | endereço digitado ou salvo |
+| `21/10`, `23h46` | computador | endereço digitado ou salvo |
+| `22/10`, `8h27` | iPhone, dentro do Instagram | Instagram, sem passar pelo link do anúncio |
+
+O site funciona para quem já chega decidido. O anúncio leva gente curiosa, que sai na primeira tela. A decisão de quinta é fazer a troca para o WhatsApp, pelo passo a passo acima. As duas reservas que vieram do Instagram podem ter sido de gente que viu o anúncio e foi ao perfil, mas os registros não mostram isso.
 
 Zero reserva com `40` cliques ainda não diz nada. Se o site transformar `3` em cada `100` cliques em reserva, a chance de nenhuma reserva em `40` cliques é de `30%` (`0,97` elevado a `40`). Em `100` cliques, ela cai para `5%`: chegando aí sem reserva nenhuma, o anúncio fez a parte dele e o problema está entre o clique e a reserva, no site.
